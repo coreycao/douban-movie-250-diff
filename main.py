@@ -6,7 +6,7 @@ import json
 from bs4 import BeautifulSoup
 from common import log, write_text
 
-debug = True
+debug = False
 
 movie_list = []
 
