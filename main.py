@@ -37,7 +37,7 @@ def fetch_movie_list():
         response = requests.get(url_douban_top250, params=params, headers=headers, timeout=request_timeout)
         if i == 0 and response.status_code != 200:
             log("request failed, status_code: ", response.status_code)
-            raise NetworkError("request failed")
+            raise RuntimeError("request failed")
         log("request success, page_num: ", page_num)
         log("parse html start, page_num: ", page_num)
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -135,7 +135,7 @@ if __name__ == "__main__":
     try:
         fetch_movie_list()
     except:
-        print("fetch_movie_list failed")
+        log("fetch_movie_list failed")
     else:
         diff_movie_list()
-    print("Time cost: {}s.".format((datetime.datetime.now() - t1).total_seconds()))
+    log("Time cost: {}s.".format((datetime.datetime.now() - t1).total_seconds()))
