@@ -93,6 +93,7 @@ def diff_movie_list():
             log("榜单没有变化")
         else:
             log("updated movies: ", movie_updated_set)
+            log("outdated movies: ", movie_outdated_set)
             with open("README.md", 'r+', encoding='utf-8') as f:
                 lines = f.readlines()
                 f.seek(0)
@@ -101,18 +102,16 @@ def diff_movie_list():
                           "A diff log of the Douban top250 movies.\n\n" \
                           "*Updated on {today}*\n\n".format(today=today)
                 md_updated = "## {today}\n\n#### 新上榜电影\n\n".format(today=today)
-                table_head = "|   Rank  |     Name     |   Score  |\n\
-                              | ------- | ------------ | -------- |\n"
+                table_head = "|   Rank  |     Name     |   Score  |\n| ------- | ------------ | -------- |\n"
                 md_updated += table_head
-                log("outdated movies: ", movie_outdated_set)
-                for item in iter(movie_outdated_set):
-                    movie = movie_dict_recently[item]
+                for item in iter(movie_updated_set):
+                    movie = movie_dict_latest[item]
                     md_updated += "| {rank} | [{name}]({link}) | {score} |\n\n" \
                         .format(rank=movie['rank'], name=movie['name'], link=movie['link'], score=movie['score'])
                 md_updated += "\n#### 退出榜单电影\n\n"
                 md_updated += table_head
-                for item in iter(movie_updated_set):
-                    movie = movie_dict_latest[item]
+                for item in iter(movie_outdated_set):
+                    movie = movie_dict_recently[item]
                     md_updated += "| {rank} | [{name}]({link}) | {score} |\n" \
                         .format(rank=movie['rank'], name=movie['name'], link=movie['link'], score=movie['score'])
                 f.writelines(md_head + md_updated)
