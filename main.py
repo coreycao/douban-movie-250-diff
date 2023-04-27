@@ -89,7 +89,15 @@ def diff_movie_list():
 
         movie_outdated_set = movie_set_recently - movie_set_latest
         movie_updated_set = movie_set_latest - movie_set_recently
-        if len(movie_outdated_set) == 0:
+
+        movie_changed = []
+        for idx, item_old in movie_dict_recently.items():
+            if idx in movie_dict_latest:
+                item_latest = movie_dict_latest[idx]
+                if item_old['rank'] != item_latest['rank'] or item_old['score'] != item_latest['score']:
+                    movie_changed.append([item_old, item_latest])
+
+        if len(movie_outdated_set) == 0 and len(movie_changed) == 0:
             log("榜单没有变化")
         else:
             log("updated movies: ", movie_updated_set)
@@ -101,22 +109,36 @@ def diff_movie_list():
                 md_head = "# Douban-Movie-250-Diff\n\n" \
                           "A diff log of the Douban top250 movies.\n\n" \
                           "*Updated on {today}*\n\n".format(today=today)
-                md_updated = "## {today}\n\n#### 新上榜电影\n\n".format(today=today)
-                table_head = "|   Rank  |     Name     |   Score  |\n| ------- | ------------ | -------- |\n"
-                md_updated += table_head
-                for item in iter(movie_updated_set):
-                    movie = movie_dict_latest[item]
-                    md_updated += "| {rank} | [{name}]({link}) | {score} |\n\n" \
-                        .format(rank=movie['rank'], name=movie['name'], link=movie['link'], score=movie['score'])
-                md_updated += "\n#### 退出榜单电影\n\n"
-                md_updated += table_head
-                for item in iter(movie_outdated_set):
-                    movie = movie_dict_recently[item]
-                    md_updated += "| {rank} | [{name}]({link}) | {score} |\n" \
-                        .format(rank=movie['rank'], name=movie['name'], link=movie['link'], score=movie['score'])
-                f.writelines(md_head + md_updated)
+                md_content = "## {today}\n\n".format(today=today)
+                if len(movie_outdated_set) != 0:
+                    md_updated = "#### 新上榜电影\n\n"
+                    table_head = "|   Rank  |     Name     |   Score  |\n| ------- | ------------ | -------- |\n"
+                    md_updated += table_head
+                    for item in iter(movie_updated_set):
+                        movie = movie_dict_latest[item]
+                        md_updated += "| {rank} | [{name}]({link}) | {score} |\n" \
+                            .format(rank=movie['rank'], name=movie['name'], link=movie['link'], score=movie['score'])
+                    md_updated += "\n#### 退出榜单电影\n\n"
+                    md_updated += table_head
+                    for item in iter(movie_outdated_set):
+                        movie = movie_dict_recently[item]
+                        md_updated += "| {rank} | [{name}]({link}) | {score} |\n" \
+                            .format(rank=movie['rank'], name=movie['name'], link=movie['link'], score=movie['score'])
+                    md_content += md_updated
+                if len(movie_changed) != 0:
+                    md_changed = "\n#### 排名及分数变化\n\n"
+                    table_head = "|     Name    |   Rank   |   Score  |\n| ------- | ------------ | -------- |\n"
+                    md_changed += table_head
+                    for item in movie_changed:
+                        movie_old = item[0]
+                        movie_latest = item[1]
+                        md_changed += "| [{name}]({link}) | {rank_old} ➡️ {rank_new} | {score_old} ➡️ {score_new} |\n" \
+                            .format(name=movie_old['name'], link=movie_old['link'],
+                                    rank_old=movie_old['rank'], rank_new=movie_latest['rank'],
+                                    score_old=movie_old['score'], score_new=movie_latest['score'], )
+                        md_content += md_changed
+                f.writelines(md_head + md_content)
                 f.writelines(lines[6:])
-
         with open(movie_list_filename, 'w', encoding='utf-8') as f:
             json.dump(movie_list, f, ensure_ascii=False, indent=2)
     except IOError:
