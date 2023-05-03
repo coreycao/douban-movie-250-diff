@@ -136,7 +136,7 @@ def diff_movie_list():
                             .format(name=movie_old['name'], link=movie_old['link'],
                                     rank_old=movie_old['rank'], rank_new=movie_latest['rank'],
                                     score_old=movie_old['score'], score_new=movie_latest['score'], )
-                        md_content += md_changed
+                    md_content += md_changed
                 f.writelines(md_head + md_content)
                 f.writelines(lines[6:])
         with open(movie_list_filename, 'w', encoding='utf-8') as f:
