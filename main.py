@@ -132,10 +132,13 @@ def diff_movie_list():
                     for item in movie_changed:
                         movie_old = item[0]
                         movie_latest = item[1]
-                        md_changed += "| [{name}]({link}) | {rank_old} ➡️ {rank_new} | {score_old} ➡️ {score_new} |\n" \
+                        diff_rank = movie_old['rank'] if movie_old['rank'] == movie_latest['rank'] \
+                            else (movie_old['rank'] + "➡️" + movie_latest['rank'])
+                        diff_score = movie_old['score'] if movie_old['score'] == movie_latest['score'] \
+                            else (movie_old['score'] + "" + movie_latest['score'])
+                        md_changed += "| [{name}]({link}) | {rank_diff} | {score_diff} |\n" \
                             .format(name=movie_old['name'], link=movie_old['link'],
-                                    rank_old=movie_old['rank'], rank_new=movie_latest['rank'],
-                                    score_old=movie_old['score'], score_new=movie_latest['score'], )
+                                    rank_diff=diff_rank, score_diff=diff_score, )
                     md_content += md_changed
                 f.writelines(md_head + md_content)
                 f.writelines(lines[6:])
