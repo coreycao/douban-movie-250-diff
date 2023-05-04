@@ -98,10 +98,8 @@ def diff_movie_list():
                     movie_changed.append([item_old, item_latest])
 
         if len(movie_outdated_set) == 0 and len(movie_changed) == 0:
-            log("榜单没有变化")
+            log("No changes.")
         else:
-            log("updated movies: ", movie_updated_set)
-            log("outdated movies: ", movie_outdated_set)
             with open("README.md", 'r+', encoding='utf-8') as f:
                 lines = f.readlines()
                 f.seek(0)
@@ -111,6 +109,9 @@ def diff_movie_list():
                           "*Updated on {today}*\n\n".format(today=today)
                 md_content = "## {today}\n\n".format(today=today)
                 if len(movie_outdated_set) != 0:
+                    log("Rank list changed")
+                    log("updated movies: ", movie_updated_set)
+                    log("outdated movies: ", movie_outdated_set)
                     md_updated = "#### 新上榜电影\n\n"
                     table_head = "|   Rank  |     Name     |   Score  |\n| ------- | ------------ | -------- |\n"
                     md_updated += table_head
@@ -126,6 +127,7 @@ def diff_movie_list():
                             .format(rank=movie['rank'], name=movie['name'], link=movie['link'], score=movie['score'])
                     md_content += md_updated
                 if len(movie_changed) != 0:
+                    log("Rank or score changed.")
                     md_changed = "\n#### 排名及分数变化\n\n"
                     table_head = "|     Name    |   Rank   |   Score  |\n| ------- | ------------ | -------- |\n"
                     md_changed += table_head
