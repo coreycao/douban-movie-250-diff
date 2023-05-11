@@ -11,7 +11,7 @@ A diff log of the Douban top250 movies.
 
 |     Name    |   Rank   |   Score  |
 | ------- | ------------ | -------- |
-| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 226 | 8.5➡️8.6 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 226 | 8.5 ➡️ 8.6 |
 ## 2023-05-09
 
 
