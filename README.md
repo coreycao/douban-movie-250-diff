@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-06-05*
+*Updated on 2023-06-07*
 
+## 2023-06-07
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | 97 | 8.8 ➡️ 8.9 |
 ## 2023-06-05
 
 
