@@ -2,8 +2,28 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-06-07*
+*Updated on 2023-06-12*
 
+## 2023-06-12
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [素媛](https://movie.douban.com/subject/21937452) | 35 ➡️ 36 | 9.3 |
+| [飞屋环游记](https://movie.douban.com/subject/2129039) | 36 ➡️ 35 | 9.1 |
+| [重庆森林](https://movie.douban.com/subject/1291999) | 110 ➡️ 111 | 8.8 |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 111 ➡️ 110 | 8.8 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | 152 ➡️ 153 | 9.0 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 153 ➡️ 152 | 9.6 |
+| [恐怖直播](https://movie.douban.com/subject/21360417) | 156 ➡️ 157 | 8.7 |
+| [血战钢锯岭](https://movie.douban.com/subject/26325320) | 157 ➡️ 156 | 8.7 |
+| [你看起来好像很好吃](https://movie.douban.com/subject/4848115) | 199 ➡️ 200 | 8.9 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 200 ➡️ 201 | 8.6 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 201 ➡️ 199 | 9.0 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 246 ➡️ 247 | 8.5 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 247 ➡️ 246 | 8.6 |
 ## 2023-06-07
 
 
