@@ -2,8 +2,45 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-06-19*
+*Updated on 2023-06-26*
 
+## 2023-06-26
+
+#### 新上榜电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 249 | [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 8.6 |
+
+#### 退出榜单电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [海洋](https://movie.douban.com/subject/3443389) | 9.1 |
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [猫鼠游戏](https://movie.douban.com/subject/1305487) | 43 ➡️ 44 | 9.1 |
+| [天空之城](https://movie.douban.com/subject/1291583) | 44 ➡️ 43 | 9.2 |
+| [第六感](https://movie.douban.com/subject/1297630) | 109 ➡️ 110 | 8.9 |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 110 ➡️ 109 | 8.8 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 119 ➡️ 120 | 9.0 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 120 ➡️ 119 | 8.9 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | 153 ➡️ 154 | 9.0 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 154 ➡️ 153 | 8.7 |
+| [血战钢锯岭](https://movie.douban.com/subject/26325320) | 156 ➡️ 157 | 8.7 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 157 ➡️ 156 | 8.7 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | 184 ➡️ 185 | 8.7 |
+| [小丑](https://movie.douban.com/subject/27119724) | 185 ➡️ 184 | 8.7 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 191 ➡️ 192 | 8.6 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 192 ➡️ 191 | 8.7 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 194 ➡️ 195 | 8.6 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 195 ➡️ 194 | 8.5 |
+| [阿飞正传](https://movie.douban.com/subject/1305690) | 240 ➡️ 241 | 8.5 |
+| [弱点](https://movie.douban.com/subject/3552028) | 241 ➡️ 240 | 8.7 |
+| [穿越时空的少女](https://movie.douban.com/subject/1937946) | 249 ➡️ 250 | 8.6 |
 ## 2023-06-19
 
 
