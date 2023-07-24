@@ -2,8 +2,39 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-07-17*
+*Updated on 2023-07-24*
 
+## 2023-07-24
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [鬼子来了](https://movie.douban.com/subject/1291858) | 42 ➡️ 43 | 9.3 |
+| [天空之城](https://movie.douban.com/subject/1291583) | 43 ➡️ 42 | 9.2 |
+| [音乐之声](https://movie.douban.com/subject/1294408) | 70 ➡️ 71 | 9.1 |
+| [看不见的客人](https://movie.douban.com/subject/26580232) | 71 ➡️ 70 | 8.8 |
+| [海豚湾](https://movie.douban.com/subject/3442220) | 84 ➡️ 85 | 9.3 |
+| [哈利·波特与阿兹卡班的囚徒](https://movie.douban.com/subject/1291544) | 85 ➡️ 84 | 8.9 |
+| [春光乍泄](https://movie.douban.com/subject/1292679) | 87 ➡️ 88 | 9.0 |
+| [超脱](https://movie.douban.com/subject/5322596) | 88 ➡️ 87 | 9.0 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 118 ➡️ 119 | 8.9 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 119 ➡️ 118 | 8.9 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 121 ➡️ 122 | 9.1 |
+| [消失的爱人](https://movie.douban.com/subject/21318488) | 122 ➡️ 121 | 8.7 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 134 ➡️ 135 | 8.9 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 135 ➡️ 134 | 8.8 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 180 ➡️ 181 | 9.2 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 181 ➡️ 180 | 8.6 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 201 ➡️ 202 | 8.6 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | 202 ➡️ 201 | 8.7 |
+| [二十二](https://movie.douban.com/subject/26430107) | 226 ➡️ 227 | 8.7 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 227 ➡️ 226 | 8.6 |
+| [谍影重重](https://movie.douban.com/subject/1304102) | 242 ➡️ 243 | 8.6 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 243 ➡️ 242 | 8.6 |
+| [朗读者](https://movie.douban.com/subject/2213597) | 245 ➡️ 246 | 8.6 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 246 ➡️ 245 | 8.5 |
 ## 2023-07-17
 
 
