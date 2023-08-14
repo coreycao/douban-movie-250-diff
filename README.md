@@ -2,8 +2,49 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-08-07*
+*Updated on 2023-08-14*
 
+## 2023-08-14
+
+#### 新上榜电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [发条橙](https://movie.douban.com/subject/1292233) | 8.6 |
+
+#### 退出榜单电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [穿越时空的少女](https://movie.douban.com/subject/1937946) | 8.6 |
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [龙猫](https://movie.douban.com/subject/1291560) | 25 ➡️ 26 | 9.2 |
+| [末代皇帝](https://movie.douban.com/subject/1293172) | 26 ➡️ 25 | 9.3 |
+| [看不见的客人](https://movie.douban.com/subject/26580232) | 70 ➡️ 71 | 8.8 |
+| [音乐之声](https://movie.douban.com/subject/1294408) | 71 ➡️ 70 | 9.1 |
+| [低俗小说](https://movie.douban.com/subject/1291832) | 86 ➡️ 87 | 8.9 |
+| [超脱](https://movie.douban.com/subject/5322596) | 87 ➡️ 86 | 9.0 |
+| [菊次郎的夏天](https://movie.douban.com/subject/1293359) | 115 ➡️ 116 | 8.9 |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | 116 ➡️ 115 | 8.9 |
+| [模仿游戏](https://movie.douban.com/subject/10463953) | 151 ➡️ 152 | 8.8 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 152 ➡️ 151 | 8.7 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 181 ➡️ 182 | 9.2 |
+| [小丑](https://movie.douban.com/subject/27119724) | 182 ➡️ 181 | 8.7 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 184 ➡️ 185 | 8.8 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 185 ➡️ 184 | 9.5 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 188 ➡️ 191 | 8.7 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 189 ➡️ 188 | 8.7 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 191 ➡️ 189 | 8.7 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 224 ➡️ 225 | 8.6 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 225 ➡️ 224 | 8.6 |
+| [阿飞正传](https://movie.douban.com/subject/1305690) | 241 ➡️ 242 | 8.5 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 242 ➡️ 241 | 8.6 |
+| [再次出发之纽约遇见你](https://movie.douban.com/subject/6874403) | 247 ➡️ 248 | 8.6 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 248 ➡️ 247 | 8.6 |
 ## 2023-08-07
 
 
