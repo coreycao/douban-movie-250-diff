@@ -2,8 +2,50 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-08-19*
+*Updated on 2023-08-21*
 
+## 2023-08-21
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [蝴蝶效应](https://movie.douban.com/subject/1292343) | 80 ➡️ 81 | 8.9 |
+| [功夫](https://movie.douban.com/subject/1291543) | 81 ➡️ 80 | 8.8 |
+| [心灵捕手](https://movie.douban.com/subject/1292656) | 83 ➡️ 84 | 8.9 |
+| [哈利·波特与阿兹卡班的囚徒](https://movie.douban.com/subject/1291544) | 84 ➡️ 83 | 8.9 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 112 ➡️ 113 | 8.9 |
+| [超能陆战队](https://movie.douban.com/subject/11026735) | 113 ➡️ 112 | 8.7 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 119 ➡️ 120 | 8.9 |
+| [消失的爱人](https://movie.douban.com/subject/21318488) | 120 ➡️ 119 | 8.7 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 149 ➡️ 150 | 8.7 |
+| [喜宴](https://movie.douban.com/subject/1303037) | 150 ➡️ 151 | 9.0 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 151 ➡️ 149 | 8.7 |
+| [阳光姐妹淘](https://movie.douban.com/subject/4917726) | 153 ➡️ 154 | 8.8 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | 154 ➡️ 155 | 9.0 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 155 ➡️ 153 | 8.7 |
+| [恐怖直播](https://movie.douban.com/subject/21360417) | 158 ➡️ 159 | 8.7 |
+| [七武士](https://movie.douban.com/subject/1295399) | 159 ➡️ 160 | 9.3 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 160 ➡️ 158 | 8.8 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 170 ➡️ 171 | 9.0 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 171 ➡️ 170 | 8.6 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 172 ➡️ 173 | 8.9 |
+| [风之谷](https://movie.douban.com/subject/1291585) | 173 ➡️ 172 | 8.9 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 188 ➡️ 190 | 8.7 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 189 ➡️ 188 | 8.7 |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | 190 ➡️ 189 | 8.7 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 219 ➡️ 220 | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 220 ➡️ 219 | 8.9 |
+| [房间](https://movie.douban.com/subject/25724855) | 233 ➡️ 234 | 8.8 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 234 ➡️ 233 | 8.8 |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | 235 ➡️ 236 | 8.8 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 236 ➡️ 235 | 8.5 |
+| [阿飞正传](https://movie.douban.com/subject/1305690) | 242 ➡️ 243 | 8.5 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 243 ➡️ 242 | 8.5 |
+| [燃情岁月](https://movie.douban.com/subject/1295865) | 245 ➡️ 247 | 8.8 |
+| [朗读者](https://movie.douban.com/subject/2213597) | 246 ➡️ 245 | 8.6 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 247 ➡️ 246 | 8.6 |
 ## 2023-08-19
 
 
