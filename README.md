@@ -2,8 +2,40 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-08-22*
+*Updated on 2023-08-28*
 
+## 2023-08-28
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [无间道](https://movie.douban.com/subject/1307914) | 17 ➡️ 18 | 9.3 |
+| [疯狂动物城](https://movie.douban.com/subject/25662329) | 18 ➡️ 17 | 9.2 |
+| [怦然心动](https://movie.douban.com/subject/3319755) | 27 ➡️ 28 | 9.1 |
+| [寻梦环游记](https://movie.douban.com/subject/20495023) | 28 ➡️ 27 | 9.1 |
+| [天堂电影院](https://movie.douban.com/subject/1291828) | 53 ➡️ 54 | 9.2 |
+| [绿皮书](https://movie.douban.com/subject/27060077) | 54 ➡️ 53 | 8.9 |
+| [黑客帝国](https://movie.douban.com/subject/1291843) | 56 ➡️ 57 | 9.1 |
+| [指环王1：护戒使者](https://movie.douban.com/subject/1291571) | 57 ➡️ 56 | 9.1 |
+| [音乐之声](https://movie.douban.com/subject/1294408) | 70 ➡️ 71 | 9.1 |
+| [看不见的客人](https://movie.douban.com/subject/26580232) | 71 ➡️ 70 | 8.8 |
+| [教父3](https://movie.douban.com/subject/1294240) | 133 ➡️ 134 | 9.0 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 134 ➡️ 133 | 8.8 |
+| [岁月神偷](https://movie.douban.com/subject/3792799) | 180 ➡️ 181 | 8.7 |
+| [小丑](https://movie.douban.com/subject/27119724) | 181 ➡️ 180 | 8.7 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 182 ➡️ 183 | 9.2 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 183 ➡️ 182 | 9.1 |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | 189 ➡️ 190 | 8.7 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 190 ➡️ 189 | 8.7 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 218 ➡️ 219 | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 219 ➡️ 218 | 8.9 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 225 ➡️ 226 | 8.6 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 226 ➡️ 225 | 8.6 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 233 ➡️ 234 | 8.8 |
+| [房间](https://movie.douban.com/subject/25724855) | 234 ➡️ 235 | 8.8 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 235 ➡️ 233 | 8.5 |
 ## 2023-08-22
 
 
