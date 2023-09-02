@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-09-01*
+*Updated on 2023-09-02*
 
+## 2023-09-02
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [电锯惊魂](https://movie.douban.com/subject/1417598) | 164 | 8.8 ➡️ 8.7 |
 ## 2023-09-01
 
 
