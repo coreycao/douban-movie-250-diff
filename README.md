@@ -2,8 +2,48 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-09-02*
+*Updated on 2023-09-04*
 
+## 2023-09-04
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [辛德勒的名单](https://movie.douban.com/subject/1295124) | 8 ➡️ 9 | 9.6 |
+| [星际穿越](https://movie.douban.com/subject/1889243) | 9 ➡️ 8 | 9.4 |
+| [鬼子来了](https://movie.douban.com/subject/1291858) | 43 ➡️ 44 | 9.3 |
+| [猫鼠游戏](https://movie.douban.com/subject/1305487) | 44 ➡️ 43 | 9.1 |
+| [爱在黎明破晓前](https://movie.douban.com/subject/1296339) | 106 ➡️ 107 | 8.8 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 107 ➡️ 108 | 8.9 |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 108 ➡️ 106 | 8.8 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 118 ➡️ 119 | 8.7 |
+| [消失的爱人](https://movie.douban.com/subject/21318488) | 119 ➡️ 118 | 8.7 |
+| [射雕英雄传之东成西就](https://movie.douban.com/subject/1316510) | 148 ➡️ 149 | 8.7 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 149 ➡️ 148 | 8.7 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 150 ➡️ 152 | 8.7 |
+| [喜宴](https://movie.douban.com/subject/1303037) | 151 ➡️ 150 | 9.0 |
+| [模仿游戏](https://movie.douban.com/subject/10463953) | 152 ➡️ 151 | 8.8 |
+| [阳光姐妹淘](https://movie.douban.com/subject/4917726) | 154 ➡️ 155 | 8.8 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | 155 ➡️ 154 | 9.0 |
+| [恐怖直播](https://movie.douban.com/subject/21360417) | 159 ➡️ 160 | 8.7 |
+| [七武士](https://movie.douban.com/subject/1295399) | 160 ➡️ 159 | 9.3 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 173 ➡️ 174 | 8.9 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 174 ➡️ 173 | 8.8 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 183 ➡️ 184 | 9.2 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 184 ➡️ 183 | 9.5 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | 187 ➡️ 188 | 8.7 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 188 ➡️ 187 | 8.7 |
+| [二十二](https://movie.douban.com/subject/26430107) | 227 ➡️ 228 | 8.7 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 228 ➡️ 227 | 8.4 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 229 ➡️ 230 | 8.7 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 230 ➡️ 229 | 9.3 |
+| [弱点](https://movie.douban.com/subject/3552028) | 240 ➡️ 242 | 8.7 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 241 ➡️ 240 | 8.6 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 242 ➡️ 241 | 8.5 |
+| [朗读者](https://movie.douban.com/subject/2213597) | 245 ➡️ 246 | 8.6 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 246 ➡️ 245 | 8.6 |
 ## 2023-09-02
 
 
