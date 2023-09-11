@@ -2,8 +2,41 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-09-10*
+*Updated on 2023-09-11*
 
+## 2023-09-11
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 105 ➡️ 106 | 8.7 |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 106 ➡️ 105 | 8.8 |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | 114 ➡️ 115 | 8.9 |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | 115 ➡️ 114 | 8.9 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 121 ➡️ 122 | 9.0 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 122 ➡️ 121 | 9.1 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 124 ➡️ 125 | 8.8 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 125 ➡️ 124 | 8.8 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 131 ➡️ 132 | 8.9 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 132 ➡️ 131 | 9.1 |
+| [大鱼](https://movie.douban.com/subject/1291545) | 146 ➡️ 147 | 8.8 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 147 ➡️ 146 | 9.6 |
+| [射雕英雄传之东成西就](https://movie.douban.com/subject/1316510) | 149 ➡️ 150 | 8.7 |
+| [喜宴](https://movie.douban.com/subject/1303037) | 150 ➡️ 149 | 9.0 |
+| [血战钢锯岭](https://movie.douban.com/subject/26325320) | 157 ➡️ 158 | 8.7 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 158 ➡️ 157 | 8.8 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 179 ➡️ 180 | 8.6 |
+| [小丑](https://movie.douban.com/subject/27119724) | 180 ➡️ 179 | 8.7 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 185 ➡️ 186 | 8.8 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 186 ➡️ 185 | 8.9 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 193 ➡️ 194 | 8.6 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 194 ➡️ 193 | 8.5 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 224 ➡️ 225 | 8.6 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 225 ➡️ 224 | 8.6 |
+| [二十二](https://movie.douban.com/subject/26430107) | 228 ➡️ 229 | 8.7 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 229 ➡️ 228 | 9.3 |
 ## 2023-09-10
 
 
