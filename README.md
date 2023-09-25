@@ -2,8 +2,27 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-09-19*
+*Updated on 2023-09-25*
 
+## 2023-09-25
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [天空之城](https://movie.douban.com/subject/1291583) | 42 ➡️ 43 | 9.2 |
+| [猫鼠游戏](https://movie.douban.com/subject/1305487) | 43 ➡️ 42 | 9.1 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 132 ➡️ 133 | 8.9 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 133 ➡️ 132 | 8.8 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 154 ➡️ 155 | 8.7 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | 155 ➡️ 154 | 9.0 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | 188 ➡️ 189 | 8.7 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 189 ➡️ 188 | 8.7 |
+| [雨人](https://movie.douban.com/subject/1291870) | 207 ➡️ 208 | 8.7 |
+| [海边的曼彻斯特](https://movie.douban.com/subject/25980443) | 208 ➡️ 207 | 8.6 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 210 ➡️ 211 | 8.5 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 211 ➡️ 210 | 8.6 |
 ## 2023-09-19
 
 
