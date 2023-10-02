@@ -2,8 +2,35 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-09-25*
+*Updated on 2023-10-02*
 
+## 2023-10-02
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [黑客帝国](https://movie.douban.com/subject/1291843) | 56 ➡️ 57 | 9.1 |
+| [指环王1：护戒使者](https://movie.douban.com/subject/1291571) | 57 ➡️ 56 | 9.1 |
+| [海豚湾](https://movie.douban.com/subject/3442220) | 85 ➡️ 86 | 9.3 |
+| [超脱](https://movie.douban.com/subject/5322596) | 86 ➡️ 85 | 9.0 |
+| [哪吒闹海](https://movie.douban.com/subject/1307315) | 145 ➡️ 146 | 9.2 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 146 ➡️ 145 | 9.6 |
+| [射雕英雄传之东成西就](https://movie.douban.com/subject/1316510) | 151 ➡️ 152 | 8.7 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 152 ➡️ 151 | 8.7 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | 154 ➡️ 155 | 9.0 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 155 ➡️ 154 | 8.7 |
+| [电锯惊魂](https://movie.douban.com/subject/1417598) | 164 | 8.8 ➡️ 8.7 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 175 ➡️ 176 | 8.8 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 176 ➡️ 175 | 8.9 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 209 ➡️ 211 | 8.5 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 210 ➡️ 209 | 8.6 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 211 ➡️ 210 | 8.5 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 222 ➡️ 223 | 8.6 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 223 ➡️ 222 | 8.7 |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | 236 ➡️ 237 | 8.8 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 237 ➡️ 236 | 8.5 |
 ## 2023-09-25
 
 
