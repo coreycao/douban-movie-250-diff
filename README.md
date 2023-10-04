@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-10-03*
+*Updated on 2023-10-04*
 
+## 2023-10-04
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [燃情岁月](https://movie.douban.com/subject/1295865) | 247 | 8.8 ➡️ 8.7 |
 ## 2023-10-03
 
 
