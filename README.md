@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-10-04*
+*Updated on 2023-10-06*
 
+## 2023-10-06
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 103 | 8.9 ➡️ 8.8 |
 ## 2023-10-04
 
 
