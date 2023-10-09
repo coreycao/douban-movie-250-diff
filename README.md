@@ -2,8 +2,35 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-10-06*
+*Updated on 2023-10-09*
 
+## 2023-10-09
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [龙猫](https://movie.douban.com/subject/1291560) | 26 ➡️ 27 | 9.2 |
+| [寻梦环游记](https://movie.douban.com/subject/20495023) | 27 ➡️ 26 | 9.1 |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | 109 ➡️ 110 | 8.9 |
+| [第六感](https://movie.douban.com/subject/1297630) | 110 ➡️ 109 | 8.9 |
+| [神偷奶爸](https://movie.douban.com/subject/3287562) | 141 ➡️ 142 | 8.7 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 142 ➡️ 141 | 8.8 |
+| [射雕英雄传之东成西就](https://movie.douban.com/subject/1316510) | 152 ➡️ 153 | 8.7 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 153 ➡️ 152 | 8.7 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 170 ➡️ 171 | 8.6 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 171 ➡️ 170 | 9.0 |
+| [岁月神偷](https://movie.douban.com/subject/3792799) | 181 ➡️ 182 | 8.7 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 182 ➡️ 181 | 9.5 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 186 ➡️ 187 | 8.8 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 187 ➡️ 186 | 8.7 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 226 ➡️ 227 | 8.6 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 227 ➡️ 226 | 9.3 |
+| [血钻](https://movie.douban.com/subject/1428175) | 231 ➡️ 232 | 8.7 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 232 ➡️ 231 | 8.5 |
+| [谍影重重](https://movie.douban.com/subject/1304102) | 244 ➡️ 245 | 8.6 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 245 ➡️ 244 | 8.6 |
 ## 2023-10-06
 
 
