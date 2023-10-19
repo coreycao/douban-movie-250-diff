@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-10-16*
+*Updated on 2023-10-19*
 
+## 2023-10-19
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [辛德勒的名单](https://movie.douban.com/subject/1295124) | 9 | 9.6 ➡️ 9.5 |
 ## 2023-10-16
 
 
