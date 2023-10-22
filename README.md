@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-10-19*
+*Updated on 2023-10-22*
 
+## 2023-10-22
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [美丽人生](https://movie.douban.com/subject/1292063) | 7 | 9.6 ➡️ 9.5 |
 ## 2023-10-19
 
 
