@@ -2,8 +2,43 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-10-22*
+*Updated on 2023-10-23*
 
+## 2023-10-23
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [辛德勒的名单](https://movie.douban.com/subject/1295124) | 9 ➡️ 10 | 9.5 |
+| [盗梦空间](https://movie.douban.com/subject/3541415) | 10 ➡️ 9 | 9.4 |
+| [禁闭岛](https://movie.douban.com/subject/2334904) | 79 ➡️ 80 | 8.9 |
+| [功夫](https://movie.douban.com/subject/1291543) | 80 ➡️ 79 | 8.8 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 121 ➡️ 122 | 9.1 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 122 ➡️ 121 | 8.8 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 124 ➡️ 125 | 9.1 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 125 ➡️ 124 | 8.8 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 128 ➡️ 129 | 8.8 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 129 ➡️ 128 | 9.1 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 130 ➡️ 131 | 9.0 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 131 ➡️ 130 | 8.8 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 136 ➡️ 137 | 8.9 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 137 ➡️ 136 | 8.7 |
+| [玛丽和马克思](https://movie.douban.com/subject/3072124) | 143 ➡️ 144 | 9.0 |
+| [告白](https://movie.douban.com/subject/4268598) | 144 ➡️ 145 | 8.8 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 145 ➡️ 143 | 9.6 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 216 ➡️ 217 | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 217 ➡️ 216 | 8.9 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 220 ➡️ 221 | 8.8 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 221 ➡️ 222 | 8.7 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 222 ➡️ 220 | 8.7 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 225 ➡️ 226 | 8.6 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 226 ➡️ 225 | 9.3 |
+| [房间](https://movie.douban.com/subject/25724855) | 235 ➡️ 236 | 8.8 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 236 ➡️ 235 | 8.5 |
+| [阿飞正传](https://movie.douban.com/subject/1305690) | 243 ➡️ 244 | 8.5 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 244 ➡️ 243 | 8.6 |
 ## 2023-10-22
 
 
