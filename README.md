@@ -2,8 +2,46 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-10-29*
+*Updated on 2023-10-30*
 
+## 2023-10-30
+
+#### 新上榜电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 249 | [高山下的花环](https://movie.douban.com/subject/1422283) | 9.5 |
+
+#### 退出榜单电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [发条橙](https://movie.douban.com/subject/1292233) | 8.6 |
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [蝙蝠侠：黑暗骑士](https://movie.douban.com/subject/1851857) | 30 ➡️ 31 | 9.2 |
+| [哈利·波特与魔法石](https://movie.douban.com/subject/1295038) | 31 ➡️ 30 | 9.2 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 106 ➡️ 107 | 8.7 |
+| [爱在黎明破晓前](https://movie.douban.com/subject/1296339) | 107 ➡️ 106 | 8.8 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 137 ➡️ 138 | 8.9 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 138 ➡️ 137 | 8.9 |
+| [电锯惊魂](https://movie.douban.com/subject/1417598) | 164 | 8.7 ➡️ 8.8 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 170 ➡️ 171 | 9.0 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 171 ➡️ 170 | 8.6 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 175 ➡️ 176 | 8.9 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 176 ➡️ 175 | 8.8 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 185 ➡️ 186 | 9.2 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 186 ➡️ 185 | 8.7 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 195 ➡️ 196 | 8.6 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 196 ➡️ 195 | 8.9 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 222 ➡️ 223 | 8.7 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 223 ➡️ 222 | 8.6 |
+| [阿飞正传](https://movie.douban.com/subject/1305690) | 244 ➡️ 245 | 8.5 |
+| [谍影重重](https://movie.douban.com/subject/1304102) | 245 ➡️ 244 | 8.6 |
+| [香水](https://movie.douban.com/subject/1760622) | 249 ➡️ 250 | 8.5 |
 ## 2023-10-29
 
 
