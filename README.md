@@ -2,8 +2,34 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-10-31*
+*Updated on 2023-11-06*
 
+## 2023-11-06
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [罗马假日](https://movie.douban.com/subject/1293839) | 52 ➡️ 53 | 9.1 |
+| [绿皮书](https://movie.douban.com/subject/27060077) | 53 ➡️ 52 | 8.9 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 119 ➡️ 120 | 8.8 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 120 ➡️ 121 | 8.7 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 121 ➡️ 119 | 8.8 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 131 ➡️ 132 | 9.0 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 132 ➡️ 131 | 8.8 |
+| [玛丽和马克思](https://movie.douban.com/subject/3072124) | 144 ➡️ 145 | 9.0 |
+| [告白](https://movie.douban.com/subject/4268598) | 145 ➡️ 144 | 8.8 |
+| [喜宴](https://movie.douban.com/subject/1303037) | 149 ➡️ 150 | 9.0 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 150 ➡️ 149 | 8.7 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 170 ➡️ 171 | 8.6 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 171 ➡️ 170 | 9.0 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 215 ➡️ 216 | 8.8 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 216 ➡️ 215 | 8.9 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 224 ➡️ 225 | 8.6 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 225 ➡️ 224 | 9.3 |
+| [二十二](https://movie.douban.com/subject/26430107) | 229 ➡️ 230 | 8.7 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 230 ➡️ 229 | 8.7 |
 ## 2023-10-31
 
 
