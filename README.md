@@ -2,8 +2,32 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-11-06*
+*Updated on 2023-11-13*
 
+## 2023-11-13
+
+#### 新上榜电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 8.8 |
+
+#### 退出榜单电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [香水](https://movie.douban.com/subject/1760622) | 8.5 |
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [断背山](https://movie.douban.com/subject/1418834) | 105 ➡️ 106 | 8.8 |
+| [爱在黎明破晓前](https://movie.douban.com/subject/1296339) | 106 ➡️ 105 | 8.8 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 170 ➡️ 171 | 9.0 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 171 ➡️ 170 | 8.6 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 203 ➡️ 204 | 8.6 |
+| [可可西里](https://movie.douban.com/subject/1308857) | 204 ➡️ 203 | 8.9 |
 ## 2023-11-06
 
 
