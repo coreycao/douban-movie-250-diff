@@ -2,8 +2,31 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-11-13*
+*Updated on 2023-11-20*
 
+## 2023-11-20
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [看不见的客人](https://movie.douban.com/subject/26580232) | 70 ➡️ 71 | 8.8 |
+| [音乐之声](https://movie.douban.com/subject/1294408) | 71 ➡️ 70 | 9.1 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 130 ➡️ 131 | 8.8 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 131 ➡️ 130 | 8.8 |
+| [血战钢锯岭](https://movie.douban.com/subject/26325320) | 158 ➡️ 159 | 8.7 |
+| [七武士](https://movie.douban.com/subject/1295399) | 159 ➡️ 158 | 9.3 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | 178 ➡️ 179 | 8.7 |
+| [小丑](https://movie.douban.com/subject/27119724) | 179 ➡️ 178 | 8.7 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 187 ➡️ 188 | 8.8 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 188 ➡️ 187 | 8.7 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 214 ➡️ 215 | 8.9 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 215 ➡️ 214 | 8.9 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 234 ➡️ 235 | 8.8 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 235 ➡️ 234 | 8.5 |
+| [燃情岁月](https://movie.douban.com/subject/1295865) | 247 ➡️ 248 | 8.7 |
+| [再次出发之纽约遇见你](https://movie.douban.com/subject/6874403) | 248 ➡️ 247 | 8.6 |
 ## 2023-11-13
 
 #### 新上榜电影
