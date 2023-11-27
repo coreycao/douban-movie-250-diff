@@ -2,8 +2,32 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-11-20*
+*Updated on 2023-11-27*
 
+## 2023-11-27
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [音乐之声](https://movie.douban.com/subject/1294408) | 70 ➡️ 71 | 9.1 |
+| [看不见的客人](https://movie.douban.com/subject/26580232) | 71 ➡️ 70 | 8.8 |
+| [海豚湾](https://movie.douban.com/subject/3442220) | 86 ➡️ 87 | 9.3 |
+| [低俗小说](https://movie.douban.com/subject/1291832) | 87 ➡️ 86 | 8.9 |
+| [春光乍泄](https://movie.douban.com/subject/1292679) | 88 ➡️ 89 | 9.0 |
+| [摩登时代](https://movie.douban.com/subject/1294371) | 89 ➡️ 88 | 9.3 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 103 ➡️ 104 | 8.8 |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 104 ➡️ 103 | 8.8 |
+| [阳光姐妹淘](https://movie.douban.com/subject/4917726) | 156 ➡️ 157 | 8.8 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 157 ➡️ 156 | 8.8 |
+| [岁月神偷](https://movie.douban.com/subject/3792799) | 183 ➡️ 184 | 8.7 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 184 ➡️ 183 | 8.9 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 212 ➡️ 213 | 8.7 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 213 ➡️ 212 | 8.6 |
+| [再次出发之纽约遇见你](https://movie.douban.com/subject/6874403) | 247 ➡️ 248 | 8.6 |
+| [燃情岁月](https://movie.douban.com/subject/1295865) | 248 ➡️ 249 | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 249 ➡️ 247 | 9.5 |
 ## 2023-11-20
 
 
