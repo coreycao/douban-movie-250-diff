@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-11-27*
+*Updated on 2023-11-29*
 
+## 2023-11-29
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 103 | 8.8 ➡️ 8.9 |
 ## 2023-11-27
 
 
