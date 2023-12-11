@@ -2,8 +2,38 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-12-04*
+*Updated on 2023-12-11*
 
+## 2023-12-11
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [哈尔的移动城堡](https://movie.douban.com/subject/1308807) | 37 ➡️ 38 | 9.1 |
+| [十二怒汉](https://movie.douban.com/subject/1293182) | 38 ➡️ 37 | 9.4 |
+| [断背山](https://movie.douban.com/subject/1418834) | 106 ➡️ 107 | 8.8 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 107 ➡️ 106 | 8.7 |
+| [消失的爱人](https://movie.douban.com/subject/21318488) | 118 ➡️ 119 | 8.7 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 119 ➡️ 118 | 8.8 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 130 ➡️ 131 | 8.8 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 131 ➡️ 130 | 8.8 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 138 ➡️ 139 | 8.9 |
+| [新世界](https://movie.douban.com/subject/10437779) | 139 ➡️ 138 | 8.9 |
+| [疯狂原始人](https://movie.douban.com/subject/1907966) | 167 ➡️ 168 | 8.7 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | 168 ➡️ 167 | 8.7 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 175 ➡️ 176 | 8.8 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 176 ➡️ 175 | 8.9 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 180 ➡️ 181 | 8.6 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 181 ➡️ 180 | 9.5 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 182 ➡️ 183 | 9.1 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 183 ➡️ 182 | 8.7 |
+| [遗愿清单](https://movie.douban.com/subject/1867345) | 198 ➡️ 199 | 8.7 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 199 ➡️ 198 | 9.0 |
+| [弱点](https://movie.douban.com/subject/3552028) | 242 ➡️ 243 | 8.7 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 243 ➡️ 244 | 8.6 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 244 ➡️ 242 | 9.5 |
 ## 2023-12-04
 
 
