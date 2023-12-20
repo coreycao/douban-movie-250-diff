@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-12-19*
+*Updated on 2023-12-20*
 
+## 2023-12-20
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 152 | 8.7 ➡️ 8.6 |
 ## 2023-12-19
 
 
