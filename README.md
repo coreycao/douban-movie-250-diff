@@ -2,8 +2,43 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-12-20*
+*Updated on 2023-12-25*
 
+## 2023-12-25
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 132 ➡️ 133 | 9.0 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 133 ➡️ 132 | 8.9 |
+| [大鱼](https://movie.douban.com/subject/1291545) | 147 ➡️ 148 | 8.8 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 148 ➡️ 147 | 8.7 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 175 ➡️ 176 | 8.9 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 176 ➡️ 175 | 8.8 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 186 ➡️ 187 | 9.2 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 187 ➡️ 186 | 8.7 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 197 ➡️ 198 | 8.7 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 198 ➡️ 197 | 9.0 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 204 | 8.6 ➡️ 8.5 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 211 ➡️ 212 | 8.6 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 212 ➡️ 213 | 8.5 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 213 ➡️ 211 | 8.9 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 221 ➡️ 222 | 8.8 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 222 ➡️ 223 | 8.6 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 223 ➡️ 221 | 9.3 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 224 ➡️ 225 | 8.7 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 225 ➡️ 226 | 8.6 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 226 ➡️ 227 | 8.6 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 227 ➡️ 224 | 8.4 |
+| [二十二](https://movie.douban.com/subject/26430107) | 230 ➡️ 231 | 8.7 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 231 ➡️ 230 | 8.5 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | 239 ➡️ 240 | 8.7 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 240 ➡️ 239 | 8.6 |
+| [再次出发之纽约遇见你](https://movie.douban.com/subject/6874403) | 248 ➡️ 249 | 8.6 |
+| [燃情岁月](https://movie.douban.com/subject/1295865) | 249 ➡️ 250 | 8.7 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 250 ➡️ 248 | 8.8 |
 ## 2023-12-20
 
 
