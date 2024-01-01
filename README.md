@@ -2,8 +2,37 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2023-12-25*
+*Updated on 2024-01-01*
 
+## 2024-01-01
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [看不见的客人](https://movie.douban.com/subject/26580232) | 70 ➡️ 71 | 8.8 |
+| [音乐之声](https://movie.douban.com/subject/1294408) | 71 ➡️ 70 | 9.1 |
+| [侧耳倾听](https://movie.douban.com/subject/1297052) | 127 ➡️ 128 | 8.9 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 128 ➡️ 127 | 9.1 |
+| [釜山行](https://movie.douban.com/subject/25986180) | 140 ➡️ 141 | 8.6 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 141 ➡️ 142 | 8.8 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 142 ➡️ 140 | 9.6 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 176 ➡️ 177 | 8.9 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 177 ➡️ 176 | 8.9 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 196 ➡️ 197 | 8.6 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 197 ➡️ 196 | 9.0 |
+| [遗愿清单](https://movie.douban.com/subject/1867345) | 199 ➡️ 200 | 8.7 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | 200 ➡️ 199 | 8.7 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 210 ➡️ 211 | 8.5 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 211 ➡️ 210 | 8.9 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 219 ➡️ 220 | 8.7 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 220 ➡️ 221 | 8.7 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 221 ➡️ 222 | 9.3 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 222 ➡️ 224 | 8.8 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 224 ➡️ 219 | 8.4 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 229 ➡️ 230 | 8.7 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 230 ➡️ 229 | 8.5 |
 ## 2023-12-25
 
 
