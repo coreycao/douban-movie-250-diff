@@ -2,8 +2,45 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-01-01*
+*Updated on 2024-01-08*
 
+## 2024-01-08
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [何以为家](https://movie.douban.com/subject/30170448) | 39 ➡️ 40 | 9.1 |
+| [让子弹飞](https://movie.douban.com/subject/3742360) | 40 ➡️ 39 | 9.0 |
+| [七宗罪](https://movie.douban.com/subject/1292223) | 94 ➡️ 95 | 8.8 |
+| [红辣椒](https://movie.douban.com/subject/1865703) | 95 ➡️ 94 | 9.1 |
+| [加勒比海盗](https://movie.douban.com/subject/1298070) | 96 ➡️ 97 | 8.8 |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | 97 ➡️ 96 | 8.9 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 117 ➡️ 118 | 8.9 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 118 ➡️ 117 | 8.8 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 123 ➡️ 124 | 9.0 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 124 ➡️ 123 | 8.8 |
+| [大鱼](https://movie.douban.com/subject/1291545) | 148 ➡️ 149 | 8.8 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 149 ➡️ 148 | 8.7 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 173 ➡️ 174 | 8.8 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 174 ➡️ 173 | 8.9 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 194 ➡️ 195 | 8.6 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 195 ➡️ 194 | 8.9 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | 199 ➡️ 200 | 8.7 |
+| [遗愿清单](https://movie.douban.com/subject/1867345) | 200 ➡️ 199 | 8.7 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 204 ➡️ 205 | 8.5 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 205 ➡️ 204 | 9.3 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 213 ➡️ 214 | 8.5 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 214 ➡️ 213 | 8.7 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 218 ➡️ 219 | 8.8 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 219 ➡️ 218 | 8.4 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 221 ➡️ 222 | 8.7 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 222 ➡️ 221 | 9.3 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 225 ➡️ 226 | 8.7 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 226 ➡️ 225 | 8.6 |
+| [弱点](https://movie.douban.com/subject/3552028) | 243 ➡️ 244 | 8.7 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 244 ➡️ 243 | 8.6 |
 ## 2024-01-01
 
 
