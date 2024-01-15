@@ -2,8 +2,38 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-01-08*
+*Updated on 2024-01-15*
 
+## 2024-01-15
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [布达佩斯大饭店](https://movie.douban.com/subject/11525673) | 78 ➡️ 79 | 8.9 |
+| [功夫](https://movie.douban.com/subject/1291543) | 79 ➡️ 78 | 8.8 |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | 111 ➡️ 112 | 8.9 |
+| [超能陆战队](https://movie.douban.com/subject/11026735) | 112 ➡️ 111 | 8.7 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 123 ➡️ 124 | 8.8 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 124 ➡️ 125 | 9.0 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 125 ➡️ 123 | 9.1 |
+| [釜山行](https://movie.douban.com/subject/25986180) | 141 ➡️ 142 | 8.6 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 142 ➡️ 141 | 8.8 |
+| [电锯惊魂](https://movie.douban.com/subject/1417598) | 164 ➡️ 165 | 8.7 |
+| [三块广告牌](https://movie.douban.com/subject/26611804) | 165 ➡️ 164 | 8.7 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 181 ➡️ 182 | 8.6 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 182 ➡️ 181 | 8.7 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 216 ➡️ 217 | 8.8 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 217 ➡️ 216 | 8.7 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 223 ➡️ 224 | 8.6 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 224 ➡️ 223 | 8.8 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 238 ➡️ 239 | 8.8 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 239 ➡️ 238 | 8.6 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 241 ➡️ 242 | 8.5 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 242 ➡️ 241 | 9.5 |
+| [朗读者](https://movie.douban.com/subject/2213597) | 247 ➡️ 248 | 8.6 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 248 ➡️ 247 | 8.8 |
 ## 2024-01-08
 
 
