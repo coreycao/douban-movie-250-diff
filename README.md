@@ -2,8 +2,28 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-01-15*
+*Updated on 2024-01-22*
 
+## 2024-01-22
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 106 ➡️ 107 | 8.7 |
+| [断背山](https://movie.douban.com/subject/1418834) | 107 ➡️ 106 | 8.8 |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | 112 ➡️ 113 | 8.9 |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | 113 ➡️ 112 | 8.9 |
+| [射雕英雄传之东成西就](https://movie.douban.com/subject/1316510) | 153 ➡️ 154 | 8.7 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 154 ➡️ 153 | 8.8 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 174 ➡️ 176 | 8.8 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 175 ➡️ 174 | 8.8 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 176 ➡️ 175 | 8.9 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 209 ➡️ 210 | 8.6 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 210 ➡️ 209 | 8.9 |
+| [阿飞正传](https://movie.douban.com/subject/1305690) | 246 ➡️ 247 | 8.5 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 247 ➡️ 246 | 8.8 |
 ## 2024-01-15
 
 
