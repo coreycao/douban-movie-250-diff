@@ -2,8 +2,46 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-01-22*
+*Updated on 2024-01-29*
 
+## 2024-01-29
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 121 ➡️ 123 | 8.7 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 123 ➡️ 121 | 9.1 |
+| [侧耳倾听](https://movie.douban.com/subject/1297052) | 128 ➡️ 129 | 8.9 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 129 ➡️ 128 | 8.8 |
+| [教父3](https://movie.douban.com/subject/1294240) | 134 ➡️ 135 | 9.0 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 135 ➡️ 134 | 8.8 |
+| [玛丽和马克思](https://movie.douban.com/subject/3072124) | 145 ➡️ 146 | 9.0 |
+| [哪吒闹海](https://movie.douban.com/subject/1307315) | 146 ➡️ 145 | 9.2 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 174 ➡️ 175 | 8.8 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 175 ➡️ 174 | 8.9 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 177 ➡️ 178 | 8.9 |
+| [小丑](https://movie.douban.com/subject/27119724) | 178 ➡️ 177 | 8.7 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | 179 ➡️ 180 | 8.7 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 180 ➡️ 179 | 9.5 |
+| [岁月神偷](https://movie.douban.com/subject/3792799) | 185 ➡️ 186 | 8.7 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 186 ➡️ 185 | 8.7 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 188 ➡️ 189 | 8.8 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | 189 ➡️ 188 | 8.7 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 205 ➡️ 206 | 8.5 |
+| [源代码](https://movie.douban.com/subject/3075287) | 206 ➡️ 205 | 8.5 |
+| [雨人](https://movie.douban.com/subject/1291870) | 208 ➡️ 210 | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 209 ➡️ 208 | 8.9 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 210 ➡️ 209 | 8.6 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 228 ➡️ 229 | 8.6 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 229 ➡️ 228 | 8.5 |
+| [血钻](https://movie.douban.com/subject/1428175) | 232 ➡️ 233 | 8.7 |
+| [战争之王](https://movie.douban.com/subject/1419936) | 233 ➡️ 234 | 8.7 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 234 ➡️ 232 | 8.5 |
+| [房间](https://movie.douban.com/subject/25724855) | 236 ➡️ 237 | 8.8 |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | 237 ➡️ 238 | 8.8 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 238 ➡️ 236 | 8.6 |
 ## 2024-01-22
 
 
