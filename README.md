@@ -2,8 +2,32 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-01-29*
+*Updated on 2024-02-06*
 
+## 2024-02-06
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [七宗罪](https://movie.douban.com/subject/1292223) | 95 ➡️ 96 | 8.8 |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | 96 ➡️ 95 | 8.9 |
+| [超能陆战队](https://movie.douban.com/subject/11026735) | 111 ➡️ 112 | 8.7 |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | 112 ➡️ 111 | 8.9 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 134 ➡️ 135 | 8.8 |
+| [教父3](https://movie.douban.com/subject/1294240) | 135 ➡️ 134 | 9.0 |
+| [哪吒闹海](https://movie.douban.com/subject/1307315) | 145 ➡️ 146 | 9.2 |
+| [玛丽和马克思](https://movie.douban.com/subject/3072124) | 146 ➡️ 147 | 9.0 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 147 ➡️ 145 | 8.7 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 189 ➡️ 190 | 8.8 |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | 190 ➡️ 189 | 8.7 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 216 ➡️ 218 | 8.7 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 218 ➡️ 216 | 8.4 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | 240 ➡️ 241 | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 241 ➡️ 240 | 9.5 |
+| [谍影重重](https://movie.douban.com/subject/1304102) | 245 ➡️ 246 | 8.6 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 246 ➡️ 245 | 8.8 |
 ## 2024-01-29
 
 
