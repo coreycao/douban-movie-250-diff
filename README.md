@@ -2,8 +2,35 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-02-06*
+*Updated on 2024-02-13*
 
+## 2024-02-13
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [致命魔术](https://movie.douban.com/subject/1780330) | 82 ➡️ 83 | 8.9 |
+| [哈利·波特与阿兹卡班的囚徒](https://movie.douban.com/subject/1291544) | 83 ➡️ 82 | 8.9 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 114 ➡️ 115 | 8.9 |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | 115 ➡️ 114 | 8.9 |
+| [教父3](https://movie.douban.com/subject/1294240) | 134 ➡️ 135 | 9.0 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 135 ➡️ 134 | 8.8 |
+| [阳光姐妹淘](https://movie.douban.com/subject/4917726) | 157 ➡️ 158 | 8.8 |
+| [七武士](https://movie.douban.com/subject/1295399) | 158 ➡️ 157 | 9.3 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 176 ➡️ 177 | 8.8 |
+| [小丑](https://movie.douban.com/subject/27119724) | 177 ➡️ 176 | 8.7 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | 180 ➡️ 181 | 8.7 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 181 ➡️ 180 | 8.7 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 191 ➡️ 192 | 8.7 |
+| [冰川时代](https://movie.douban.com/subject/1291578) | 192 ➡️ 191 | 8.6 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 223 ➡️ 224 | 8.8 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 224 ➡️ 223 | 8.6 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 235 ➡️ 236 | 8.8 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 236 ➡️ 235 | 8.6 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 239 ➡️ 240 | 8.8 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 240 ➡️ 239 | 9.5 |
 ## 2024-02-06
 
 
