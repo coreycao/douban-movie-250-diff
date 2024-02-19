@@ -2,8 +2,59 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-02-13*
+*Updated on 2024-02-19*
 
+## 2024-02-19
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [指环王1：护戒使者](https://movie.douban.com/subject/1291571) | 56 ➡️ 57 | 9.1 |
+| [黑客帝国](https://movie.douban.com/subject/1291843) | 57 ➡️ 56 | 9.1 |
+| [海豚湾](https://movie.douban.com/subject/3442220) | 87 ➡️ 88 | 9.3 |
+| [摩登时代](https://movie.douban.com/subject/1294371) | 88 ➡️ 87 | 9.3 |
+| [美国往事](https://movie.douban.com/subject/1292262) | 90 ➡️ 91 | 9.2 |
+| [喜剧之王](https://movie.douban.com/subject/1302425) | 91 ➡️ 90 | 8.8 |
+| [红辣椒](https://movie.douban.com/subject/1865703) | 94 ➡️ 95 | 9.1 |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | 95 ➡️ 94 | 8.9 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 104 ➡️ 105 | 8.8 |
+| [爱在黎明破晓前](https://movie.douban.com/subject/1296339) | 105 ➡️ 104 | 8.8 |
+| [重庆森林](https://movie.douban.com/subject/1291999) | 110 ➡️ 111 | 8.8 |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | 111 ➡️ 110 | 8.9 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 125 ➡️ 126 | 9.0 |
+| [时空恋旅人](https://movie.douban.com/subject/10577869) | 126 ➡️ 125 | 8.8 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 133 ➡️ 134 | 9.0 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 134 ➡️ 133 | 8.8 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 139 ➡️ 140 | 8.9 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 140 ➡️ 139 | 9.6 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 141 ➡️ 142 | 8.8 |
+| [釜山行](https://movie.douban.com/subject/25986180) | 142 ➡️ 141 | 8.6 |
+| [告白](https://movie.douban.com/subject/4268598) | 144 ➡️ 145 | 8.8 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 145 ➡️ 144 | 8.7 |
+| [射雕英雄传之东成西就](https://movie.douban.com/subject/1316510) | 154 ➡️ 155 | 8.7 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 155 ➡️ 154 | 8.8 |
+| [达拉斯买家俱乐部](https://movie.douban.com/subject/1793929) | 166 ➡️ 167 | 8.8 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | 167 ➡️ 166 | 8.7 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 173 ➡️ 175 | 8.9 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 175 ➡️ 176 | 8.8 |
+| [小丑](https://movie.douban.com/subject/27119724) | 176 ➡️ 173 | 8.7 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 195 ➡️ 196 | 8.6 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 196 ➡️ 195 | 9.0 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 197 ➡️ 198 | 8.6 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 198 ➡️ 197 | 8.7 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 211 ➡️ 212 | 8.5 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 212 ➡️ 211 | 8.6 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 215 ➡️ 216 | 8.9 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 216 ➡️ 215 | 8.4 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 220 ➡️ 221 | 8.7 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 221 ➡️ 220 | 9.3 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 226 ➡️ 227 | 8.7 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 227 ➡️ 226 | 8.6 |
+| [房间](https://movie.douban.com/subject/25724855) | 237 ➡️ 238 | 8.8 |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | 238 ➡️ 239 | 8.8 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 239 ➡️ 237 | 9.5 |
 ## 2024-02-13
 
 
