@@ -2,8 +2,42 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-02-19*
+*Updated on 2024-02-26*
 
+## 2024-02-26
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [这个杀手不太冷](https://movie.douban.com/subject/1295644) | 5 ➡️ 6 | 9.4 |
+| [千与千寻](https://movie.douban.com/subject/1291561) | 6 ➡️ 5 | 9.4 |
+| [断背山](https://movie.douban.com/subject/1418834) | 106 ➡️ 107 | 8.8 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 107 ➡️ 108 | 8.7 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 108 ➡️ 109 | 8.9 |
+| [第六感](https://movie.douban.com/subject/1297630) | 109 ➡️ 110 | 8.9 |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | 110 ➡️ 106 | 8.9 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 120 ➡️ 121 | 8.8 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 121 ➡️ 120 | 9.1 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 134 ➡️ 135 | 9.0 |
+| [教父3](https://movie.douban.com/subject/1294240) | 135 ➡️ 134 | 9.0 |
+| [恐怖直播](https://movie.douban.com/subject/21360417) | 160 ➡️ 161 | 8.7 |
+| [惊魂记](https://movie.douban.com/subject/1293181) | 161 ➡️ 160 | 9.0 |
+| [风之谷](https://movie.douban.com/subject/1291585) | 172 ➡️ 173 | 8.9 |
+| [小丑](https://movie.douban.com/subject/27119724) | 173 ➡️ 172 | 8.7 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 174 ➡️ 175 | 8.9 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 175 ➡️ 174 | 8.9 |
+| [遗愿清单](https://movie.douban.com/subject/1867345) | 199 ➡️ 200 | 8.7 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | 200 ➡️ 199 | 8.7 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 203 ➡️ 204 | 8.6 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 204 ➡️ 203 | 9.3 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 219 ➡️ 220 | 8.8 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 220 ➡️ 219 | 9.3 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 236 ➡️ 237 | 8.8 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 237 ➡️ 236 | 9.5 |
+| [弱点](https://movie.douban.com/subject/3552028) | 244 ➡️ 245 | 8.7 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 245 ➡️ 244 | 8.8 |
 ## 2024-02-19
 
 
