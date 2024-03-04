@@ -2,8 +2,34 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-02-26*
+*Updated on 2024-03-04*
 
+## 2024-03-04
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [哈利·波特与阿兹卡班的囚徒](https://movie.douban.com/subject/1291544) | 82 | 8.9 ➡️ 9.0 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 174 ➡️ 175 | 8.9 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 175 ➡️ 174 | 8.9 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 179 ➡️ 180 | 9.5 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 180 ➡️ 179 | 8.7 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 187 ➡️ 188 | 9.2 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | 188 ➡️ 187 | 8.7 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 198 ➡️ 199 | 8.6 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | 199 ➡️ 198 | 8.7 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 203 ➡️ 204 | 9.3 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 204 ➡️ 203 | 8.6 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 214 ➡️ 215 | 8.5 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 215 ➡️ 214 | 8.4 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 216 ➡️ 217 | 8.9 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 217 ➡️ 216 | 8.8 |
+| [血钻](https://movie.douban.com/subject/1428175) | 233 ➡️ 235 | 8.7 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 235 ➡️ 233 | 8.6 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | 241 ➡️ 242 | 8.7 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 242 ➡️ 241 | 8.5 |
 ## 2024-02-26
 
 
