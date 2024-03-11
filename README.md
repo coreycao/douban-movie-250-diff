@@ -2,8 +2,38 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-03-04*
+*Updated on 2024-03-11*
 
+## 2024-03-11
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [阿凡达](https://movie.douban.com/subject/1652587) | 72 ➡️ 73 | 8.8 |
+| [哈利·波特与死亡圣器(下)](https://movie.douban.com/subject/3011235) | 73 ➡️ 72 | 9.0 |
+| [七宗罪](https://movie.douban.com/subject/1292223) | 96 ➡️ 97 | 8.8 |
+| [加勒比海盗](https://movie.douban.com/subject/1298070) | 97 ➡️ 96 | 8.8 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 123 ➡️ 124 | 8.7 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 124 ➡️ 123 | 8.8 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 137 ➡️ 138 | 8.7 |
+| [新世界](https://movie.douban.com/subject/10437779) | 138 ➡️ 137 | 8.9 |
+| [玛丽和马克思](https://movie.douban.com/subject/3072124) | 147 ➡️ 148 | 9.0 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 148 ➡️ 147 | 8.7 |
+| [大鱼](https://movie.douban.com/subject/1291545) | 149 ➡️ 150 | 8.8 |
+| [喜宴](https://movie.douban.com/subject/1303037) | 150 ➡️ 149 | 9.0 |
+| [风之谷](https://movie.douban.com/subject/1291585) | 173 ➡️ 174 | 8.9 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 174 ➡️ 173 | 8.9 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | 181 ➡️ 182 | 8.7 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 182 ➡️ 181 | 8.6 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 197 ➡️ 198 | 8.7 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | 198 ➡️ 197 | 8.7 |
+| [战争之王](https://movie.douban.com/subject/1419936) | 234 ➡️ 235 | 8.7 |
+| [血钻](https://movie.douban.com/subject/1428175) | 235 ➡️ 236 | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 236 ➡️ 234 | 9.5 |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | 239 ➡️ 240 | 8.8 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 240 ➡️ 239 | 8.8 |
 ## 2024-03-04
 
 
