@@ -2,8 +2,33 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-03-18*
+*Updated on 2024-03-25*
 
+## 2024-03-25
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [鬼子来了](https://movie.douban.com/subject/1291858) | 44 ➡️ 45 | 9.3 |
+| [海蒂和爷爷](https://movie.douban.com/subject/25958717) | 45 ➡️ 44 | 9.3 |
+| [罗马假日](https://movie.douban.com/subject/1293839) | 53 ➡️ 54 | 9.1 |
+| [大闹天宫](https://movie.douban.com/subject/1418019) | 54 ➡️ 53 | 9.4 |
+| [指环王1：护戒使者](https://movie.douban.com/subject/1291571) | 56 ➡️ 57 | 9.1 |
+| [黑客帝国](https://movie.douban.com/subject/1291843) | 57 ➡️ 56 | 9.1 |
+| [沉默的羔羊](https://movie.douban.com/subject/1293544) | 77 ➡️ 78 | 8.9 |
+| [功夫](https://movie.douban.com/subject/1291543) | 78 ➡️ 77 | 8.8 |
+| [釜山行](https://movie.douban.com/subject/25986180) | 141 ➡️ 142 | 8.6 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 142 ➡️ 141 | 8.8 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 171 ➡️ 172 | 9.0 |
+| [小丑](https://movie.douban.com/subject/27119724) | 172 ➡️ 171 | 8.7 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 203 ➡️ 204 | 8.6 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 204 ➡️ 203 | 9.3 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 207 ➡️ 208 | 8.5 |
+| [海边的曼彻斯特](https://movie.douban.com/subject/25980443) | 208 ➡️ 207 | 8.6 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 216 ➡️ 217 | 8.8 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 217 ➡️ 216 | 8.7 |
 ## 2024-03-18
 
 
