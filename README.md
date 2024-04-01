@@ -2,8 +2,35 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-03-25*
+*Updated on 2024-04-01*
 
+## 2024-04-01
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [辛德勒的名单](https://movie.douban.com/subject/1295124) | 10 ➡️ 11 | 9.5 |
+| [楚门的世界](https://movie.douban.com/subject/1292064) | 11 ➡️ 10 | 9.4 |
+| [天堂电影院](https://movie.douban.com/subject/1291828) | 55 ➡️ 57 | 9.2 |
+| [指环王1：护戒使者](https://movie.douban.com/subject/1291571) | 57 ➡️ 55 | 9.1 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 105 ➡️ 106 | 8.8 |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | 106 ➡️ 105 | 8.9 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 170 ➡️ 171 | 8.6 |
+| [小丑](https://movie.douban.com/subject/27119724) | 171 ➡️ 170 | 8.7 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 178 ➡️ 179 | 8.9 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 179 ➡️ 178 | 8.7 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 188 ➡️ 189 | 9.2 |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | 189 ➡️ 188 | 8.7 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 224 ➡️ 225 | 8.8 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 225 ➡️ 224 | 8.6 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 227 ➡️ 228 | 8.7 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 228 ➡️ 227 | 8.5 |
+| [二十二](https://movie.douban.com/subject/26430107) | 231 ➡️ 233 | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 233 ➡️ 231 | 9.5 |
+| [房间](https://movie.douban.com/subject/25724855) | 238 ➡️ 239 | 8.8 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 239 ➡️ 238 | 8.8 |
 ## 2024-03-25
 
 
