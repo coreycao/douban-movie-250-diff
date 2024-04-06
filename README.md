@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-04-01*
+*Updated on 2024-04-06*
 
+## 2024-04-06
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [心迷宫](https://movie.douban.com/subject/25917973) | 167 | 8.7 ➡️ 8.8 |
 ## 2024-04-01
 
 
