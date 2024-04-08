@@ -2,8 +2,38 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-04-06*
+*Updated on 2024-04-08*
 
+## 2024-04-08
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [十二怒汉](https://movie.douban.com/subject/1293182) | 37 ➡️ 38 | 9.4 |
+| [哈尔的移动城堡](https://movie.douban.com/subject/1308807) | 38 ➡️ 37 | 9.1 |
+| [爱在黎明破晓前](https://movie.douban.com/subject/1296339) | 104 ➡️ 105 | 8.8 |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | 105 ➡️ 104 | 8.9 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 108 ➡️ 110 | 8.7 |
+| [第六感](https://movie.douban.com/subject/1297630) | 110 ➡️ 108 | 8.9 |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | 114 ➡️ 115 | 8.9 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 115 ➡️ 114 | 8.9 |
+| [阳光姐妹淘](https://movie.douban.com/subject/4917726) | 158 ➡️ 159 | 8.8 |
+| [血战钢锯岭](https://movie.douban.com/subject/26325320) | 159 ➡️ 158 | 8.7 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 173 ➡️ 174 | 8.9 |
+| [风之谷](https://movie.douban.com/subject/1291585) | 174 ➡️ 173 | 8.9 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 183 ➡️ 184 | 9.1 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 184 ➡️ 183 | 8.9 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 196 ➡️ 198 | 8.6 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 198 ➡️ 196 | 8.7 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 215 ➡️ 217 | 8.5 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 216 ➡️ 215 | 8.7 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 217 ➡️ 216 | 8.8 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 220 ➡️ 221 | 8.8 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 221 ➡️ 220 | 8.7 |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | 240 ➡️ 241 | 8.8 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 241 ➡️ 240 | 8.5 |
 ## 2024-04-06
 
 
