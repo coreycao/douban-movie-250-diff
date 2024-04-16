@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-04-15*
+*Updated on 2024-04-16*
 
+## 2024-04-16
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 227 | 8.5 ➡️ 8.6 |
 ## 2024-04-15
 
 
