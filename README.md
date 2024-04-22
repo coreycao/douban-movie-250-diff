@@ -2,8 +2,45 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-04-16*
+*Updated on 2024-04-22*
 
+## 2024-04-22
+
+#### 新上榜电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [隐藏人物](https://movie.douban.com/subject/26615208) | 8.9 |
+
+#### 退出榜单电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [燃情岁月](https://movie.douban.com/subject/1295865) | 8.7 |
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [心灵捕手](https://movie.douban.com/subject/1292656) | 84 | 8.9 ➡️ 9.0 |
+| [断背山](https://movie.douban.com/subject/1418834) | 108 ➡️ 109 | 8.8 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 109 ➡️ 108 | 8.9 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 110 ➡️ 111 | 8.7 |
+| [重庆森林](https://movie.douban.com/subject/1291999) | 111 ➡️ 112 | 8.8 |
+| [超能陆战队](https://movie.douban.com/subject/11026735) | 112 ➡️ 110 | 8.7 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 126 ➡️ 127 | 9.0 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 127 ➡️ 126 | 9.1 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 133 ➡️ 134 | 8.8 |
+| [教父3](https://movie.douban.com/subject/1294240) | 134 ➡️ 133 | 9.0 |
+| [告白](https://movie.douban.com/subject/4268598) | 145 ➡️ 146 | 8.8 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 146 ➡️ 145 | 8.7 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 184 ➡️ 185 | 8.9 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 185 ➡️ 184 | 8.7 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 205 ➡️ 206 | 8.6 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 206 ➡️ 205 | 8.9 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 230 ➡️ 231 | 8.6 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 231 ➡️ 232 | 8.7 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 232 ➡️ 230 | 8.6 |
 ## 2024-04-16
 
 
