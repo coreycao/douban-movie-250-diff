@@ -2,8 +2,34 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-04-22*
+*Updated on 2024-04-30*
 
+## 2024-04-30
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [断背山](https://movie.douban.com/subject/1418834) | 109 ➡️ 110 | 8.8 |
+| [超能陆战队](https://movie.douban.com/subject/11026735) | 110 ➡️ 109 | 8.7 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 111 ➡️ 112 | 8.7 |
+| [重庆森林](https://movie.douban.com/subject/1291999) | 112 ➡️ 111 | 8.8 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 125 ➡️ 126 | 8.7 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 126 ➡️ 125 | 9.1 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 137 ➡️ 138 | 8.9 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 138 ➡️ 139 | 8.7 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 139 ➡️ 137 | 9.6 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 177 ➡️ 178 | 8.7 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 178 ➡️ 179 | 8.8 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 179 ➡️ 177 | 9.5 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 183 ➡️ 184 | 9.1 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 184 ➡️ 183 | 8.7 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 203 ➡️ 204 | 9.3 |
+| [源代码](https://movie.douban.com/subject/3075287) | 204 ➡️ 205 | 8.5 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 205 ➡️ 203 | 8.9 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 231 ➡️ 232 | 8.6 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 232 ➡️ 231 | 8.7 |
 ## 2024-04-22
 
 #### 新上榜电影
