@@ -2,8 +2,31 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-04-30*
+*Updated on 2024-05-06*
 
+## 2024-05-06
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [入殓师](https://movie.douban.com/subject/2149806) | 108 ➡️ 109 | 8.9 |
+| [超能陆战队](https://movie.douban.com/subject/11026735) | 109 ➡️ 108 | 8.7 |
+| [断背山](https://movie.douban.com/subject/1418834) | 110 ➡️ 111 | 8.8 |
+| [重庆森林](https://movie.douban.com/subject/1291999) | 111 ➡️ 110 | 8.8 |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | 113 ➡️ 114 | 8.9 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 114 ➡️ 113 | 8.9 |
+| [时空恋旅人](https://movie.douban.com/subject/10577869) | 122 ➡️ 123 | 8.8 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 123 ➡️ 124 | 9.1 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 124 ➡️ 125 | 8.8 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 125 ➡️ 122 | 9.1 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 136 ➡️ 137 | 9.0 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 137 ➡️ 136 | 9.6 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 153 ➡️ 154 | 8.8 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 154 ➡️ 153 | 8.8 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 218 ➡️ 219 | 8.9 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 219 ➡️ 218 | 9.3 |
 ## 2024-04-30
 
 
