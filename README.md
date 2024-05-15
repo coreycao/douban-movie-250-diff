@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-05-13*
+*Updated on 2024-05-15*
 
+## 2024-05-15
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [被嫌弃的松子的一生](https://movie.douban.com/subject/1787291) | 102 | 8.9 ➡️ 8.8 |
 ## 2024-05-13
 
 
