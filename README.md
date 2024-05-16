@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-05-15*
+*Updated on 2024-05-16*
 
+## 2024-05-16
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [无间道2](https://movie.douban.com/subject/1307106) | 183 | 8.7 ➡️ 8.8 |
 ## 2024-05-15
 
 
