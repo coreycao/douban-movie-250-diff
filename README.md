@@ -2,8 +2,25 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-05-16*
+*Updated on 2024-05-20*
 
+## 2024-05-20
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 124 ➡️ 125 | 9.1 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 125 ➡️ 124 | 8.8 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 137 ➡️ 139 | 9.0 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 139 ➡️ 137 | 8.7 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 152 ➡️ 153 | 8.6 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 153 ➡️ 152 | 8.8 |
+| [可可西里](https://movie.douban.com/subject/1308857) | 202 ➡️ 203 | 8.9 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 203 ➡️ 202 | 8.9 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 214 ➡️ 215 | 8.7 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 215 ➡️ 214 | 8.7 |
 ## 2024-05-16
 
 
