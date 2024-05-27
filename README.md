@@ -2,8 +2,27 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-05-20*
+*Updated on 2024-05-27*
 
+## 2024-05-27
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | 115 ➡️ 116 | 8.9 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 116 ➡️ 115 | 8.8 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 124 ➡️ 125 | 8.8 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 125 ➡️ 124 | 9.1 |
+| [新世界](https://movie.douban.com/subject/10437779) | 135 ➡️ 136 | 8.9 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 136 ➡️ 135 | 9.6 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 193 ➡️ 194 | 8.5 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 194 ➡️ 193 | 8.9 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 212 ➡️ 213 | 8.5 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 213 ➡️ 212 | 8.4 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 221 ➡️ 222 | 8.8 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 222 ➡️ 221 | 8.7 |
 ## 2024-05-20
 
 
