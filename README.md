@@ -2,8 +2,29 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-05-27*
+*Updated on 2024-06-03*
 
+## 2024-06-03
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [告白](https://movie.douban.com/subject/4268598) | 146 ➡️ 147 | 8.8 |
+| [哪吒闹海](https://movie.douban.com/subject/1307315) | 147 ➡️ 146 | 9.2 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | 156 ➡️ 157 | 9.0 |
+| [七武士](https://movie.douban.com/subject/1295399) | 157 ➡️ 156 | 9.3 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 175 ➡️ 176 | 8.9 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 176 ➡️ 175 | 9.5 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 177 ➡️ 178 | 8.8 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 178 ➡️ 177 | 8.7 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 208 ➡️ 209 | 8.5 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 209 ➡️ 208 | 8.6 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 216 ➡️ 217 | 8.8 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 217 ➡️ 216 | 9.3 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 227 ➡️ 228 | 8.6 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 228 ➡️ 227 | 9.5 |
 ## 2024-05-27
 
 
