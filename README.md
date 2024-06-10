@@ -2,8 +2,45 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-06-03*
+*Updated on 2024-06-10*
 
+## 2024-06-10
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 120 ➡️ 121 | 9.1 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 121 ➡️ 120 | 9.1 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 122 ➡️ 123 | 8.8 |
+| [时空恋旅人](https://movie.douban.com/subject/10577869) | 123 ➡️ 122 | 8.8 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 132 ➡️ 134 | 8.9 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 134 ➡️ 135 | 8.8 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 135 ➡️ 132 | 9.6 |
+| [模仿游戏](https://movie.douban.com/subject/10463953) | 151 ➡️ 152 | 8.8 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 152 ➡️ 151 | 8.8 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 153 ➡️ 154 | 8.6 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 154 ➡️ 153 | 8.8 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 174 ➡️ 175 | 8.9 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 175 ➡️ 174 | 9.5 |
+| [雨人](https://movie.douban.com/subject/1291870) | 210 ➡️ 211 | 8.7 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 211 ➡️ 212 | 8.6 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 212 ➡️ 213 | 8.4 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 213 ➡️ 214 | 8.5 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 214 ➡️ 210 | 8.7 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 215 ➡️ 216 | 8.7 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 216 ➡️ 215 | 9.3 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 218 ➡️ 219 | 8.5 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 219 ➡️ 218 | 8.9 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 223 ➡️ 224 | 8.6 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 224 ➡️ 223 | 8.6 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 226 ➡️ 227 | 8.6 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 227 ➡️ 226 | 9.5 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 238 ➡️ 239 | 8.8 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 239 ➡️ 238 | 8.5 |
+| [再次出发之纽约遇见你](https://movie.douban.com/subject/6874403) | 249 ➡️ 250 | 8.6 |
+| [隐藏人物](https://movie.douban.com/subject/26615208) | 250 ➡️ 249 | 8.9 |
 ## 2024-06-03
 
 
