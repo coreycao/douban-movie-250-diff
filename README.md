@@ -2,8 +2,31 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-06-10*
+*Updated on 2024-06-17*
 
+## 2024-06-17
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [天空之城](https://movie.douban.com/subject/1291583) | 43 ➡️ 44 | 9.2 |
+| [海蒂和爷爷](https://movie.douban.com/subject/25958717) | 44 ➡️ 43 | 9.3 |
+| [大话西游之月光宝盒](https://movie.douban.com/subject/1299398) | 48 ➡️ 49 | 9.0 |
+| [指环王2：双塔奇兵](https://movie.douban.com/subject/1291572) | 49 ➡️ 48 | 9.2 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 131 ➡️ 132 | 8.8 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 132 ➡️ 131 | 9.6 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 153 ➡️ 154 | 8.8 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 154 ➡️ 153 | 8.6 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 171 ➡️ 172 | 8.6 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 172 ➡️ 171 | 9.0 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 184 ➡️ 185 | 9.1 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 185 ➡️ 184 | 8.9 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 229 ➡️ 230 | 8.7 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 230 ➡️ 229 | 8.6 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | 242 ➡️ 243 | 8.7 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 243 ➡️ 242 | 8.8 |
 ## 2024-06-10
 
 
