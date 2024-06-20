@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-06-17*
+*Updated on 2024-06-20*
 
+## 2024-06-20
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [超能陆战队](https://movie.douban.com/subject/11026735) | 108 | 8.7 ➡️ 8.8 |
 ## 2024-06-17
 
 
