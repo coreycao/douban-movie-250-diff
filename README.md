@@ -2,8 +2,36 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-06-20*
+*Updated on 2024-06-24*
 
+## 2024-06-24
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [飞越疯人院](https://movie.douban.com/subject/1292224) | 75 ➡️ 76 | 9.1 |
+| [小鞋子](https://movie.douban.com/subject/1303021) | 76 ➡️ 75 | 9.2 |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | 114 ➡️ 115 | 8.9 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 115 ➡️ 114 | 8.8 |
+| [消失的爱人](https://movie.douban.com/subject/21318488) | 119 ➡️ 120 | 8.7 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 120 ➡️ 119 | 9.1 |
+| [大鱼](https://movie.douban.com/subject/1291545) | 150 ➡️ 151 | 8.8 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 151 ➡️ 150 | 8.8 |
+| [阳光姐妹淘](https://movie.douban.com/subject/4917726) | 159 ➡️ 160 | 8.8 |
+| [惊魂记](https://movie.douban.com/subject/1293181) | 160 ➡️ 159 | 9.0 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 176 ➡️ 177 | 8.9 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 177 ➡️ 176 | 8.7 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | 182 ➡️ 184 | 8.7 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 184 ➡️ 182 | 8.9 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 192 ➡️ 193 | 8.7 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 193 ➡️ 192 | 8.9 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 209 ➡️ 210 | 8.5 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 210 ➡️ 209 | 8.7 |
+| [房间](https://movie.douban.com/subject/25724855) | 240 ➡️ 241 | 8.8 |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | 241 ➡️ 242 | 8.8 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 242 ➡️ 240 | 8.8 |
 ## 2024-06-20
 
 
