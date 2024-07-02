@@ -2,8 +2,41 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-06-24*
+*Updated on 2024-07-02*
 
+## 2024-07-02
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [猫鼠游戏](https://movie.douban.com/subject/1305487) | 42 ➡️ 43 | 9.1 |
+| [海蒂和爷爷](https://movie.douban.com/subject/25958717) | 43 ➡️ 42 | 9.3 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 106 ➡️ 107 | 8.8 |
+| [第六感](https://movie.douban.com/subject/1297630) | 107 ➡️ 106 | 8.9 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 137 ➡️ 138 | 8.7 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 138 ➡️ 137 | 8.9 |
+| [哪吒闹海](https://movie.douban.com/subject/1307315) | 146 ➡️ 147 | 9.2 |
+| [告白](https://movie.douban.com/subject/4268598) | 147 ➡️ 148 | 8.8 |
+| [玛丽和马克思](https://movie.douban.com/subject/3072124) | 148 ➡️ 149 | 9.0 |
+| [喜宴](https://movie.douban.com/subject/1303037) | 149 ➡️ 150 | 9.0 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 150 ➡️ 146 | 8.8 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 172 ➡️ 173 | 8.6 |
+| [风之谷](https://movie.douban.com/subject/1291585) | 173 ➡️ 174 | 8.9 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 174 ➡️ 172 | 9.5 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 175 ➡️ 176 | 8.9 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 176 ➡️ 175 | 8.7 |
+| [岁月神偷](https://movie.douban.com/subject/3792799) | 187 ➡️ 188 | 8.7 |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | 188 ➡️ 187 | 8.7 |
+| [你看起来好像很好吃](https://movie.douban.com/subject/4848115) | 201 ➡️ 202 | 8.9 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 202 ➡️ 201 | 8.9 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 204 ➡️ 205 | 9.3 |
+| [源代码](https://movie.douban.com/subject/3075287) | 205 ➡️ 204 | 8.5 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 208 ➡️ 209 | 8.6 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 209 ➡️ 208 | 8.7 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 225 ➡️ 226 | 8.8 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 226 ➡️ 225 | 9.5 |
 ## 2024-06-24
 
 
