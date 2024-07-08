@@ -2,8 +2,44 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-07-02*
+*Updated on 2024-07-08*
 
+## 2024-07-08
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [西西里的美丽传说](https://movie.douban.com/subject/1292402) | 69 ➡️ 70 | 8.9 |
+| [音乐之声](https://movie.douban.com/subject/1294408) | 70 ➡️ 69 | 9.1 |
+| [美国往事](https://movie.douban.com/subject/1292262) | 91 | 9.2 ➡️ 9.1 |
+| [七宗罪](https://movie.douban.com/subject/1292223) | 97 ➡️ 98 | 8.8 |
+| [一一](https://movie.douban.com/subject/1292434) | 98 ➡️ 97 | 9.1 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 107 ➡️ 108 | 8.8 |
+| [超能陆战队](https://movie.douban.com/subject/11026735) | 108 ➡️ 107 | 8.8 |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | 115 ➡️ 116 | 8.9 |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | 116 ➡️ 115 | 8.9 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 134 ➡️ 135 | 8.9 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 135 ➡️ 134 | 8.8 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 140 ➡️ 141 | 8.9 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 141 ➡️ 140 | 8.8 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 145 ➡️ 146 | 8.7 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 146 ➡️ 145 | 8.8 |
+| [黑客帝国3：矩阵革命](https://movie.douban.com/subject/1302467) | 162 ➡️ 163 | 8.8 |
+| [你的名字。](https://movie.douban.com/subject/26683290) | 163 ➡️ 162 | 8.5 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 171 ➡️ 172 | 9.0 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 172 ➡️ 171 | 9.5 |
+| [风之谷](https://movie.douban.com/subject/1291585) | 174 ➡️ 175 | 8.9 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 175 ➡️ 174 | 8.7 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 216 ➡️ 217 | 8.7 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 217 ➡️ 216 | 8.8 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 222 ➡️ 223 | 8.8 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 223 ➡️ 222 | 8.6 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 224 ➡️ 225 | 8.6 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 225 ➡️ 224 | 9.5 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 237 ➡️ 238 | 8.8 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 238 ➡️ 237 | 8.5 |
 ## 2024-07-02
 
 
