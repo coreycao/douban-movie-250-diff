@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-07-08*
+*Updated on 2024-07-09*
 
+## 2024-07-09
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 141 | 8.9 ➡️ 8.8 |
 ## 2024-07-08
 
 
