@@ -2,8 +2,38 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-07-09*
+*Updated on 2024-07-15*
 
+## 2024-07-15
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [摔跤吧！爸爸](https://movie.douban.com/subject/26387939) | 41 ➡️ 42 | 9.0 |
+| [海蒂和爷爷](https://movie.douban.com/subject/25958717) | 42 ➡️ 41 | 9.3 |
+| [海豚湾](https://movie.douban.com/subject/3442220) | 89 ➡️ 90 | 9.3 |
+| [喜剧之王](https://movie.douban.com/subject/1302425) | 90 ➡️ 89 | 8.8 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 140 ➡️ 141 | 8.8 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 141 ➡️ 142 | 8.8 |
+| [釜山行](https://movie.douban.com/subject/25986180) | 142 ➡️ 143 | 8.6 |
+| [神偷奶爸](https://movie.douban.com/subject/3287562) | 143 ➡️ 144 | 8.7 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 144 ➡️ 145 | 8.7 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 145 ➡️ 140 | 8.8 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 172 ➡️ 173 | 9.0 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 173 ➡️ 174 | 8.6 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 174 ➡️ 172 | 8.7 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 206 ➡️ 207 | 8.6 |
+| [海边的曼彻斯特](https://movie.douban.com/subject/25980443) | 207 ➡️ 208 | 8.6 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 208 ➡️ 206 | 8.7 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 214 ➡️ 215 | 8.5 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 215 ➡️ 214 | 9.3 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 220 ➡️ 221 | 8.7 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 221 ➡️ 222 | 8.7 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 222 ➡️ 223 | 8.6 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 223 ➡️ 224 | 8.8 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 224 ➡️ 220 | 9.5 |
 ## 2024-07-09
 
 
