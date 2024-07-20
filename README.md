@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-07-15*
+*Updated on 2024-07-20*
 
+## 2024-07-20
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [熔炉](https://movie.douban.com/subject/5912992) | 21 | 9.4 ➡️ 9.3 |
 ## 2024-07-15
 
 
