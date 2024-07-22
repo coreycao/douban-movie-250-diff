@@ -2,8 +2,37 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-07-20*
+*Updated on 2024-07-22*
 
+## 2024-07-22
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [活着](https://movie.douban.com/subject/1292365) | 29 ➡️ 30 | 9.3 |
+| [哈利·波特与魔法石](https://movie.douban.com/subject/1295038) | 30 ➡️ 29 | 9.2 |
+| [摔跤吧！爸爸](https://movie.douban.com/subject/26387939) | 42 ➡️ 43 | 9.0 |
+| [猫鼠游戏](https://movie.douban.com/subject/1305487) | 43 ➡️ 42 | 9.1 |
+| [禁闭岛](https://movie.douban.com/subject/2334904) | 80 ➡️ 81 | 8.9 |
+| [蝴蝶效应](https://movie.douban.com/subject/1292343) | 81 ➡️ 80 | 8.9 |
+| [美国往事](https://movie.douban.com/subject/1292262) | 91 ➡️ 92 | 9.1 |
+| [致命ID](https://movie.douban.com/subject/1297192) | 92 ➡️ 91 | 8.9 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 109 ➡️ 110 | 8.9 |
+| [重庆森林](https://movie.douban.com/subject/1291999) | 110 ➡️ 109 | 8.8 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 132 ➡️ 133 | 8.8 |
+| [教父3](https://movie.douban.com/subject/1294240) | 133 ➡️ 132 | 9.0 |
+| [神偷奶爸](https://movie.douban.com/subject/3287562) | 144 ➡️ 145 | 8.7 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 145 ➡️ 144 | 8.7 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | 184 ➡️ 185 | 8.7 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 185 ➡️ 184 | 9.1 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 193 ➡️ 194 | 8.7 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 194 ➡️ 193 | 8.5 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 227 ➡️ 228 | 8.6 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 228 ➡️ 227 | 8.6 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 239 ➡️ 240 | 8.8 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 240 ➡️ 239 | 8.8 |
 ## 2024-07-20
 
 
