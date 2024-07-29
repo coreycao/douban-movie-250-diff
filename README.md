@@ -2,8 +2,40 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-07-22*
+*Updated on 2024-07-29*
 
+## 2024-07-29
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [蝴蝶效应](https://movie.douban.com/subject/1292343) | 80 ➡️ 81 | 8.9 |
+| [禁闭岛](https://movie.douban.com/subject/2334904) | 81 ➡️ 82 | 8.9 |
+| [哈利·波特与阿兹卡班的囚徒](https://movie.douban.com/subject/1291544) | 82 ➡️ 80 | 9.0 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 123 ➡️ 124 | 8.8 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 124 ➡️ 123 | 9.1 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 130 ➡️ 131 | 8.8 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 131 ➡️ 130 | 9.6 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 135 ➡️ 136 | 8.9 |
+| [新世界](https://movie.douban.com/subject/10437779) | 136 ➡️ 135 | 8.9 |
+| [血战钢锯岭](https://movie.douban.com/subject/26325320) | 158 ➡️ 159 | 8.7 |
+| [惊魂记](https://movie.douban.com/subject/1293181) | 159 ➡️ 158 | 9.0 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 171 ➡️ 172 | 9.5 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 172 ➡️ 171 | 8.7 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 182 ➡️ 183 | 8.9 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 183 ➡️ 182 | 8.8 |
+| [雨人](https://movie.douban.com/subject/1291870) | 211 ➡️ 212 | 8.7 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 212 ➡️ 213 | 8.6 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 213 ➡️ 211 | 8.4 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 218 ➡️ 219 | 8.9 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 219 ➡️ 220 | 8.5 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 220 ➡️ 218 | 9.5 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 238 ➡️ 239 | 8.8 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 239 ➡️ 238 | 8.8 |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | 242 ➡️ 243 | 8.8 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | 243 ➡️ 242 | 8.7 |
 ## 2024-07-22
 
 
