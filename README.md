@@ -2,8 +2,36 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-07-29*
+*Updated on 2024-08-05*
 
+## 2024-08-05
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [飞越疯人院](https://movie.douban.com/subject/1292224) | 76 ➡️ 77 | 9.1 |
+| [功夫](https://movie.douban.com/subject/1291543) | 77 ➡️ 76 | 8.8 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 126 ➡️ 127 | 8.7 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 127 ➡️ 128 | 9.0 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 128 ➡️ 126 | 8.8 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 133 ➡️ 134 | 8.8 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 134 ➡️ 133 | 8.8 |
+| [谍影重重3](https://movie.douban.com/subject/1578507) | 169 ➡️ 170 | 8.8 |
+| [小丑](https://movie.douban.com/subject/27119724) | 170 ➡️ 169 | 8.7 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 180 ➡️ 181 | 8.9 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 181 ➡️ 180 | 8.6 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 182 ➡️ 183 | 8.8 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 183 ➡️ 182 | 8.9 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 200 ➡️ 201 | 8.6 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 201 ➡️ 200 | 8.9 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 207 ➡️ 208 | 8.6 |
+| [海边的曼彻斯特](https://movie.douban.com/subject/25980443) | 208 ➡️ 207 | 8.6 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 237 ➡️ 238 | 8.5 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 238 ➡️ 237 | 8.8 |
+| [房间](https://movie.douban.com/subject/25724855) | 241 ➡️ 242 | 8.8 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | 242 ➡️ 241 | 8.7 |
 ## 2024-07-29
 
 
