@@ -2,8 +2,35 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-08-05*
+*Updated on 2024-08-12*
 
+## 2024-08-12
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [小鞋子](https://movie.douban.com/subject/1303021) | 75 ➡️ 76 | 9.2 |
+| [功夫](https://movie.douban.com/subject/1291543) | 76 ➡️ 75 | 8.8 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 113 ➡️ 114 | 8.9 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 114 ➡️ 113 | 8.8 |
+| [釜山行](https://movie.douban.com/subject/25986180) | 143 ➡️ 144 | 8.6 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 144 ➡️ 143 | 8.7 |
+| [风之谷](https://movie.douban.com/subject/1291585) | 175 ➡️ 176 | 8.9 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 176 ➡️ 175 | 8.9 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 182 ➡️ 183 | 8.9 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 183 ➡️ 182 | 8.8 |
+| [雨人](https://movie.douban.com/subject/1291870) | 212 ➡️ 213 | 8.7 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 213 ➡️ 212 | 8.6 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 216 ➡️ 217 | 8.8 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 217 ➡️ 218 | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 218 ➡️ 216 | 9.5 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 221 ➡️ 223 | 8.7 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 222 ➡️ 221 | 8.7 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 223 ➡️ 222 | 8.6 |
+| [血钻](https://movie.douban.com/subject/1428175) | 236 ➡️ 237 | 8.7 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 237 ➡️ 236 | 8.8 |
 ## 2024-08-05
 
 
