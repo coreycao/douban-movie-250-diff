@@ -2,8 +2,45 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-08-12*
+*Updated on 2024-08-19*
 
+## 2024-08-19
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [被嫌弃的松子的一生](https://movie.douban.com/subject/1787291) | 102 ➡️ 103 | 8.8 |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 103 ➡️ 102 | 8.9 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 112 ➡️ 113 | 8.7 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 113 ➡️ 112 | 8.8 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 127 ➡️ 128 | 8.7 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 128 ➡️ 127 | 9.0 |
+| [侧耳倾听](https://movie.douban.com/subject/1297052) | 129 ➡️ 130 | 8.9 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 130 ➡️ 129 | 9.6 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 133 ➡️ 134 | 8.8 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 134 ➡️ 135 | 8.8 |
+| [新世界](https://movie.douban.com/subject/10437779) | 135 ➡️ 133 | 8.9 |
+| [玛丽和马克思](https://movie.douban.com/subject/3072124) | 149 ➡️ 150 | 9.0 |
+| [喜宴](https://movie.douban.com/subject/1303037) | 150 ➡️ 149 | 9.0 |
+| [电锯惊魂](https://movie.douban.com/subject/1417598) | 165 ➡️ 166 | 8.7 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | 166 ➡️ 165 | 8.8 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 174 ➡️ 175 | 8.6 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 175 ➡️ 174 | 8.9 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 195 ➡️ 196 | 9.0 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 196 ➡️ 195 | 8.7 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 212 ➡️ 213 | 8.6 |
+| [雨人](https://movie.douban.com/subject/1291870) | 213 ➡️ 214 | 8.7 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 214 ➡️ 212 | 9.3 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 215 ➡️ 216 | 8.5 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 216 ➡️ 215 | 9.5 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 221 ➡️ 222 | 8.7 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 222 ➡️ 221 | 8.6 |
+| [战争之王](https://movie.douban.com/subject/1419936) | 235 ➡️ 236 | 8.7 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 236 ➡️ 235 | 8.8 |
+| [血钻](https://movie.douban.com/subject/1428175) | 237 ➡️ 238 | 8.7 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 238 ➡️ 237 | 8.5 |
 ## 2024-08-12
 
 
