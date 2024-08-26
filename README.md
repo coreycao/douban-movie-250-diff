@@ -2,8 +2,55 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-08-19*
+*Updated on 2024-08-26*
 
+## 2024-08-26
+
+#### 新上榜电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [冰雪奇缘](https://movie.douban.com/subject/4202982) | 8.5 |
+
+#### 退出榜单电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [再次出发之纽约遇见你](https://movie.douban.com/subject/6874403) | 8.6 |
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [春光乍泄](https://movie.douban.com/subject/1292679) | 88 ➡️ 89 | 9.0 |
+| [喜剧之王](https://movie.douban.com/subject/1302425) | 89 ➡️ 88 | 8.8 |
+| [狩猎](https://movie.douban.com/subject/6985810) | 99 ➡️ 100 | 9.1 |
+| [唐伯虎点秋香](https://movie.douban.com/subject/1306249) | 100 ➡️ 99 | 8.7 |
+| [断背山](https://movie.douban.com/subject/1418834) | 111 ➡️ 112 | 8.8 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 112 ➡️ 111 | 8.8 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 139 ➡️ 140 | 9.0 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 140 ➡️ 139 | 8.8 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 142 ➡️ 143 | 8.8 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 143 ➡️ 142 | 8.7 |
+| [大鱼](https://movie.douban.com/subject/1291545) | 151 ➡️ 152 | 8.8 |
+| [模仿游戏](https://movie.douban.com/subject/10463953) | 152 ➡️ 151 | 8.8 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 173 ➡️ 174 | 9.0 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 174 ➡️ 173 | 8.9 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 181 ➡️ 182 | 8.9 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 182 ➡️ 181 | 8.8 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 189 ➡️ 190 | 9.2 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 190 ➡️ 189 | 8.8 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 195 ➡️ 196 | 8.7 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 196 ➡️ 195 | 9.0 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 205 ➡️ 206 | 9.3 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 206 ➡️ 205 | 8.7 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 211 ➡️ 212 | 8.4 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 212 ➡️ 211 | 9.3 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 213 ➡️ 214 | 8.6 |
+| [雨人](https://movie.douban.com/subject/1291870) | 214 ➡️ 215 | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 215 ➡️ 213 | 9.5 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 239 ➡️ 240 | 8.8 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 240 ➡️ 239 | 8.8 |
 ## 2024-08-19
 
 
