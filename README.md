@@ -2,8 +2,30 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-08-26*
+*Updated on 2024-09-02*
 
+## 2024-09-02
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [美国往事](https://movie.douban.com/subject/1292262) | 92 ➡️ 93 | 9.1 |
+| [杀人回忆](https://movie.douban.com/subject/1300299) | 93 ➡️ 92 | 8.9 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 108 ➡️ 109 | 8.8 |
+| [重庆森林](https://movie.douban.com/subject/1291999) | 109 ➡️ 108 | 8.8 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 137 ➡️ 138 | 8.9 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 138 ➡️ 137 | 8.7 |
+| [疯狂原始人](https://movie.douban.com/subject/1907966) | 168 ➡️ 169 | 8.7 |
+| [小丑](https://movie.douban.com/subject/27119724) | 169 ➡️ 168 | 8.7 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 198 ➡️ 199 | 8.6 |
+| [遗愿清单](https://movie.douban.com/subject/1867345) | 199 ➡️ 198 | 8.7 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 211 ➡️ 212 | 9.3 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 212 ➡️ 213 | 8.4 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 213 ➡️ 211 | 9.5 |
+| [阿飞正传](https://movie.douban.com/subject/1305690) | 247 ➡️ 248 | 8.5 |
+| [朗读者](https://movie.douban.com/subject/2213597) | 248 ➡️ 247 | 8.6 |
 ## 2024-08-26
 
 #### 新上榜电影
