@@ -2,8 +2,31 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-09-02*
+*Updated on 2024-09-09*
 
+## 2024-09-09
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 113 ➡️ 114 | 8.7 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 114 ➡️ 113 | 8.9 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | 157 ➡️ 158 | 9.0 |
+| [惊魂记](https://movie.douban.com/subject/1293181) | 158 ➡️ 157 | 9.0 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 173 ➡️ 174 | 8.9 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 174 ➡️ 173 | 9.0 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 182 ➡️ 183 | 8.9 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 183 ➡️ 182 | 8.9 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 195 ➡️ 196 | 9.0 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 196 ➡️ 195 | 8.7 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 220 ➡️ 221 | 8.5 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 221 ➡️ 220 | 8.6 |
+| [二十二](https://movie.douban.com/subject/26430107) | 234 ➡️ 235 | 8.7 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 235 ➡️ 234 | 8.8 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 239 ➡️ 240 | 8.8 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 240 ➡️ 239 | 8.8 |
 ## 2024-09-02
 
 
