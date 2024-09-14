@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-09-09*
+*Updated on 2024-09-14*
 
+## 2024-09-14
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 200 | 8.9 ➡️ 9.0 |
 ## 2024-09-09
 
 
