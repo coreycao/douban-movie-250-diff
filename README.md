@@ -2,8 +2,33 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-09-14*
+*Updated on 2024-09-16*
 
+## 2024-09-16
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [西西里的美丽传说](https://movie.douban.com/subject/1292402) | 70 ➡️ 71 | 8.9 |
+| [看不见的客人](https://movie.douban.com/subject/26580232) | 71 ➡️ 70 | 8.8 |
+| [加勒比海盗](https://movie.douban.com/subject/1298070) | 96 ➡️ 97 | 8.8 |
+| [一一](https://movie.douban.com/subject/1292434) | 97 ➡️ 96 | 9.1 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 109 ➡️ 110 | 8.8 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 110 ➡️ 111 | 8.9 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 111 ➡️ 109 | 8.8 |
+| [风之谷](https://movie.douban.com/subject/1291585) | 176 ➡️ 177 | 8.9 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 177 ➡️ 176 | 8.9 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 195 ➡️ 196 | 8.7 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 196 ➡️ 195 | 9.0 |
+| [遗愿清单](https://movie.douban.com/subject/1867345) | 198 ➡️ 199 | 8.7 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 199 ➡️ 200 | 8.6 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 200 ➡️ 198 | 9.0 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 210 ➡️ 211 | 8.5 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 211 ➡️ 210 | 9.5 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 228 ➡️ 229 | 8.6 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 229 ➡️ 228 | 8.6 |
 ## 2024-09-14
 
 
