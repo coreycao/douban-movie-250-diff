@@ -2,8 +2,43 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-09-16*
+*Updated on 2024-09-23*
 
+## 2024-09-23
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [天堂电影院](https://movie.douban.com/subject/1291828) | 57 ➡️ 58 | 9.2 |
+| [教父2](https://movie.douban.com/subject/1299131) | 58 ➡️ 57 | 9.3 |
+| [看不见的客人](https://movie.douban.com/subject/26580232) | 70 ➡️ 71 | 8.8 |
+| [西西里的美丽传说](https://movie.douban.com/subject/1292402) | 71 ➡️ 70 | 8.9 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 110 ➡️ 111 | 8.8 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 111 ➡️ 110 | 8.9 |
+| [断背山](https://movie.douban.com/subject/1418834) | 112 ➡️ 113 | 8.8 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 113 ➡️ 112 | 8.9 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 124 ➡️ 125 | 8.8 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 125 ➡️ 124 | 8.8 |
+| [教父3](https://movie.douban.com/subject/1294240) | 132 ➡️ 133 | 9.0 |
+| [新世界](https://movie.douban.com/subject/10437779) | 133 ➡️ 132 | 8.9 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 143 ➡️ 144 | 8.8 |
+| [釜山行](https://movie.douban.com/subject/25986180) | 144 ➡️ 143 | 8.6 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 153 ➡️ 154 | 8.6 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 154 ➡️ 153 | 8.8 |
+| [风之谷](https://movie.douban.com/subject/1291585) | 177 ➡️ 178 | 8.9 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 178 ➡️ 177 | 8.8 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 180 ➡️ 181 | 8.6 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 181 ➡️ 180 | 8.8 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 183 ➡️ 184 | 8.9 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 184 ➡️ 183 | 9.1 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 189 ➡️ 190 | 8.8 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 190 ➡️ 189 | 9.2 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 232 ➡️ 233 | 8.6 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 233 ➡️ 232 | 8.5 |
+| [朗读者](https://movie.douban.com/subject/2213597) | 247 ➡️ 248 | 8.6 |
+| [阿飞正传](https://movie.douban.com/subject/1305690) | 248 ➡️ 247 | 8.5 |
 ## 2024-09-16
 
 
