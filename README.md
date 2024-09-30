@@ -2,8 +2,33 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-09-23*
+*Updated on 2024-09-30*
 
+## 2024-09-30
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [十二怒汉](https://movie.douban.com/subject/1293182) | 38 ➡️ 39 | 9.4 |
+| [让子弹飞](https://movie.douban.com/subject/3742360) | 39 ➡️ 38 | 9.0 |
+| [重庆森林](https://movie.douban.com/subject/1291999) | 108 ➡️ 109 | 8.8 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 109 ➡️ 108 | 8.8 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 112 ➡️ 113 | 8.9 |
+| [断背山](https://movie.douban.com/subject/1418834) | 113 ➡️ 112 | 8.8 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 175 ➡️ 177 | 8.6 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 176 ➡️ 175 | 8.9 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 177 ➡️ 176 | 8.8 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 189 ➡️ 191 | 9.2 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 190 ➡️ 189 | 8.8 |
+| [冰川时代](https://movie.douban.com/subject/1291578) | 191 ➡️ 190 | 8.6 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 195 ➡️ 196 | 9.0 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 196 ➡️ 195 | 8.7 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 219 ➡️ 220 | 8.9 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 220 ➡️ 219 | 8.6 |
+| [战争之王](https://movie.douban.com/subject/1419936) | 236 ➡️ 237 | 8.7 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 237 ➡️ 236 | 8.5 |
 ## 2024-09-23
 
 
