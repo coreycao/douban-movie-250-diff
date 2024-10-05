@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-09-30*
+*Updated on 2024-10-05*
 
+## 2024-10-05
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [功夫](https://movie.douban.com/subject/1291543) | 75 | 8.8 ➡️ 8.9 |
 ## 2024-09-30
 
 
