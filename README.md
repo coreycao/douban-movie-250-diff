@@ -2,8 +2,47 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-10-05*
+*Updated on 2024-10-08*
 
+## 2024-10-08
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [这个杀手不太冷](https://movie.douban.com/subject/1295644) | 6 ➡️ 7 | 9.4 |
+| [美丽人生](https://movie.douban.com/subject/1292063) | 7 ➡️ 6 | 9.5 |
+| [西西里的美丽传说](https://movie.douban.com/subject/1292402) | 70 ➡️ 71 | 8.9 |
+| [看不见的客人](https://movie.douban.com/subject/26580232) | 71 ➡️ 70 | 8.8 |
+| [被嫌弃的松子的一生](https://movie.douban.com/subject/1787291) | 103 ➡️ 104 | 8.8 |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | 104 ➡️ 103 | 8.9 |
+| [断背山](https://movie.douban.com/subject/1418834) | 112 ➡️ 114 | 8.8 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 113 ➡️ 112 | 8.9 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 114 ➡️ 115 | 8.7 |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | 115 ➡️ 113 | 8.9 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 123 ➡️ 124 | 9.1 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 124 ➡️ 123 | 8.8 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 125 ➡️ 126 | 8.8 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 126 ➡️ 125 | 8.8 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 135 ➡️ 136 | 8.8 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 136 ➡️ 137 | 8.9 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 137 ➡️ 138 | 8.7 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 138 ➡️ 139 | 8.9 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 139 ➡️ 135 | 8.8 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 144 ➡️ 145 | 8.8 |
+| [神偷奶爸](https://movie.douban.com/subject/3287562) | 145 ➡️ 144 | 8.7 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 153 ➡️ 154 | 8.8 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 154 ➡️ 153 | 8.6 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 179 ➡️ 180 | 8.8 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 180 ➡️ 179 | 8.8 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 189 ➡️ 190 | 8.8 |
+| [冰川时代](https://movie.douban.com/subject/1291578) | 190 ➡️ 189 | 8.6 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 232 ➡️ 233 | 8.5 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 233 ➡️ 234 | 8.6 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 234 ➡️ 232 | 8.8 |
+| [阿飞正传](https://movie.douban.com/subject/1305690) | 247 ➡️ 248 | 8.5 |
+| [朗读者](https://movie.douban.com/subject/2213597) | 248 ➡️ 247 | 8.6 |
 ## 2024-10-05
 
 
