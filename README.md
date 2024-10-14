@@ -2,8 +2,42 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-10-08*
+*Updated on 2024-10-14*
 
+## 2024-10-14
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [红辣椒](https://movie.douban.com/subject/1865703) | 95 ➡️ 96 | 9.1 |
+| [一一](https://movie.douban.com/subject/1292434) | 96 ➡️ 95 | 9.1 |
+| [第六感](https://movie.douban.com/subject/1297630) | 106 ➡️ 107 | 8.9 |
+| [超能陆战队](https://movie.douban.com/subject/11026735) | 107 ➡️ 106 | 8.8 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 112 ➡️ 113 | 8.9 |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | 113 ➡️ 112 | 8.9 |
+| [断背山](https://movie.douban.com/subject/1418834) | 114 ➡️ 115 | 8.8 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 115 ➡️ 114 | 8.7 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 123 ➡️ 124 | 8.8 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 124 ➡️ 125 | 9.1 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 125 ➡️ 123 | 8.8 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 127 ➡️ 128 | 9.0 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 128 ➡️ 129 | 8.7 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 129 ➡️ 127 | 9.6 |
+| [大鱼](https://movie.douban.com/subject/1291545) | 152 ➡️ 153 | 8.8 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 153 ➡️ 152 | 8.6 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 180 ➡️ 181 | 8.8 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 181 ➡️ 180 | 8.6 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 191 ➡️ 192 | 9.2 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 192 ➡️ 191 | 8.9 |
+| [可可西里](https://movie.douban.com/subject/1308857) | 203 ➡️ 204 | 8.9 |
+| [源代码](https://movie.douban.com/subject/3075287) | 204 ➡️ 203 | 8.5 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 209 ➡️ 210 | 8.6 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 210 ➡️ 209 | 9.5 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 226 ➡️ 227 | 8.8 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 227 ➡️ 228 | 8.6 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 228 ➡️ 226 | 8.6 |
 ## 2024-10-08
 
 
