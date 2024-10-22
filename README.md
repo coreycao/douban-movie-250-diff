@@ -2,8 +2,36 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-10-14*
+*Updated on 2024-10-22*
 
+## 2024-10-22
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 134 ➡️ 135 | 8.8 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 135 ➡️ 134 | 8.8 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 141 ➡️ 142 | 8.8 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 142 ➡️ 141 | 8.7 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 152 ➡️ 153 | 8.6 |
+| [大鱼](https://movie.douban.com/subject/1291545) | 153 ➡️ 154 | 8.8 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 154 ➡️ 152 | 8.8 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 195 ➡️ 196 | 8.7 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 196 ➡️ 195 | 9.0 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 208 ➡️ 209 | 8.6 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 209 ➡️ 208 | 9.5 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 211 ➡️ 212 | 8.5 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 212 ➡️ 211 | 9.3 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 218 ➡️ 219 | 8.7 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 219 ➡️ 218 | 8.6 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 221 ➡️ 222 | 8.5 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 222 ➡️ 221 | 8.7 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 227 ➡️ 228 | 8.8 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 228 ➡️ 227 | 8.6 |
+| [阿飞正传](https://movie.douban.com/subject/1305690) | 248 ➡️ 249 | 8.5 |
+| [隐藏人物](https://movie.douban.com/subject/26615208) | 249 ➡️ 248 | 8.9 |
 ## 2024-10-14
 
 
