@@ -2,8 +2,52 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-10-22*
+*Updated on 2024-10-28*
 
+## 2024-10-28
+
+#### 新上榜电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 247 | [机器人之梦](https://movie.douban.com/subject/35426925) | 9.0 |
+
+#### 退出榜单电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [冰雪奇缘](https://movie.douban.com/subject/4202982) | 8.5 |
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [布达佩斯大饭店](https://movie.douban.com/subject/11525673) | 79 ➡️ 80 | 8.9 |
+| [哈利·波特与阿兹卡班的囚徒](https://movie.douban.com/subject/1291544) | 80 ➡️ 79 | 9.0 |
+| [美国往事](https://movie.douban.com/subject/1292262) | 93 ➡️ 94 | 9.1 |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | 94 ➡️ 93 | 8.9 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 111 ➡️ 112 | 8.8 |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | 112 ➡️ 111 | 8.9 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 128 ➡️ 129 | 9.0 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 129 ➡️ 128 | 8.7 |
+| [教父3](https://movie.douban.com/subject/1294240) | 133 ➡️ 134 | 9.0 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 134 ➡️ 133 | 8.8 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 136 ➡️ 137 | 8.8 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 137 ➡️ 138 | 8.9 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 138 ➡️ 136 | 8.7 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 190 ➡️ 191 | 8.8 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 191 ➡️ 190 | 8.9 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 195 ➡️ 196 | 9.0 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 196 ➡️ 195 | 8.7 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 206 ➡️ 207 | 9.3 |
+| [海边的曼彻斯特](https://movie.douban.com/subject/25980443) | 207 ➡️ 208 | 8.6 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 208 ➡️ 206 | 9.5 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 209 ➡️ 210 | 8.6 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 210 ➡️ 209 | 8.6 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 230 ➡️ 231 | 8.7 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 231 ➡️ 230 | 8.7 |
+| [朗读者](https://movie.douban.com/subject/2213597) | 247 ➡️ 249 | 8.6 |
+| [阿飞正传](https://movie.douban.com/subject/1305690) | 249 ➡️ 250 | 8.5 |
 ## 2024-10-22
 
 
