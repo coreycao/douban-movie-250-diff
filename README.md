@@ -2,8 +2,49 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-10-28*
+*Updated on 2024-11-04*
 
+## 2024-11-04
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [当幸福来敲门](https://movie.douban.com/subject/1849031) | 24 ➡️ 25 | 9.2 |
+| [寻梦环游记](https://movie.douban.com/subject/20495023) | 25 ➡️ 24 | 9.1 |
+| [怦然心动](https://movie.douban.com/subject/3319755) | 28 ➡️ 29 | 9.1 |
+| [哈利·波特与魔法石](https://movie.douban.com/subject/1295038) | 29 ➡️ 28 | 9.2 |
+| [沉默的羔羊](https://movie.douban.com/subject/1293544) | 78 ➡️ 79 | 8.9 |
+| [哈利·波特与阿兹卡班的囚徒](https://movie.douban.com/subject/1291544) | 79 ➡️ 78 | 9.0 |
+| [时空恋旅人](https://movie.douban.com/subject/10577869) | 122 ➡️ 123 | 8.8 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 123 ➡️ 122 | 8.8 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 128 ➡️ 129 | 8.7 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 129 ➡️ 128 | 9.0 |
+| [新世界](https://movie.douban.com/subject/10437779) | 132 ➡️ 133 | 8.9 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 133 ➡️ 132 | 8.8 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 137 ➡️ 138 | 8.8 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 138 ➡️ 137 | 8.9 |
+| [射雕英雄传之东成西就](https://movie.douban.com/subject/1316510) | 155 ➡️ 156 | 8.7 |
+| [七武士](https://movie.douban.com/subject/1295399) | 156 ➡️ 155 | 9.3 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | 197 ➡️ 198 | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 198 ➡️ 197 | 9.0 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 209 ➡️ 210 | 8.6 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 210 ➡️ 209 | 8.6 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 224 ➡️ 226 | 8.8 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 225 ➡️ 227 | 8.6 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 226 ➡️ 225 | 8.6 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 227 ➡️ 224 | 8.6 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 230 ➡️ 231 | 8.7 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 231 ➡️ 232 | 8.7 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 232 ➡️ 230 | 8.8 |
+| [二十二](https://movie.douban.com/subject/26430107) | 235 ➡️ 236 | 8.7 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 236 ➡️ 235 | 8.5 |
+| [血钻](https://movie.douban.com/subject/1428175) | 238 ➡️ 239 | 8.7 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 239 ➡️ 238 | 8.8 |
+| [弱点](https://movie.douban.com/subject/3552028) | 245 ➡️ 246 | 8.7 |
+| [谍影重重](https://movie.douban.com/subject/1304102) | 246 ➡️ 247 | 8.6 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 247 ➡️ 245 | 9.0 |
 ## 2024-10-28
 
 #### 新上榜电影
