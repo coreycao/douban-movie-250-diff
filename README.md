@@ -2,8 +2,49 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-11-04*
+*Updated on 2024-11-12*
 
+## 2024-11-12
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [飞越疯人院](https://movie.douban.com/subject/1292224) | 77 ➡️ 78 | 9.1 |
+| [哈利·波特与阿兹卡班的囚徒](https://movie.douban.com/subject/1291544) | 78 ➡️ 77 | 9.0 |
+| [杀人回忆](https://movie.douban.com/subject/1300299) | 92 ➡️ 93 | 8.9 |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | 93 ➡️ 92 | 8.9 |
+| [消失的爱人](https://movie.douban.com/subject/21318488) | 120 ➡️ 121 | 8.7 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 121 ➡️ 122 | 9.1 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 122 ➡️ 120 | 8.8 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 152 ➡️ 153 | 8.8 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 153 ➡️ 152 | 8.6 |
+| [达拉斯买家俱乐部](https://movie.douban.com/subject/1793929) | 167 ➡️ 168 | 8.8 |
+| [小丑](https://movie.douban.com/subject/27119724) | 168 ➡️ 167 | 8.7 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 171 ➡️ 172 | 8.7 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 172 ➡️ 171 | 9.5 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 181 ➡️ 182 | 8.8 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 182 ➡️ 181 | 8.9 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 195 ➡️ 196 | 8.7 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 196 ➡️ 195 | 9.0 |
+| [源代码](https://movie.douban.com/subject/3075287) | 203 ➡️ 204 | 8.5 |
+| [可可西里](https://movie.douban.com/subject/1308857) | 204 ➡️ 205 | 8.9 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 205 ➡️ 206 | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 206 ➡️ 203 | 9.5 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 209 ➡️ 210 | 8.6 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 210 ➡️ 209 | 8.6 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 212 ➡️ 213 | 8.5 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 213 ➡️ 212 | 8.4 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 226 ➡️ 227 | 8.8 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 227 ➡️ 226 | 8.6 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 234 ➡️ 235 | 8.6 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 235 ➡️ 234 | 8.5 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | 241 ➡️ 242 | 8.7 |
+| [房间](https://movie.douban.com/subject/25724855) | 242 ➡️ 243 | 8.8 |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | 243 ➡️ 244 | 8.8 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 244 ➡️ 245 | 8.6 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 245 ➡️ 241 | 9.0 |
 ## 2024-11-04
 
 
