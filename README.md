@@ -2,8 +2,36 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-11-12*
+*Updated on 2024-11-18*
 
+## 2024-11-18
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [何以为家](https://movie.douban.com/subject/30170448) | 40 ➡️ 41 | 9.1 |
+| [海蒂和爷爷](https://movie.douban.com/subject/25958717) | 41 ➡️ 40 | 9.3 |
+| [小鞋子](https://movie.douban.com/subject/1303021) | 76 ➡️ 77 | 9.2 |
+| [哈利·波特与阿兹卡班的囚徒](https://movie.douban.com/subject/1291544) | 77 ➡️ 76 | 9.0 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 126 ➡️ 127 | 8.8 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 127 ➡️ 126 | 9.6 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | 158 ➡️ 159 | 9.0 |
+| [血战钢锯岭](https://movie.douban.com/subject/26325320) | 159 ➡️ 158 | 8.7 |
+| [谍影重重3](https://movie.douban.com/subject/1578507) | 170 ➡️ 172 | 8.8 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 171 ➡️ 170 | 9.5 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 172 ➡️ 171 | 8.7 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 217 ➡️ 218 | 8.8 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 218 ➡️ 217 | 8.6 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 233 ➡️ 234 | 8.5 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 234 ➡️ 233 | 8.5 |
+| [二十二](https://movie.douban.com/subject/26430107) | 236 ➡️ 237 | 8.7 |
+| [战争之王](https://movie.douban.com/subject/1419936) | 237 ➡️ 238 | 8.7 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 238 ➡️ 239 | 8.8 |
+| [血钻](https://movie.douban.com/subject/1428175) | 239 ➡️ 240 | 8.7 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 240 ➡️ 241 | 8.8 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 241 ➡️ 236 | 9.0 |
 ## 2024-11-12
 
 
