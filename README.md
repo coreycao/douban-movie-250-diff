@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-11-18*
+*Updated on 2024-11-24*
 
+## 2024-11-24
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [红辣椒](https://movie.douban.com/subject/1865703) | 96 | 9.1 ➡️ 9.0 |
 ## 2024-11-18
 
 
