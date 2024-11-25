@@ -2,8 +2,43 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-11-24*
+*Updated on 2024-11-25*
 
+## 2024-11-25
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [摔跤吧！爸爸](https://movie.douban.com/subject/26387939) | 43 ➡️ 44 | 9.0 |
+| [天空之城](https://movie.douban.com/subject/1291583) | 44 ➡️ 43 | 9.2 |
+| [闻香识女人](https://movie.douban.com/subject/1298624) | 50 ➡️ 51 | 9.1 |
+| [死亡诗社](https://movie.douban.com/subject/1291548) | 51 ➡️ 50 | 9.2 |
+| [致命ID](https://movie.douban.com/subject/1297192) | 91 ➡️ 92 | 8.9 |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | 92 ➡️ 91 | 8.9 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 110 ➡️ 111 | 8.9 |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | 111 ➡️ 110 | 8.9 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 112 ➡️ 113 | 8.8 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 113 ➡️ 112 | 8.9 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 124 ➡️ 125 | 8.8 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 125 ➡️ 126 | 9.1 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 126 ➡️ 124 | 9.6 |
+| [侧耳倾听](https://movie.douban.com/subject/1297052) | 130 ➡️ 131 | 8.9 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 131 ➡️ 130 | 8.8 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 138 ➡️ 139 | 8.8 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 139 ➡️ 138 | 8.9 |
+| [疯狂原始人](https://movie.douban.com/subject/1907966) | 169 ➡️ 170 | 8.7 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 170 ➡️ 169 | 9.5 |
+| [冰川时代](https://movie.douban.com/subject/1291578) | 189 ➡️ 190 | 8.6 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 190 ➡️ 189 | 8.9 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 194 ➡️ 195 | 8.7 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 195 ➡️ 194 | 9.0 |
+| [你看起来好像很好吃](https://movie.douban.com/subject/4848115) | 202 ➡️ 203 | 8.9 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 203 ➡️ 202 | 9.5 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 234 ➡️ 235 | 8.5 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 235 ➡️ 236 | 8.6 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 236 ➡️ 234 | 9.0 |
 ## 2024-11-24
 
 
