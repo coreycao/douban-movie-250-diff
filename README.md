@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-11-25*
+*Updated on 2024-12-01*
 
+## 2024-12-01
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 195 | 8.7 ➡️ 8.6 |
 ## 2024-11-25
 
 
