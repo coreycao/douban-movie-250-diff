@@ -2,8 +2,38 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-12-01*
+*Updated on 2024-12-02*
 
+## 2024-12-02
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [看不见的客人](https://movie.douban.com/subject/26580232) | 70 ➡️ 71 | 8.8 |
+| [西西里的美丽传说](https://movie.douban.com/subject/1292402) | 71 ➡️ 72 | 8.9 |
+| [哈利·波特与死亡圣器(下)](https://movie.douban.com/subject/3011235) | 72 ➡️ 70 | 9.0 |
+| [海豚湾](https://movie.douban.com/subject/3442220) | 90 ➡️ 91 | 9.3 |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | 91 ➡️ 90 | 8.9 |
+| [疯狂原始人](https://movie.douban.com/subject/1907966) | 170 ➡️ 171 | 8.7 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 171 ➡️ 170 | 8.7 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 173 ➡️ 174 | 9.0 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 174 ➡️ 173 | 8.9 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 189 ➡️ 190 | 8.9 |
+| [冰川时代](https://movie.douban.com/subject/1291578) | 190 ➡️ 189 | 8.6 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 196 ➡️ 197 | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 197 ➡️ 196 | 9.0 |
+| [雨人](https://movie.douban.com/subject/1291870) | 215 ➡️ 217 | 8.7 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 217 ➡️ 215 | 8.6 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 222 ➡️ 224 | 8.5 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 224 ➡️ 222 | 8.6 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 230 ➡️ 231 | 8.8 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 231 ➡️ 232 | 8.7 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 232 ➡️ 234 | 8.7 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 234 ➡️ 230 | 9.0 |
+| [血钻](https://movie.douban.com/subject/1428175) | 240 ➡️ 241 | 8.7 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 241 ➡️ 240 | 8.8 |
 ## 2024-12-01
 
 
