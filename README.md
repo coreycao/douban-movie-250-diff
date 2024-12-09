@@ -2,8 +2,42 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-12-02*
+*Updated on 2024-12-09*
 
+## 2024-12-09
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [天空之城](https://movie.douban.com/subject/1291583) | 43 ➡️ 44 | 9.2 |
+| [摔跤吧！爸爸](https://movie.douban.com/subject/26387939) | 44 ➡️ 43 | 9.0 |
+| [音乐之声](https://movie.douban.com/subject/1294408) | 69 ➡️ 70 | 9.1 |
+| [哈利·波特与死亡圣器(下)](https://movie.douban.com/subject/3011235) | 70 ➡️ 69 | 9.0 |
+| [海豚湾](https://movie.douban.com/subject/3442220) | 91 ➡️ 92 | 9.3 |
+| [致命ID](https://movie.douban.com/subject/1297192) | 92 ➡️ 91 | 8.9 |
+| [教父3](https://movie.douban.com/subject/1294240) | 134 ➡️ 135 | 9.0 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 135 ➡️ 134 | 8.8 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 175 ➡️ 176 | 8.9 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 176 ➡️ 175 | 8.8 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 182 ➡️ 183 | 8.8 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 183 ➡️ 182 | 9.1 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 194 ➡️ 196 | 9.0 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 195 ➡️ 194 | 8.6 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 196 ➡️ 195 | 9.0 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 201 ➡️ 202 | 8.6 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 202 ➡️ 201 | 9.5 |
+| [可可西里](https://movie.douban.com/subject/1308857) | 205 ➡️ 206 | 8.9 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 206 ➡️ 205 | 8.7 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 207 ➡️ 208 | 9.3 |
+| [海边的曼彻斯特](https://movie.douban.com/subject/25980443) | 208 ➡️ 207 | 8.6 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 220 ➡️ 221 | 8.9 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 221 ➡️ 220 | 8.7 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 224 ➡️ 225 | 8.5 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 225 ➡️ 224 | 8.6 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 232 ➡️ 233 | 8.7 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 233 ➡️ 232 | 8.5 |
 ## 2024-12-02
 
 
