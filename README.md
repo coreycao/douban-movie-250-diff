@@ -2,8 +2,51 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-12-09*
+*Updated on 2024-12-16*
 
+## 2024-12-16
+
+#### 新上榜电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 246 | [里斯本丸沉没](https://movie.douban.com/subject/30412658) | 9.3 |
+
+#### 退出榜单电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [阿飞正传](https://movie.douban.com/subject/1305690) | 8.5 |
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [素媛](https://movie.douban.com/subject/21937452) | 36 ➡️ 37 | 9.3 |
+| [哈尔的移动城堡](https://movie.douban.com/subject/1308807) | 37 ➡️ 36 | 9.1 |
+| [摔跤吧！爸爸](https://movie.douban.com/subject/26387939) | 43 ➡️ 44 | 9.0 |
+| [天空之城](https://movie.douban.com/subject/1291583) | 44 ➡️ 43 | 9.2 |
+| [窃听风暴](https://movie.douban.com/subject/1900841) | 66 ➡️ 67 | 9.2 |
+| [情书](https://movie.douban.com/subject/1292220) | 67 ➡️ 66 | 8.9 |
+| [第六感](https://movie.douban.com/subject/1297630) | 107 ➡️ 108 | 8.9 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 108 ➡️ 107 | 8.8 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 113 ➡️ 114 | 8.8 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 114 ➡️ 113 | 8.7 |
+| [侧耳倾听](https://movie.douban.com/subject/1297052) | 131 ➡️ 132 | 8.9 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 132 ➡️ 131 | 8.8 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 134 ➡️ 135 | 8.8 |
+| [教父3](https://movie.douban.com/subject/1294240) | 135 ➡️ 134 | 9.0 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 220 ➡️ 221 | 8.7 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 221 ➡️ 222 | 8.9 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 222 ➡️ 220 | 8.6 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 223 ➡️ 224 | 8.7 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 224 ➡️ 223 | 8.6 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 229 ➡️ 230 | 8.6 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 230 ➡️ 229 | 9.0 |
+| [弱点](https://movie.douban.com/subject/3552028) | 246 ➡️ 247 | 8.7 |
+| [谍影重重](https://movie.douban.com/subject/1304102) | 247 ➡️ 248 | 8.6 |
+| [隐藏人物](https://movie.douban.com/subject/26615208) | 248 ➡️ 249 | 8.9 |
+| [朗读者](https://movie.douban.com/subject/2213597) | 249 ➡️ 250 | 8.6 |
 ## 2024-12-09
 
 
