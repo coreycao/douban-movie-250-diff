@@ -2,8 +2,40 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-12-16*
+*Updated on 2024-12-23*
 
+## 2024-12-23
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [春光乍泄](https://movie.douban.com/subject/1292679) | 89 ➡️ 90 | 9.0 |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | 90 ➡️ 89 | 8.9 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 137 ➡️ 138 | 8.9 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 138 ➡️ 137 | 8.9 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 191 ➡️ 192 | 8.8 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 192 ➡️ 193 | 9.2 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 193 ➡️ 191 | 8.5 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 205 ➡️ 206 | 8.7 |
+| [可可西里](https://movie.douban.com/subject/1308857) | 206 ➡️ 205 | 8.9 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 213 ➡️ 214 | 8.5 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 214 ➡️ 213 | 8.6 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 220 ➡️ 221 | 8.6 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 221 ➡️ 222 | 8.7 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 222 ➡️ 223 | 8.9 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 223 ➡️ 224 | 8.6 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 224 ➡️ 225 | 8.7 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 225 ➡️ 226 | 8.5 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 226 ➡️ 227 | 8.6 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 227 ➡️ 228 | 8.8 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 228 ➡️ 229 | 8.8 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 229 ➡️ 220 | 9.0 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 234 ➡️ 235 | 8.7 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 235 ➡️ 234 | 8.5 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 245 ➡️ 246 | 8.6 |
+| [里斯本丸沉没](https://movie.douban.com/subject/30412658) | 246 ➡️ 245 | 9.3 |
 ## 2024-12-16
 
 #### 新上榜电影
