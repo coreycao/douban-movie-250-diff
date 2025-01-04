@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2024-12-30*
+*Updated on 2025-01-04*
 
+## 2025-01-04
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 147 | 8.7 ➡️ 8.8 |
 ## 2024-12-30
 
 #### 新上榜电影
