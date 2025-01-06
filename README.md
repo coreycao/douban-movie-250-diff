@@ -2,8 +2,56 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-01-04*
+*Updated on 2025-01-06*
 
+## 2025-01-06
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [拯救大兵瑞恩](https://movie.douban.com/subject/1292849) | 74 ➡️ 75 | 9.1 |
+| [功夫](https://movie.douban.com/subject/1291543) | 75 ➡️ 74 | 8.9 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 111 ➡️ 112 | 8.9 |
+| [天书奇谭](https://movie.douban.com/subject/1428581) | 112 ➡️ 111 | 9.2 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 119 ➡️ 120 | 8.9 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 120 ➡️ 119 | 9.1 |
+| [恐怖直播](https://movie.douban.com/subject/21360417) | 162 ➡️ 163 | 8.7 |
+| [你的名字。](https://movie.douban.com/subject/26683290) | 163 ➡️ 162 | 8.5 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 170 ➡️ 171 | 9.5 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 171 ➡️ 170 | 8.7 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 192 ➡️ 194 | 9.2 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 194 ➡️ 195 | 8.8 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 195 ➡️ 192 | 9.0 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 196 ➡️ 197 | 8.6 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 197 ➡️ 196 | 9.0 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 201 ➡️ 202 | 8.6 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 202 ➡️ 201 | 9.5 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 203 ➡️ 204 | 8.6 |
+| [你看起来好像很好吃](https://movie.douban.com/subject/4848115) | 204 ➡️ 205 | 8.9 |
+| [源代码](https://movie.douban.com/subject/3075287) | 205 ➡️ 206 | 8.5 |
+| [可可西里](https://movie.douban.com/subject/1308857) | 206 ➡️ 207 | 8.9 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 207 ➡️ 208 | 8.7 |
+| [海边的曼彻斯特](https://movie.douban.com/subject/25980443) | 208 ➡️ 209 | 8.6 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 209 ➡️ 210 | 9.3 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 210 ➡️ 211 | 8.6 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 211 ➡️ 212 | 8.6 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 212 ➡️ 203 | 9.0 |
+| [雨人](https://movie.douban.com/subject/1291870) | 218 ➡️ 219 | 8.7 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 219 ➡️ 218 | 8.8 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 224 ➡️ 225 | 8.9 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 225 ➡️ 224 | 8.6 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 234 ➡️ 235 | 8.7 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 235 ➡️ 236 | 8.5 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 236 ➡️ 237 | 8.7 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 237 ➡️ 238 | 8.6 |
+| [二十二](https://movie.douban.com/subject/26430107) | 238 ➡️ 239 | 8.7 |
+| [战争之王](https://movie.douban.com/subject/1419936) | 239 ➡️ 240 | 8.7 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 240 ➡️ 241 | 8.8 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 241 ➡️ 242 | 8.8 |
+| [血钻](https://movie.douban.com/subject/1428175) | 242 ➡️ 243 | 8.7 |
+| [里斯本丸沉没](https://movie.douban.com/subject/30412658) | 243 ➡️ 234 | 9.3 |
 ## 2025-01-04
 
 
