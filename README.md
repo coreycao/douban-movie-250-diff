@@ -2,8 +2,37 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-01-06*
+*Updated on 2025-01-13*
 
+## 2025-01-13
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [哈尔的移动城堡](https://movie.douban.com/subject/1308807) | 36 ➡️ 37 | 9.1 |
+| [素媛](https://movie.douban.com/subject/21937452) | 37 ➡️ 38 | 9.3 |
+| [让子弹飞](https://movie.douban.com/subject/3742360) | 38 ➡️ 36 | 9.0 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 146 ➡️ 147 | 8.8 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 147 ➡️ 146 | 8.8 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 153 ➡️ 154 | 8.6 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 154 ➡️ 153 | 8.8 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | 166 | 8.8 ➡️ 8.7 |
+| [达拉斯买家俱乐部](https://movie.douban.com/subject/1793929) | 169 ➡️ 170 | 8.8 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 170 ➡️ 169 | 8.7 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 176 ➡️ 177 | 8.9 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 177 ➡️ 176 | 8.8 |
+| [遗愿清单](https://movie.douban.com/subject/1867345) | 200 ➡️ 202 | 8.7 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 202 ➡️ 203 | 8.6 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 203 ➡️ 200 | 9.0 |
+| [可可西里](https://movie.douban.com/subject/1308857) | 207 ➡️ 208 | 8.9 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 208 ➡️ 207 | 8.7 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 221 ➡️ 222 | 8.7 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 222 ➡️ 221 | 8.6 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 232 ➡️ 233 | 8.8 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 233 ➡️ 234 | 8.5 |
+| [里斯本丸沉没](https://movie.douban.com/subject/30412658) | 234 ➡️ 232 | 9.3 |
 ## 2025-01-06
 
 
