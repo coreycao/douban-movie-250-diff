@@ -2,8 +2,46 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-01-13*
+*Updated on 2025-01-20*
 
+## 2025-01-20
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [超能陆战队](https://movie.douban.com/subject/11026735) | 106 ➡️ 107 | 8.8 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 107 ➡️ 106 | 8.8 |
+| [重庆森林](https://movie.douban.com/subject/1291999) | 109 ➡️ 110 | 8.8 |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | 110 ➡️ 111 | 8.9 |
+| [天书奇谭](https://movie.douban.com/subject/1428581) | 111 ➡️ 109 | 9.2 |
+| [侧耳倾听](https://movie.douban.com/subject/1297052) | 133 ➡️ 134 | 8.9 |
+| [新世界](https://movie.douban.com/subject/10437779) | 134 ➡️ 133 | 8.9 |
+| [达拉斯买家俱乐部](https://movie.douban.com/subject/1793929) | 170 ➡️ 171 | 8.8 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 171 ➡️ 170 | 9.5 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 175 ➡️ 177 | 9.0 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 176 ➡️ 175 | 8.8 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 177 ➡️ 176 | 8.9 |
+| [岁月神偷](https://movie.douban.com/subject/3792799) | 189 ➡️ 190 | 8.7 |
+| [冰川时代](https://movie.douban.com/subject/1291578) | 190 ➡️ 192 | 8.6 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 191 ➡️ 193 | 8.9 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 192 ➡️ 191 | 9.0 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 193 ➡️ 194 | 8.5 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 194 ➡️ 195 | 9.2 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 195 ➡️ 197 | 8.8 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 197 ➡️ 198 | 8.6 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 198 ➡️ 199 | 8.7 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | 199 ➡️ 200 | 8.7 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 200 ➡️ 189 | 9.0 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 212 ➡️ 213 | 8.6 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 213 ➡️ 212 | 9.3 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 215 ➡️ 216 | 8.6 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 216 ➡️ 215 | 8.6 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 220 ➡️ 221 | 8.5 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 221 ➡️ 220 | 8.6 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 223 ➡️ 224 | 8.7 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 224 ➡️ 223 | 8.6 |
 ## 2025-01-13
 
 
