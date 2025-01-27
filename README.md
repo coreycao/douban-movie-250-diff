@@ -2,8 +2,38 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-01-20*
+*Updated on 2025-01-27*
 
+## 2025-01-27
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [阿甘正传](https://movie.douban.com/subject/1292720) | 3 ➡️ 4 | 9.5 |
+| [泰坦尼克号](https://movie.douban.com/subject/1292722) | 4 ➡️ 3 | 9.5 |
+| [何以为家](https://movie.douban.com/subject/30170448) | 41 ➡️ 42 | 9.1 |
+| [猫鼠游戏](https://movie.douban.com/subject/1305487) | 42 ➡️ 41 | 9.1 |
+| [时空恋旅人](https://movie.douban.com/subject/10577869) | 124 ➡️ 125 | 8.8 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 125 ➡️ 124 | 9.6 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 175 ➡️ 177 | 8.8 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 176 ➡️ 175 | 8.9 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 177 ➡️ 176 | 9.0 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 185 ➡️ 186 | 8.9 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | 186 ➡️ 185 | 8.7 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | 187 ➡️ 188 | 8.7 |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | 188 ➡️ 189 | 8.7 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 189 ➡️ 187 | 9.0 |
+| [岁月神偷](https://movie.douban.com/subject/3792799) | 190 ➡️ 191 | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 191 ➡️ 190 | 9.0 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 225 ➡️ 226 | 8.9 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 226 ➡️ 225 | 8.7 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 228 ➡️ 229 | 8.6 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 229 ➡️ 230 | 8.8 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 230 ➡️ 231 | 8.8 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 231 ➡️ 232 | 8.6 |
+| [里斯本丸沉没](https://movie.douban.com/subject/30412658) | 232 ➡️ 228 | 9.3 |
 ## 2025-01-20
 
 
