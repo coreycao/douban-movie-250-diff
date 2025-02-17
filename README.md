@@ -2,8 +2,160 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-02-15*
+*Updated on 2025-02-17*
 
+## 2025-02-17
+
+#### 新上榜电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 248 | [冰雪奇缘](https://movie.douban.com/subject/4202982) | 8.5 |
+| 249 | [朗读者](https://movie.douban.com/subject/2213597) | 8.6 |
+| 250 | [哪吒之魔童降世](https://movie.douban.com/subject/26794435) | 8.4 |
+
+#### 退出榜单电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 178 | [机器人之梦](https://movie.douban.com/subject/35426925) | 9.0 |
+| 221 | [里斯本丸沉没](https://movie.douban.com/subject/30412658) | 9.3 |
+| 239 | [二十二](https://movie.douban.com/subject/26430107) | 8.7 |
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [教父](https://movie.douban.com/subject/1291841) | 22 ➡️ 23 | 9.3 |
+| [触不可及](https://movie.douban.com/subject/6786002) | 23 ➡️ 22 | 9.3 |
+| [何以为家](https://movie.douban.com/subject/30170448) | 42 ➡️ 50 | 9.1 |
+| [天空之城](https://movie.douban.com/subject/1291583) | 44 ➡️ 42 | 9.2 |
+| [鬼子来了](https://movie.douban.com/subject/1291858) | 45 ➡️ 44 | 9.3 |
+| [少年派的奇幻漂流](https://movie.douban.com/subject/1929463) | 46 ➡️ 45 | 9.1 |
+| [钢琴家](https://movie.douban.com/subject/1296736) | 47 ➡️ 46 | 9.3 |
+| [指环王2：双塔奇兵](https://movie.douban.com/subject/1291572) | 48 ➡️ 47 | 9.2 |
+| [大话西游之月光宝盒](https://movie.douban.com/subject/1299398) | 49 ➡️ 48 | 9.0 |
+| [死亡诗社](https://movie.douban.com/subject/1291548) | 50 ➡️ 49 | 9.2 |
+| [罗马假日](https://movie.douban.com/subject/1293839) | 54 ➡️ 55 | 9.1 |
+| [黑客帝国](https://movie.douban.com/subject/1291843) | 55 ➡️ 54 | 9.1 |
+| [看不见的客人](https://movie.douban.com/subject/26580232) | 71 ➡️ 74 | 8.8 |
+| [西西里的美丽传说](https://movie.douban.com/subject/1292402) | 72 ➡️ 71 | 8.9 |
+| [阿凡达](https://movie.douban.com/subject/1652587) | 73 ➡️ 72 | 8.8 |
+| [功夫](https://movie.douban.com/subject/1291543) | 74 ➡️ 73 | 8.9 |
+| [超脱](https://movie.douban.com/subject/5322596) | 85 ➡️ 86 | 9.0 |
+| [低俗小说](https://movie.douban.com/subject/1291832) | 86 ➡️ 85 | 8.9 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 105 ➡️ 107 | 8.8 |
+| [爱在黎明破晓前](https://movie.douban.com/subject/1296339) | 106 ➡️ 105 | 8.8 |
+| [超能陆战队](https://movie.douban.com/subject/11026735) | 107 ➡️ 106 | 8.8 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 112 ➡️ 113 | 8.9 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 113 ➡️ 112 | 8.9 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 116 ➡️ 133 | 8.8 |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | 117 ➡️ 116 | 8.9 |
+| [菊次郎的夏天](https://movie.douban.com/subject/1293359) | 118 ➡️ 117 | 8.9 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 119 ➡️ 118 | 9.1 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 120 ➡️ 119 | 8.9 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 121 ➡️ 120 | 8.8 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 123 ➡️ 121 | 9.6 |
+| [时空恋旅人](https://movie.douban.com/subject/10577869) | 124 ➡️ 123 | 8.8 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 125 ➡️ 124 | 9.1 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 126 ➡️ 125 | 8.8 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 127 ➡️ 126 | 8.8 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 128 ➡️ 127 | 9.1 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 129 ➡️ 128 | 8.8 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 130 ➡️ 129 | 8.7 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 131 ➡️ 130 | 9.0 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 132 ➡️ 131 | 8.8 |
+| [新世界](https://movie.douban.com/subject/10437779) | 133 ➡️ 132 | 8.9 |
+| [神偷奶爸](https://movie.douban.com/subject/3287562) | 145 ➡️ 146 | 8.7 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 146 ➡️ 147 | 8.8 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 147 ➡️ 149 | 8.8 |
+| [哪吒闹海](https://movie.douban.com/subject/1307315) | 148 ➡️ 145 | 9.2 |
+| [告白](https://movie.douban.com/subject/4268598) | 149 ➡️ 150 | 8.8 |
+| [喜宴](https://movie.douban.com/subject/1303037) | 150 ➡️ 151 | 9.0 |
+| [玛丽和马克思](https://movie.douban.com/subject/3072124) | 151 ➡️ 152 | 9.0 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 152 ➡️ 148 | 8.8 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 153 ➡️ 154 | 8.6 |
+| [模仿游戏](https://movie.douban.com/subject/10463953) | 154 ➡️ 153 | 8.8 |
+| [血战钢锯岭](https://movie.douban.com/subject/26325320) | 159 ➡️ 160 | 8.7 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | 160 ➡️ 159 | 9.0 |
+| [三块广告牌](https://movie.douban.com/subject/26611804) | 165 ➡️ 167 | 8.7 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | 166 ➡️ 181 | 8.7 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 167 ➡️ 172 | 8.7 |
+| [电锯惊魂](https://movie.douban.com/subject/1417598) | 168 ➡️ 165 | 8.7 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 170 ➡️ 166 | 9.5 |
+| [达拉斯买家俱乐部](https://movie.douban.com/subject/1793929) | 171 ➡️ 168 | 8.8 |
+| [疯狂原始人](https://movie.douban.com/subject/1907966) | 172 ➡️ 171 | 8.7 |
+| [谍影重重3](https://movie.douban.com/subject/1578507) | 173 ➡️ 170 | 8.9 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 174 ➡️ 173 | 8.9 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 175 ➡️ 174 | 8.9 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 177 ➡️ 175 | 9.0 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 179 ➡️ 177 | 8.6 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 180 ➡️ 178 | 8.8 |
+| [风之谷](https://movie.douban.com/subject/1291585) | 181 ➡️ 179 | 8.9 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 182 ➡️ 180 | 8.6 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 183 ➡️ 182 | 8.9 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 184 ➡️ 183 | 9.1 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 185 ➡️ 184 | 8.8 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | 186 ➡️ 185 | 8.7 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 187 ➡️ 186 | 8.9 |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | 189 ➡️ 187 | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 190 ➡️ 189 | 9.0 |
+| [冰川时代](https://movie.douban.com/subject/1291578) | 191 ➡️ 190 | 8.6 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 193 ➡️ 191 | 8.9 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 194 ➡️ 193 | 8.5 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 195 ➡️ 194 | 9.0 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 196 ➡️ 195 | 9.2 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 197 ➡️ 198 | 8.8 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 198 ➡️ 207 | 8.6 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 199 ➡️ 196 | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 200 ➡️ 197 | 9.5 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | 201 ➡️ 200 | 8.7 |
+| [遗愿清单](https://movie.douban.com/subject/1867345) | 202 ➡️ 199 | 8.7 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 203 ➡️ 201 | 8.6 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 204 ➡️ 202 | 8.6 |
+| [你看起来好像很好吃](https://movie.douban.com/subject/4848115) | 205 ➡️ 203 | 8.9 |
+| [源代码](https://movie.douban.com/subject/3075287) | 206 ➡️ 204 | 8.6 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 207 ➡️ 205 | 8.7 |
+| [可可西里](https://movie.douban.com/subject/1308857) | 208 ➡️ 206 | 8.9 |
+| [海边的曼彻斯特](https://movie.douban.com/subject/25980443) | 209 ➡️ 231 | 8.6 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 210 ➡️ 208 | 9.3 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 211 ➡️ 210 | 8.6 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 212 ➡️ 209 | 9.3 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 213 ➡️ 211 | 8.6 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 215 ➡️ 212 | 8.6 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 216 ➡️ 213 | 8.6 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 217 ➡️ 216 | 8.5 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 218 ➡️ 215 | 8.8 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 219 ➡️ 217 | 8.6 |
+| [雨人](https://movie.douban.com/subject/1291870) | 220 ➡️ 218 | 8.7 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 222 ➡️ 219 | 8.6 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 223 ➡️ 220 | 8.7 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 224 ➡️ 221 | 8.5 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 225 ➡️ 223 | 8.7 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 226 ➡️ 222 | 8.7 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 227 ➡️ 224 | 8.9 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 228 ➡️ 226 | 8.5 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 229 ➡️ 225 | 8.6 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 230 ➡️ 227 | 8.8 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 231 ➡️ 228 | 8.8 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 232 ➡️ 230 | 8.6 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 233 ➡️ 229 | 8.8 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 234 ➡️ 232 | 8.5 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 235 ➡️ 233 | 8.7 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 236 ➡️ 234 | 8.5 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 237 ➡️ 235 | 8.7 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 238 ➡️ 236 | 8.6 |
+| [战争之王](https://movie.douban.com/subject/1419936) | 240 ➡️ 237 | 8.7 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 241 ➡️ 238 | 8.8 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 242 ➡️ 239 | 8.8 |
+| [血钻](https://movie.douban.com/subject/1428175) | 243 ➡️ 240 | 8.7 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | 244 ➡️ 241 | 8.7 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 245 ➡️ 242 | 8.6 |
+| [房间](https://movie.douban.com/subject/25724855) | 246 ➡️ 244 | 8.8 |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | 247 ➡️ 243 | 8.8 |
+| [弱点](https://movie.douban.com/subject/3552028) | 248 ➡️ 245 | 8.7 |
+| [谍影重重](https://movie.douban.com/subject/1304102) | 249 ➡️ 246 | 8.6 |
+| [隐藏人物](https://movie.douban.com/subject/26615208) | 250 ➡️ 247 | 8.9 |
 ## 2025-02-15
 
 
