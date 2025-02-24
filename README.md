@@ -2,8 +2,57 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-02-17*
+*Updated on 2025-02-24*
 
+## 2025-02-24
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [爱在黎明破晓前](https://movie.douban.com/subject/1296339) | 105 ➡️ 107 | 8.8 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 107 ➡️ 105 | 8.8 |
+| [第六感](https://movie.douban.com/subject/1297630) | 108 ➡️ 109 | 8.9 |
+| [天书奇谭](https://movie.douban.com/subject/1428581) | 109 ➡️ 108 | 9.2 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 126 ➡️ 127 | 8.8 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 127 ➡️ 128 | 9.1 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 128 ➡️ 126 | 8.8 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 129 ➡️ 130 | 8.7 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 130 ➡️ 129 | 9.0 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 133 ➡️ 134 | 8.8 |
+| [侧耳倾听](https://movie.douban.com/subject/1297052) | 134 ➡️ 133 | 8.9 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 138 ➡️ 139 | 8.9 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 139 ➡️ 138 | 8.9 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 140 ➡️ 141 | 8.8 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 141 ➡️ 142 | 8.7 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 142 ➡️ 143 | 9.0 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 143 ➡️ 145 | 8.8 |
+| [釜山行](https://movie.douban.com/subject/25986180) | 144 ➡️ 146 | 8.6 |
+| [哪吒闹海](https://movie.douban.com/subject/1307315) | 145 ➡️ 144 | 9.2 |
+| [神偷奶爸](https://movie.douban.com/subject/3287562) | 146 ➡️ 147 | 8.7 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 147 ➡️ 148 | 8.8 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 148 ➡️ 140 | 8.8 |
+| [达拉斯买家俱乐部](https://movie.douban.com/subject/1793929) | 168 ➡️ 169 | 8.8 |
+| [小丑](https://movie.douban.com/subject/27119724) | 169 ➡️ 168 | 8.7 |
+| [疯狂原始人](https://movie.douban.com/subject/1907966) | 171 ➡️ 172 | 8.7 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 172 ➡️ 171 | 8.7 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 176 ➡️ 177 | 8.8 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 177 ➡️ 178 | 8.6 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 178 ➡️ 176 | 8.8 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | 188 ➡️ 189 | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 189 ➡️ 188 | 9.0 |
+| [岁月神偷](https://movie.douban.com/subject/3792799) | 192 ➡️ 193 | 8.7 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 193 ➡️ 192 | 8.5 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 208 ➡️ 209 | 9.3 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 209 ➡️ 208 | 9.3 |
+| [雨人](https://movie.douban.com/subject/1291870) | 218 ➡️ 219 | 8.7 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 219 ➡️ 218 | 8.6 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 221 ➡️ 223 | 8.5 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 222 ➡️ 221 | 8.7 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 223 ➡️ 222 | 8.7 |
+| [朗读者](https://movie.douban.com/subject/2213597) | 249 ➡️ 250 | 8.6 |
+| [哪吒之魔童降世](https://movie.douban.com/subject/26794435) | 250 ➡️ 249 | 8.4 |
 ## 2025-02-17
 
 #### 新上榜电影
