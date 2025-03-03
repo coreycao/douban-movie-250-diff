@@ -2,8 +2,56 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-02-24*
+*Updated on 2025-03-03*
 
+## 2025-03-03
+
+#### 新上榜电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [机器人之梦](https://movie.douban.com/subject/35426925) | 9.0 |
+
+#### 退出榜单电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [朗读者](https://movie.douban.com/subject/2213597) | 8.6 |
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [天堂电影院](https://movie.douban.com/subject/1291828) | 58 ➡️ 59 | 9.2 |
+| [狮子王](https://movie.douban.com/subject/1301753) | 59 ➡️ 58 | 9.1 |
+| [春光乍泄](https://movie.douban.com/subject/1292679) | 90 ➡️ 91 | 9.0 |
+| [致命ID](https://movie.douban.com/subject/1297192) | 91 ➡️ 90 | 8.9 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 125 ➡️ 126 | 8.8 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 126 ➡️ 125 | 8.8 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 135 ➡️ 136 | 8.8 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 136 ➡️ 137 | 8.7 |
+| [教父3](https://movie.douban.com/subject/1294240) | 137 ➡️ 139 | 9.0 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 139 ➡️ 140 | 8.9 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 140 ➡️ 135 | 8.8 |
+| [神偷奶爸](https://movie.douban.com/subject/3287562) | 147 ➡️ 148 | 8.7 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 148 ➡️ 147 | 8.8 |
+| [阳光姐妹淘](https://movie.douban.com/subject/4917726) | 161 ➡️ 162 | 8.8 |
+| [你的名字。](https://movie.douban.com/subject/26683290) | 162 ➡️ 161 | 8.5 |
+| [电锯惊魂](https://movie.douban.com/subject/1417598) | 165 ➡️ 166 | 8.7 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 166 ➡️ 165 | 9.5 |
+| [谍影重重3](https://movie.douban.com/subject/1578507) | 170 ➡️ 171 | 8.9 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 171 ➡️ 170 | 8.7 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 175 ➡️ 176 | 9.0 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 176 ➡️ 175 | 8.8 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 182 ➡️ 183 | 8.9 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 183 ➡️ 182 | 9.1 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 196 ➡️ 197 | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 197 ➡️ 196 | 9.5 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 238 ➡️ 239 | 8.8 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 239 ➡️ 238 | 8.8 |
+| [弱点](https://movie.douban.com/subject/3552028) | 245 ➡️ 247 | 8.7 |
+| [隐藏人物](https://movie.douban.com/subject/26615208) | 247 ➡️ 248 | 8.9 |
+| [冰雪奇缘](https://movie.douban.com/subject/4202982) | 248 ➡️ 245 | 8.5 |
 ## 2025-02-24
 
 
