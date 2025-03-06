@@ -2,7 +2,7 @@ name: run archive.py
 
 on:
   schedule:
-    - cron: ''0 10 1 * *'' # runs at 10:00 on the 1st of every month
+    - cron: '0 10 1 * *' # runs at 10:00 on the 1st of every month
 
 jobs:
   build:
