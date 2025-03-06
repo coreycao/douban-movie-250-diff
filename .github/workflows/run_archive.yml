@@ -1,4 +1,4 @@
-name: run main.py
+name: run archive.py
 
 on:
   schedule:
