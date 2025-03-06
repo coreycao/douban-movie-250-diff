@@ -4,37 +4,21 @@ import datetime
 import requests
 import json
 from bs4 import BeautifulSoup
-from common import log, write_text
+from common import HEADERS, PATHS, REQUEST_CONFIG, log, write_text
 
-debug = False
 
 movie_list = []
 
-movie_list_filename = "recently_movie_250.json"
-
 
 def fetch_movie_list():
-    url_douban_top250 = 'https://movie.douban.com/top250'
-
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4343.0 Safari/537.36',
-        'Referer': 'https://movie.douban.com/top250'
-    }
-
-    request_timeout = 10
-
-    page_size = 25
-
-    total_size = 25 if debug else 250
-
-    for i in range(0, total_size, page_size):
+    for i in range(0, REQUEST_CONFIG['total_size'], REQUEST_CONFIG['page_size']):
         params = {
             'start': str(i),
             'filter': ''
         }
         page_num = i / 25 + 1
+        response = requests.get(REQUEST_CONFIG['url_douban_top250'], params=params, headers=HEADERS, timeout=REQUEST_CONFIG['request_timeout'])
         log("request start, page_num: ", page_num)
-        response = requests.get(url_douban_top250, params=params, headers=headers, timeout=request_timeout)
         if i == 0 and response.status_code != 200:
             log("request failed, status_code: ", response.status_code)
             raise RuntimeError("request failed")
@@ -59,9 +43,7 @@ def parse_movie_item(item):
     item_info = item.find('div', class_='info').find('div', class_='hd')
     movie_link = item_info.a['href']
     movie_name = item_info.a.span.text.strip()
-
-    item_star = item.find('div', class_='info').find('div', class_='bd').find('div', class_='star')
-    movie_score = item_star.find('span', class_='rating_num').text
+    movie_score = item.find('div', class_='info').find('div', class_='bd').find('span', class_='rating_num').text
 
     movie['rank'] = movie_rank
     movie['pic'] = movie_pic
@@ -76,9 +58,9 @@ def parse_movie_item(item):
 
 
 def diff_movie_list():
-    today = datetime.date.today().isoformat()
+    today = datetime.date.today()
     try:
-        with open(movie_list_filename) as f:
+        with open(PATHS['movie_list_filename']) as f:
             movie_list_recently = json.load(f)
         log("load recent movie list, prepare to diff")
         movie_dict_recently = {movie['id']: movie for movie in movie_list_recently}
@@ -97,72 +79,79 @@ def diff_movie_list():
                 if item_old['rank'] != item_latest['rank'] or item_old['score'] != item_latest['score']:
                     movie_changed.append([item_old, item_latest])
 
+        # 如果数据未发生变化，则不做任何操作
         if len(movie_outdated_set) == 0 and len(movie_changed) == 0:
             log("No changes.")
         else:
-            with open("README.md", 'r+', encoding='utf-8') as f:
-                lines = f.readlines()
-                f.seek(0)
-                f.truncate()
-                md_head = "# Douban-Movie-250-Diff\n\n" \
-                          "A diff log of the Douban top250 movies.\n\n" \
-                          "*Updated on {today}*\n\n".format(today=today)
-                md_content = "## {today}\n\n".format(today=today)
-                if len(movie_outdated_set) != 0:
-                    log("Rank list changed")
-                    log("updated movies: ", movie_updated_set)
-                    log("outdated movies: ", movie_outdated_set)
-                    md_updated = "#### 新上榜电影\n\n"
-                    table_head = "|   Rank  |     Name     |   Score  |\n| ------- | ------------ | -------- |\n"
-                    md_updated += table_head
-                    for item in iter(movie_updated_set):
-                        movie = movie_dict_latest[item]
-                        md_updated += "| {rank} | [{name}]({link}) | {score} |\n" \
-                            .format(rank=movie['rank'], name=movie['name'], link=movie['link'], score=movie['score'])
-                    md_updated += "\n#### 退出榜单电影\n\n"
-                    md_updated += table_head
-                    for item in iter(movie_outdated_set):
-                        movie = movie_dict_recently[item]
-                        md_updated += "| {rank} | [{name}]({link}) | {score} |\n" \
-                            .format(rank=movie['rank'], name=movie['name'], link=movie['link'], score=movie['score'])
-                    md_content += md_updated
-                if len(movie_changed) != 0:
-                    log("Rank or score changed.")
-                    md_changed = "\n#### 排名及分数变化\n\n"
-                    table_head = "|     Name    |   Rank   |   Score  |\n| ------- | ------------ | -------- |\n"
-                    md_changed += table_head
-                    for item in movie_changed:
-                        movie_old = item[0]
-                        movie_latest = item[1]
-                        diff_rank = movie_old['rank'] if movie_old['rank'] == movie_latest['rank'] \
-                            else (movie_old['rank'] + " ➡️ " + movie_latest['rank'])
-                        diff_score = movie_old['score'] if movie_old['score'] == movie_latest['score'] \
-                            else (movie_old['score'] + " ➡️ " + movie_latest['score'])
-                        md_changed += "| [{name}]({link}) | {rank_diff} | {score_diff} |\n" \
-                            .format(name=movie_old['name'], link=movie_old['link'],
-                                    rank_diff=diff_rank, score_diff=diff_score, )
-                    md_content += md_changed
-                f.writelines(md_head + md_content)
-                f.writelines(lines[6:])
-        with open(movie_list_filename, 'w', encoding='utf-8') as f:
+            # 更新 README.md 文件
+            md_head = "# Douban-Movie-250-Diff\n\n" \
+                        "A diff log of the Douban top250 movies.\n\n" \
+                        f"*Updated on {today.isoformat()}*\n\n"
+            md_content = f"## {today.isoformat()}\n\n"
+            if len(movie_outdated_set) != 0:
+                log("Rank list changed")
+                log("updated movies: ", movie_updated_set)
+                log("outdated movies: ", movie_outdated_set)
+                md_updated = "#### 新上榜电影\n\n"
+                table_head = "|   Rank  |     Name     |   Score  |\n| ------- | ------------ | -------- |\n"
+                md_updated += table_head
+                for item in iter(movie_updated_set):
+                    movie = movie_dict_latest[item]
+                    md_updated += "| {rank} | [{name}]({link}) | {score} |\n" \
+                        .format(rank=movie['rank'], name=movie['name'], link=movie['link'], score=movie['score'])
+                md_updated += "\n#### 退出榜单电影\n\n"
+                md_updated += table_head
+                for item in iter(movie_outdated_set):
+                    movie = movie_dict_recently[item]
+                    md_updated += "| {rank} | [{name}]({link}) | {score} |\n" \
+                        .format(rank=movie['rank'], name=movie['name'], link=movie['link'], score=movie['score'])
+                md_content += md_updated
+            if len(movie_changed) != 0:
+                log("Rank or score changed.")
+                md_changed = "\n#### 排名及分数变化\n\n"
+                table_head = "|     Name    |   Rank   |   Score  |\n| ------- | ------------ | -------- |\n"
+                md_changed += table_head
+                for item in movie_changed:
+                    movie_old = item[0]
+                    movie_latest = item[1]
+                    diff_rank = movie_old['rank'] if movie_old['rank'] == movie_latest['rank'] \
+                        else (movie_old['rank'] + "➡️" + movie_latest['rank'])
+                    diff_score = movie_old['score'] if movie_old['score'] == movie_latest['score'] \
+                        else (movie_old['score'] + "➡️" + movie_latest['score'])
+                    md_changed += "| [{name}]({link}) | {rank_diff} | {score_diff} |\n" \
+                        .format(name=movie_old['name'], link=movie_old['link'],
+                                rank_diff=diff_rank, score_diff=diff_score, )
+                md_content += md_changed
+
+                with open(PATHS['readme_filename'], 'r+', encoding='utf-8') as f:
+                    lines = f.readlines()
+                    f.seek(0)
+                    f.truncate()
+                    f.writelines(md_head + md_content)
+                    f.writelines(lines[6:])
+        with open(PATHS['movie_list_filename'], 'w', encoding='utf-8') as f:
             json.dump(movie_list, f, ensure_ascii=False, indent=2)
     except IOError:
         log("load recent movie list fail, dump latest data.")
-        with open(movie_list_filename, 'w', encoding='utf-8') as f:
+        with open(PATHS['movie_list_filename'], 'w', encoding='utf-8') as f:
             json.dump(movie_list, f, ensure_ascii=False, indent=2)
 
         md_head = "# Douban-Movie-250-Diff\n\n" \
                   "A diff log of the Douban top250 movies.\n" \
-                  "*Updated on {today}*\n\n".format(today=today)
-        write_text("README.md", 'w', md_head)
+                  f"*Updated on {today.isoformat()}*\n\n"
+        write_text(PATHS['readme_filename'], 'w', md_head)
 
 
 if __name__ == "__main__":
     t1 = datetime.datetime.now()
     try:
         fetch_movie_list()
-    except:
-        log("fetch_movie_list failed")
+    except requests.exceptions.RequestException as e:
+        log(f"request err: {str(e)}")
+    except json.JSONDecodeError as e:
+        log(f"JSON parse err: {str(e)}")
+    except Exception as e:
+        log(f"unknown err: {str(e)}")
     else:
         diff_movie_list()
     log("Time cost: {}s.".format((datetime.datetime.now() - t1).total_seconds()))
