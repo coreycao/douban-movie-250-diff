@@ -5,6 +5,7 @@
 echo -e "\n----------Start time:----------"
 date
 
+# Your own path.
 cd /Users/corey/development/playground/py_playground/Movie-250-Diff
 git pull
 pipenv run python main.py
