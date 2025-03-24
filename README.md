@@ -2,8 +2,67 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-03-21*
+*Updated on 2025-03-24*
 
+## 2025-03-24
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ------- | ------------ | -------- |
+| [放牛班的春天](https://movie.douban.com/subject/1291549) | 15➡️16 | 9.3 |
+| [疯狂动物城](https://movie.douban.com/subject/25662329) | 16➡️15 | 9.2 |
+| [摩登时代](https://movie.douban.com/subject/1294371) | 87➡️88 | 9.3 |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | 88➡️87 | 8.9 |
+| [被嫌弃的松子的一生](https://movie.douban.com/subject/1787291) | 105➡️107 | 8.8 |
+| [天书奇谭](https://movie.douban.com/subject/1428581) | 106➡️105 | 9.2 |
+| [超能陆战队](https://movie.douban.com/subject/11026735) | 107➡️106 | 8.8 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 119➡️120 | 8.9 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 120➡️119 | 8.8 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 127➡️128 | 8.8 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 128➡️129 | 9.1 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 129➡️131 | 9.0 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 131➡️132 | 8.8 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 132➡️133 | 8.8 |
+| [新世界](https://movie.douban.com/subject/10437779) | 133➡️134 | 8.9 |
+| [侧耳倾听](https://movie.douban.com/subject/1297052) | 134➡️135 | 8.9 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 135➡️137 | 8.8 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 137➡️138 | 8.8 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 138➡️139 | 8.9 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 139➡️140 | 8.9 |
+| [教父3](https://movie.douban.com/subject/1294240) | 140➡️141 | 9.0 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 141➡️142 | 8.8 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 142➡️143 | 8.7 |
+| [哪吒闹海](https://movie.douban.com/subject/1307315) | 143➡️144 | 9.2 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 144➡️145 | 9.0 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 145➡️146 | 8.8 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 146➡️147 | 8.8 |
+| [釜山行](https://movie.douban.com/subject/25986180) | 147➡️148 | 8.6 |
+| [神偷奶爸](https://movie.douban.com/subject/3287562) | 148➡️149 | 8.7 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | 149➡️150 | 8.8 |
+| [告白](https://movie.douban.com/subject/4268598) | 150➡️151 | 8.8 |
+| [喜宴](https://movie.douban.com/subject/1303037) | 151➡️152 | 9.0 |
+| [玛丽和马克思](https://movie.douban.com/subject/3072124) | 152➡️153 | 9.0 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 153➡️154 | 8.6 |
+| [模仿游戏](https://movie.douban.com/subject/10463953) | 154➡️155 | 8.8 |
+| [大鱼](https://movie.douban.com/subject/1291545) | 155➡️156 | 8.8 |
+| [七武士](https://movie.douban.com/subject/1295399) | 156➡️157 | 9.3 |
+| [还有明天](https://movie.douban.com/subject/36445098) | 157➡️127 | 9.4 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 193➡️194 | 8.5 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 194➡️193 | 9.5 |
+| [你看起来好像很好吃](https://movie.douban.com/subject/4848115) | 204➡️205 | 8.9 |
+| [源代码](https://movie.douban.com/subject/3075287) | 205➡️204 | 8.6 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 221➡️222 | 8.7 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 222➡️221 | 8.7 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 224➡️225 | 8.5 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 225➡️224 | 8.9 |
+| [海边的曼彻斯特](https://movie.douban.com/subject/25980443) | 232➡️233 | 8.6 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 233➡️232 | 8.5 |
+| [血钻](https://movie.douban.com/subject/1428175) | 241➡️242 | 8.7 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | 242➡️243 | 8.7 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 243➡️244 | 8.6 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 244➡️241 | 9.1 |
 ## 2025-03-21
 
 
