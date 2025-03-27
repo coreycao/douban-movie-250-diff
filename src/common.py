@@ -18,6 +18,7 @@ REQUEST_CONFIG = {
     'total_size':250
 }
 
+
 def log(*args):
     print("Movie250Diff: ", *args)
 
