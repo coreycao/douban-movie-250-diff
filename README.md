@@ -2,8 +2,47 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-03-24*
+*Updated on 2025-03-31*
 
+## 2025-03-31
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [消失的爱人](https://movie.douban.com/subject/21318488) | 122➡️123 | 8.7 |
+| [岁月神偷](https://movie.douban.com/subject/3792799) | 195➡️196 | 8.7 |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | 117➡️118 | 8.9 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 154➡️153 | 8.6 |
+| [断背山](https://movie.douban.com/subject/1418834) | 115➡️116 | 8.8 |
+| [玛丽和马克思](https://movie.douban.com/subject/3072124) | 153➡️154 | 9.0 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 121➡️122 | 9.6 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 118➡️119 | 9.1 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 124➡️126 | 9.1 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 239➡️240 | 8.8 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 222➡️221 | 8.7 |
+| [菊次郎的夏天](https://movie.douban.com/subject/1293359) | 116➡️117 | 8.9 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 208➡️207 | 9.3 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 119➡️120 | 8.8 |
+| [可可西里](https://movie.douban.com/subject/1308857) | 207➡️208 | 8.9 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 126➡️127 | 8.8 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 113➡️114 | 8.9 |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | 102➡️101 | 8.9 |
+| [战争之王](https://movie.douban.com/subject/1419936) | 238➡️239 | 8.7 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 192➡️193 | 8.9 |
+| [7号房的礼物](https://movie.douban.com/subject/10777687) | 101➡️102 | 8.9 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 196➡️195 | 9.0 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 241➡️238 | 9.1 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 114➡️115 | 8.7 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 235➡️234 | 8.5 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 240➡️241 | 8.8 |
+| [还有明天](https://movie.douban.com/subject/36445098) | 127➡️113 | 9.4 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 193➡️192 | 9.5 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 234➡️235 | 8.7 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 120➡️121 | 8.9 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 221➡️222 | 8.7 |
+| [时空恋旅人](https://movie.douban.com/subject/10577869) | 123➡️124 | 8.8 |
 ## 2025-03-24
 
 
