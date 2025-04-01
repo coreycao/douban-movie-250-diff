@@ -1,6 +1,6 @@
 import datetime
 import os
-from common import PATHS, log
+from src.common import PATHS, log
 
 
 # 归档数据
