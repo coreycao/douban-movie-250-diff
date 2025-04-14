@@ -2,8 +2,41 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-04-07*
+*Updated on 2025-04-14*
 
+## 2025-04-14
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 229➡️228 | 8.8 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 203➡️204 | 8.6 |
+| [还有明天](https://movie.douban.com/subject/36445098) | 104➡️101 | 9.4 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 133➡️132 | 8.8 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 195➡️194 | 9.0 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 223➡️222 | 8.7 |
+| [时空恋旅人](https://movie.douban.com/subject/10577869) | 123➡️124 | 8.8 |
+| [龙猫](https://movie.douban.com/subject/1291560) | 27➡️28 | 9.2 |
+| [哈利·波特与魔法石](https://movie.douban.com/subject/1295038) | 28➡️27 | 9.2 |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 103➡️104 | 8.9 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 137➡️138 | 8.8 |
+| [7号房的礼物](https://movie.douban.com/subject/10777687) | 102➡️103 | 8.9 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 222➡️223 | 8.7 |
+| [火星救援](https://movie.douban.com/subject/25864085) | 234➡️235 | 8.5 |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | 101➡️102 | 8.9 |
+| [源代码](https://movie.douban.com/subject/3075287) | 204➡️203 | 8.6 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 214➡️215 | 8.6 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 124➡️123 | 8.8 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 194➡️193 | 8.5 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 132➡️133 | 8.8 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 236➡️234 | 9.1 |
+| [黑客帝国2：重装上阵](https://movie.douban.com/subject/1304141) | 235➡️236 | 8.7 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 193➡️195 | 8.9 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 228➡️229 | 8.8 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 138➡️137 | 8.9 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 215➡️214 | 8.4 |
 ## 2025-04-07
 
 
