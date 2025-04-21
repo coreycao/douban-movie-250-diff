@@ -2,8 +2,34 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-04-16*
+*Updated on 2025-04-21*
 
+## 2025-04-21
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 232➡️233 | 8.5 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 197➡️198 | 9.2 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 130➡️132 | 8.7 |
+| [海边的曼彻斯特](https://movie.douban.com/subject/25980443) | 233➡️234 | 8.6 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 132➡️131 | 8.8 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 231➡️232 | 8.6 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 237➡️238 | 8.7 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 229➡️228 | 8.8 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 139➡️138 | 8.8 |
+| [阿凡达](https://movie.douban.com/subject/1652587) | 72➡️73 | 8.8 |
+| [功夫](https://movie.douban.com/subject/1291543) | 73➡️72 | 8.9 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 145➡️146 | 9.0 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 146➡️145 | 8.8 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 138➡️139 | 8.8 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 234➡️231 | 9.1 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 228➡️229 | 8.8 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 198➡️197 | 8.7 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 131➡️130 | 9.0 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 238➡️237 | 8.6 |
 ## 2025-04-16
 
 
