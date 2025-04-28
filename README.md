@@ -2,8 +2,33 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-04-21*
+*Updated on 2025-04-28*
 
+## 2025-04-28
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 140➡️139 | 8.9 |
+| [雨人](https://movie.douban.com/subject/1291870) | 220➡️221 | 8.7 |
+| [哈利·波特与阿兹卡班的囚徒](https://movie.douban.com/subject/1291544) | 75➡️74 | 9.0 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 139➡️140 | 8.8 |
+| [看不见的客人](https://movie.douban.com/subject/26580232) | 74➡️75 | 8.8 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 191➡️190 | 9.5 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 130➡️131 | 9.0 |
+| [致命ID](https://movie.douban.com/subject/1297192) | 90➡️91 | 8.9 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 229➡️228 | 8.8 |
+| [喜宴](https://movie.douban.com/subject/1303037) | 152➡️151 | 9.0 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 131➡️130 | 8.8 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | 190➡️191 | 8.7 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 133➡️132 | 8.8 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 221➡️220 | 8.7 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 132➡️133 | 8.7 |
+| [告白](https://movie.douban.com/subject/4268598) | 151➡️152 | 8.8 |
+| [杀人回忆](https://movie.douban.com/subject/1300299) | 91➡️90 | 8.9 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 228➡️229 | 8.8 |
 ## 2025-04-21
 
 
