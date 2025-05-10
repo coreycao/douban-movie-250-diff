@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-05-05*
+*Updated on 2025-05-10*
 
+## 2025-05-10
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 199 | 8.8➡️8.7 |
 ## 2025-05-05
 
 
