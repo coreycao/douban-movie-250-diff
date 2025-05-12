@@ -2,8 +2,30 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-05-10*
+*Updated on 2025-05-12*
 
+## 2025-05-12
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | 118➡️119 | 8.9 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 226➡️225 | 8.6 |
+| [7号房的礼物](https://movie.douban.com/subject/10777687) | 103➡️104 | 8.9 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 231➡️227 | 9.1 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 229➡️231 | 8.8 |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | 102➡️103 | 8.9 |
+| [幽灵公主](https://movie.douban.com/subject/1297359) | 105➡️102 | 8.9 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 230➡️228 | 8.8 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 205➡️204 | 9.3 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 228➡️229 | 8.8 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 119➡️118 | 9.1 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 225➡️226 | 8.5 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 227➡️230 | 8.5 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 204➡️205 | 8.6 |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 104➡️105 | 8.9 |
 ## 2025-05-10
 
 
