@@ -2,8 +2,35 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-05-12*
+*Updated on 2025-05-19*
 
+## 2025-05-19
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [谍影重重3](https://movie.douban.com/subject/1578507) | 172➡️171 | 8.9 |
+| [岁月神偷](https://movie.douban.com/subject/3792799) | 196➡️197 | 8.7 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 142➡️143 | 8.8 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 227➡️225 | 9.1 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 174➡️175 | 8.9 |
+| [达拉斯买家俱乐部](https://movie.douban.com/subject/1793929) | 171➡️172 | 8.8 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 188➡️187 | 9.0 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 175➡️174 | 8.8 |
+| [菊次郎的夏天](https://movie.douban.com/subject/1293359) | 117➡️118 | 8.9 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 143➡️142 | 8.7 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 226➡️227 | 8.5 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | 197➡️196 | 8.7 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 225➡️226 | 8.6 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 118➡️117 | 9.1 |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | 189➡️190 | 8.7 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 187➡️188 | 8.9 |
+| [你看起来好像很好吃](https://movie.douban.com/subject/4848115) | 206➡️205 | 8.9 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 205➡️207 | 8.6 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 207➡️206 | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 190➡️189 | 9.5 |
 ## 2025-05-12
 
 
