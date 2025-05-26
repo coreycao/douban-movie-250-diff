@@ -2,8 +2,43 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-05-19*
+*Updated on 2025-05-26*
 
+## 2025-05-26
+
+#### 新上榜电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 247 | [攻壳机动队](https://movie.douban.com/subject/1291936) | 9.1 |
+
+#### 退出榜单电影
+
+|   Rank  |     Name     |   Score  |
+| ------- | ------------ | -------- |
+| 250 | [弱点](https://movie.douban.com/subject/3552028) | 8.7 |
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [冰雪奇缘](https://movie.douban.com/subject/4202982) | 247➡️248 | 8.5 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 230➡️231 | 8.5 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 131➡️132 | 9.0 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 231➡️230 | 8.8 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 132➡️131 | 8.8 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 204➡️203 | 9.3 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 225➡️224 | 9.1 |
+| [海豚湾](https://movie.douban.com/subject/3442220) | 93➡️94 | 9.3 |
+| [隐藏人物](https://movie.douban.com/subject/26615208) | 248➡️249 | 8.9 |
+| [谍影重重](https://movie.douban.com/subject/1304102) | 249➡️250 | 8.6 |
+| [一一](https://movie.douban.com/subject/1292434) | 94➡️93 | 9.1 |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 105➡️104 | 8.9 |
+| [7号房的礼物](https://movie.douban.com/subject/10777687) | 104➡️105 | 8.9 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 206➡️205 | 8.7 |
+| [你看起来好像很好吃](https://movie.douban.com/subject/4848115) | 205➡️206 | 8.9 |
+| [源代码](https://movie.douban.com/subject/3075287) | 203➡️204 | 8.6 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 224➡️225 | 8.9 |
 ## 2025-05-19
 
 
