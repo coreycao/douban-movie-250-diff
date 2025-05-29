@@ -2,8 +2,17 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-05-26*
+*Updated on 2025-05-29*
 
+## 2025-05-29
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [攻壳机动队](https://movie.douban.com/subject/1291936) | 247 | 9.1➡️9.0 |
+| [冰川时代](https://movie.douban.com/subject/1291578) | 192 | 8.6➡️8.7 |
 ## 2025-05-26
 
 #### 新上榜电影
