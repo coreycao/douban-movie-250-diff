@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-05-29*
+*Updated on 2025-05-30*
 
+## 2025-05-30
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [冰川时代](https://movie.douban.com/subject/1291578) | 192 | 8.7➡️8.6 |
 ## 2025-05-29
 
 
