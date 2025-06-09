@@ -2,8 +2,31 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-06-08*
+*Updated on 2025-06-09*
 
+## 2025-06-09
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [源代码](https://movie.douban.com/subject/3075287) | 203➡️204 | 8.6 |
+| [侧耳倾听](https://movie.douban.com/subject/1297052) | 136➡️137 | 8.9 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 117➡️116 | 9.1 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 137➡️136 | 8.9 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | 243➡️242 | 8.7 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 218➡️219 | 8.8 |
+| [血钻](https://movie.douban.com/subject/1428175) | 242➡️243 | 8.7 |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | 119➡️120 | 8.9 |
+| [断背山](https://movie.douban.com/subject/1418834) | 116➡️117 | 8.8 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 120➡️119 | 8.8 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 227➡️228 | 8.5 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 228➡️227 | 8.8 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 219➡️220 | 8.5 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 204➡️203 | 9.3 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 220➡️221 | 8.7 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 221➡️218 | 9.1 |
 ## 2025-06-08
 
 
