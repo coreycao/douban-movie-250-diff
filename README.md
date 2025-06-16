@@ -2,8 +2,34 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-06-09*
+*Updated on 2025-06-16*
 
+## 2025-06-16
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [大鱼](https://movie.douban.com/subject/1291545) | 156➡️157 | 8.8 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 213➡️214 | 8.6 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 214➡️213 | 8.4 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 185➡️186 | 8.8 |
+| [死亡诗社](https://movie.douban.com/subject/1291548) | 49➡️48 | 9.2 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 215➡️217 | 8.6 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 218➡️215 | 9.1 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 223➡️222 | 8.7 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 131➡️130 | 8.8 |
+| [大话西游之月光宝盒](https://movie.douban.com/subject/1299398) | 48➡️49 | 9.0 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 186➡️185 | 9.0 |
+| [七武士](https://movie.douban.com/subject/1295399) | 157➡️156 | 9.3 |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | 120➡️121 | 8.9 |
+| [雨人](https://movie.douban.com/subject/1291870) | 222➡️223 | 8.7 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 130➡️131 | 8.8 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 217➡️218 | 8.6 |
+| [房间](https://movie.douban.com/subject/25724855) | 247➡️248 | 8.8 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 121➡️120 | 8.9 |
+| [冰雪奇缘](https://movie.douban.com/subject/4202982) | 248➡️247 | 8.5 |
 ## 2025-06-09
 
 
