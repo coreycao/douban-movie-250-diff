@@ -2,8 +2,33 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-06-16*
+*Updated on 2025-06-23*
 
+## 2025-06-23
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [两杆大烟枪](https://movie.douban.com/subject/1293350) | 68➡️67 | 9.1 |
+| [七武士](https://movie.douban.com/subject/1295399) | 156➡️155 | 9.3 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 180➡️181 | 8.6 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 214➡️215 | 8.6 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 120➡️121 | 8.9 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 130➡️129 | 8.8 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 133➡️134 | 8.7 |
+| [窃听风暴](https://movie.douban.com/subject/1900841) | 67➡️68 | 9.2 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 146➡️147 | 9.0 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 213➡️214 | 8.4 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 181➡️180 | 8.6 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 129➡️130 | 8.8 |
+| [模仿游戏](https://movie.douban.com/subject/10463953) | 155➡️156 | 8.8 |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | 121➡️122 | 8.9 |
+| [新世界](https://movie.douban.com/subject/10437779) | 134➡️133 | 8.9 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 147➡️146 | 8.8 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 122➡️120 | 9.6 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 215➡️213 | 9.1 |
 ## 2025-06-16
 
 
