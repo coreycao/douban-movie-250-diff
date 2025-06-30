@@ -2,8 +2,37 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-06-23*
+*Updated on 2025-06-30*
 
+## 2025-06-30
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 116➡️115 | 9.1 |
+| [摔跤吧！爸爸](https://movie.douban.com/subject/26387939) | 43➡️44 | 9.0 |
+| [被嫌弃的松子的一生](https://movie.douban.com/subject/1787291) | 110➡️111 | 8.8 |
+| [第六感](https://movie.douban.com/subject/1297630) | 111➡️110 | 8.9 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 202➡️203 | 8.6 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 244➡️245 | 8.6 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 203➡️202 | 9.3 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 140➡️141 | 8.8 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 213➡️212 | 9.1 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 215➡️216 | 8.6 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 129➡️128 | 8.8 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 212➡️213 | 8.6 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 216➡️215 | 8.6 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 154➡️153 | 8.6 |
+| [鬼子来了](https://movie.douban.com/subject/1291858) | 44➡️43 | 9.3 |
+| [玛丽和马克思](https://movie.douban.com/subject/3072124) | 153➡️154 | 9.0 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 128➡️129 | 9.1 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 227➡️226 | 8.8 |
+| [教父3](https://movie.douban.com/subject/1294240) | 141➡️140 | 9.0 |
+| [攻壳机动队](https://movie.douban.com/subject/1291936) | 245➡️244 | 9.0 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 226➡️227 | 8.6 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 115➡️116 | 8.7 |
 ## 2025-06-23
 
 
