@@ -2,8 +2,32 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-07-07*
+*Updated on 2025-07-14*
 
+## 2025-07-14
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 215➡️214 | 8.6 |
+| [冰雪奇缘](https://movie.douban.com/subject/4202982) | 247➡️246 | 8.5 |
+| [菊次郎的夏天](https://movie.douban.com/subject/1293359) | 118➡️120 | 8.9 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 226➡️225 | 8.8 |
+| [断背山](https://movie.douban.com/subject/1418834) | 117➡️118 | 8.8 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 221➡️220 | 8.7 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 130➡️131 | 8.8 |
+| [七宗罪](https://movie.douban.com/subject/1292223) | 98➡️99 | 8.8 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 220➡️221 | 8.5 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 131➡️130 | 8.8 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 214➡️215 | 8.4 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 120➡️117 | 9.6 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 225➡️226 | 8.9 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | 201➡️202 | 8.7 |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | 246➡️247 | 8.8 |
+| [还有明天](https://movie.douban.com/subject/36445098) | 99➡️98 | 9.4 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 202➡️201 | 9.3 |
 ## 2025-07-07
 
 
