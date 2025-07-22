@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-07-21*
+*Updated on 2025-07-22*
 
+## 2025-07-22
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [青蛇](https://movie.douban.com/subject/1303394) | 217 | ➡️8.6 |
 ## 2025-07-21
 
 
