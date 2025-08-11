@@ -2,8 +2,33 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-08-04*
+*Updated on 2025-08-11*
 
+## 2025-08-11
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [还有明天](https://movie.douban.com/subject/36445098) | 95➡️94 | 9.4 |
+| [摩登时代](https://movie.douban.com/subject/1294371) | 89➡️88 | 9.3 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 186➡️187 | 8.8 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 204➡️205 | 8.6 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 232➡️233 | 8.6 |
+| [源代码](https://movie.douban.com/subject/3075287) | 205➡️204 | 8.6 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 134➡️133 | 8.7 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 115➡️114 | 9.6 |
+| [教父](https://movie.douban.com/subject/1291841) | 23➡️24 | 9.3 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 187➡️186 | 9.5 |
+| [喜剧之王](https://movie.douban.com/subject/1302425) | 88➡️89 | 8.8 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 114➡️115 | 8.9 |
+| [海豚湾](https://movie.douban.com/subject/3442220) | 94➡️95 | 9.3 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 133➡️134 | 9.0 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 224➡️225 | 8.7 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 225➡️224 | 8.8 |
+| [寻梦环游记](https://movie.douban.com/subject/20495023) | 24➡️23 | 9.1 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 233➡️232 | 8.6 |
 ## 2025-08-04
 
 
