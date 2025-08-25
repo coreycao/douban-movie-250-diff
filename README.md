@@ -2,8 +2,35 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-08-18*
+*Updated on 2025-08-25*
 
+## 2025-08-25
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [血钻](https://movie.douban.com/subject/1428175) | 244➡️245 | 8.7 |
+| [断背山](https://movie.douban.com/subject/1418834) | 120➡️121 | 8.8 |
+| [青蛇](https://movie.douban.com/subject/1303394) | 217➡️215 | 8.6 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 203➡️201 | 9.1 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 143➡️144 | 8.8 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 228➡️229 | 8.5 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 179➡️180 | 9.0 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 245➡️244 | 8.6 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | 202➡️203 | 8.7 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 229➡️228 | 8.8 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 200➡️199 | 9.3 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 121➡️120 | 8.9 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 216➡️217 | 8.6 |
+| [遗愿清单](https://movie.douban.com/subject/1867345) | 201➡️202 | 8.7 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 116➡️115 | 9.1 |
+| [哪吒闹海](https://movie.douban.com/subject/1307315) | 144➡️143 | 9.2 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 215➡️216 | 8.4 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 180➡️179 | 8.6 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | 199➡️200 | 8.7 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 115➡️116 | 8.9 |
 ## 2025-08-18
 
 
