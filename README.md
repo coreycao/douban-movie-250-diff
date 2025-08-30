@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-08-25*
+*Updated on 2025-08-30*
 
+## 2025-08-30
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [还有明天](https://movie.douban.com/subject/36445098) | 94 | 9.4➡️9.3 |
 ## 2025-08-25
 
 
