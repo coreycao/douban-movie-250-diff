@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-09-02*
+*Updated on 2025-09-05*
 
+## 2025-09-05
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [唐伯虎点秋香](https://movie.douban.com/subject/1306249) | 100 | 8.7➡️8.8 |
 ## 2025-09-02
 
 
