@@ -2,8 +2,46 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-09-11*
+*Updated on 2025-09-15*
 
+## 2025-09-15
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [一一](https://movie.douban.com/subject/1292434) | 92➡️93 | 9.1 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 194➡️193 | 8.5 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 131➡️132 | 8.8 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 183➡️182 | 9.1 |
+| [还有明天](https://movie.douban.com/subject/36445098) | 93➡️90 | 9.3 |
+| [教父3](https://movie.douban.com/subject/1294240) | 140➡️141 | 9.0 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 191➡️186 | 9.1 |
+| [菊次郎的夏天](https://movie.douban.com/subject/1293359) | 119➡️118 | 8.9 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 141➡️140 | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 186➡️187 | 9.5 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 239➡️238 | 8.8 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 189➡️190 | 8.9 |
+| [心灵捕手](https://movie.douban.com/subject/1292656) | 84➡️83 | 9.0 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | 187➡️188 | 8.7 |
+| [致命ID](https://movie.douban.com/subject/1297192) | 91➡️92 | 8.9 |
+| [冰川时代](https://movie.douban.com/subject/1291578) | 193➡️194 | 8.7 |
+| [新世界](https://movie.douban.com/subject/10437779) | 132➡️131 | 8.9 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 165➡️164 | 9.5 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 120➡️119 | 8.9 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 147➡️148 | 9.0 |
+| [恐怖直播](https://movie.douban.com/subject/21360417) | 164➡️165 | 8.7 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 188➡️189 | 8.8 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 182➡️183 | 8.6 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 238➡️239 | 8.7 |
+| [釜山行](https://movie.douban.com/subject/25986180) | 148➡️147 | 8.6 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 118➡️120 | 8.7 |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | 190➡️191 | 8.7 |
+| [杀人回忆](https://movie.douban.com/subject/1300299) | 90➡️91 | 8.9 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | 218➡️217 | 8.6 |
+| [致命魔术](https://movie.douban.com/subject/1780330) | 83➡️84 | 8.9 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 217➡️218 | 8.6 |
 ## 2025-09-11
 
 
