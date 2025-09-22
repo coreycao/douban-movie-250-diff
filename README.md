@@ -2,8 +2,32 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-09-15*
+*Updated on 2025-09-22*
 
+## 2025-09-22
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 186➡️192 | 9.1 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 132➡️133 | 8.8 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 187➡️186 | 9.5 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | 192➡️191 | 8.7 |
+| [活着](https://movie.douban.com/subject/1292365) | 30➡️29 | 9.3 |
+| [怦然心动](https://movie.douban.com/subject/3319755) | 29➡️30 | 9.1 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | 188➡️187 | 8.7 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 190➡️189 | 8.9 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 133➡️132 | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 178➡️177 | 9.0 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 222➡️223 | 8.7 |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | 191➡️190 | 8.7 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 119➡️118 | 8.9 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 223➡️222 | 8.8 |
+| [菊次郎的夏天](https://movie.douban.com/subject/1293359) | 118➡️119 | 8.9 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 189➡️188 | 8.8 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 177➡️178 | 8.8 |
 ## 2025-09-15
 
 
