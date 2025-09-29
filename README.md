@@ -2,8 +2,23 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-09-22*
+*Updated on 2025-09-29*
 
+## 2025-09-29
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 192➡️191 | 9.1 |
+| [致命ID](https://movie.douban.com/subject/1297192) | 92➡️93 | 8.9 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 186➡️185 | 9.5 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 176➡️177 | 8.9 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | 191➡️192 | 8.7 |
+| [一一](https://movie.douban.com/subject/1292434) | 93➡️92 | 9.1 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | 185➡️186 | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 177➡️176 | 9.0 |
 ## 2025-09-22
 
 
