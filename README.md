@@ -2,8 +2,31 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-10-06*
+*Updated on 2025-10-13*
 
+## 2025-10-13
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [喜剧之王](https://movie.douban.com/subject/1302425) | 88➡️89 | 8.8 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 243➡️244 | 8.6 |
+| [侧耳倾听](https://movie.douban.com/subject/1297052) | 139➡️140 | 8.9 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | 222➡️221 | 8.8 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 122➡️121 | 8.8 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 176➡️175 | 9.0 |
+| [还有明天](https://movie.douban.com/subject/36445098) | 89➡️88 | 9.3 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 221➡️222 | 8.5 |
+| [人工智能](https://movie.douban.com/subject/1302827) | 225➡️224 | 8.7 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 182➡️183 | 9.1 |
+| [雨人](https://movie.douban.com/subject/1291870) | 224➡️225 | 8.7 |
+| [断背山](https://movie.douban.com/subject/1418834) | 121➡️122 | 8.8 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 183➡️182 | 9.5 |
+| [攻壳机动队](https://movie.douban.com/subject/1291936) | 244➡️243 | 9.0 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 140➡️139 | 8.7 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | 175➡️176 | 8.9 |
 ## 2025-10-06
 
 
