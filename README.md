@@ -2,8 +2,32 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-10-13*
+*Updated on 2025-10-20*
 
+## 2025-10-20
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | 190➡️191 | 8.7 |
+| [这个杀手不太冷](https://movie.douban.com/subject/1295644) | 7➡️8 | 9.4 |
+| [机器人总动员](https://movie.douban.com/subject/2131459) | 17➡️16 | 9.3 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 146➡️145 | 8.8 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 191➡️190 | 9.1 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 130➡️131 | 9.1 |
+| [两杆大烟枪](https://movie.douban.com/subject/1293350) | 67➡️68 | 9.1 |
+| [哈利·波特与死亡圣器(下)](https://movie.douban.com/subject/3011235) | 68➡️67 | 9.0 |
+| [放牛班的春天](https://movie.douban.com/subject/1291549) | 16➡️17 | 9.3 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 121➡️120 | 8.8 |
+| [星际穿越](https://movie.douban.com/subject/1889243) | 8➡️7 | 9.4 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | 120➡️121 | 8.7 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 131➡️130 | 8.7 |
+| [风之谷](https://movie.douban.com/subject/1291585) | 180➡️181 | 8.9 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 182➡️180 | 9.5 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 145➡️146 | 8.8 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 181➡️182 | 9.0 |
 ## 2025-10-13
 
 
