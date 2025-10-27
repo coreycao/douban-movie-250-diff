@@ -2,8 +2,29 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-10-20*
+*Updated on 2025-10-27*
 
+## 2025-10-27
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 136➡️135 | 8.9 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 179➡️180 | 8.6 |
+| [菊次郎的夏天](https://movie.douban.com/subject/1293359) | 119➡️120 | 8.9 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 120➡️119 | 8.8 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 127➡️126 | 9.1 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 180➡️179 | 9.5 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 126➡️127 | 8.8 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 190➡️189 | 9.1 |
+| [七武士](https://movie.douban.com/subject/1295399) | 155➡️154 | 9.3 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 189➡️190 | 8.9 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 185➡️184 | 8.9 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 154➡️155 | 8.6 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 135➡️136 | 8.7 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 184➡️185 | 8.6 |
 ## 2025-10-20
 
 
