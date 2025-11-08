@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-11-03*
+*Updated on 2025-11-08*
 
+## 2025-11-08
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [疯狂动物城](https://movie.douban.com/subject/25662329) | 14 | 9.2➡️9.3 |
 ## 2025-11-03
 
 #### 新上榜电影
