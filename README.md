@@ -2,8 +2,40 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-11-08*
+*Updated on 2025-11-10*
 
+## 2025-11-10
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [寻梦环游记](https://movie.douban.com/subject/20495023) | 23➡️22 | 9.1 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 179➡️178 | 9.5 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 232➡️233 | 8.5 |
+| [触不可及](https://movie.douban.com/subject/6786002) | 22➡️23 | 9.3 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | 187➡️188 | 8.7 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 185➡️186 | 8.6 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 189➡️187 | 9.1 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 118➡️119 | 8.9 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 206➡️207 | 8.6 |
+| [纵横四海](https://movie.douban.com/subject/1295409) | 188➡️189 | 8.8 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 229➡️230 | 8.5 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 233➡️232 | 8.6 |
+| [寄生虫](https://movie.douban.com/subject/27010768) | 105➡️104 | 8.8 |
+| [攻壳机动队](https://movie.douban.com/subject/1291936) | 244➡️243 | 9.0 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 214➡️213 | 8.6 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 230➡️229 | 8.8 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | 186➡️185 | 8.7 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 174➡️173 | 8.8 |
+| [你看起来好像很好吃](https://movie.douban.com/subject/4848115) | 207➡️206 | 8.9 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 119➡️118 | 8.8 |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 104➡️105 | 8.9 |
+| [疯狂原始人](https://movie.douban.com/subject/1907966) | 173➡️174 | 8.7 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 178➡️179 | 8.8 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 243➡️244 | 8.6 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 213➡️214 | 8.6 |
 ## 2025-11-08
 
 
