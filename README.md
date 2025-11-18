@@ -2,8 +2,35 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-11-10*
+*Updated on 2025-11-18*
 
+## 2025-11-18
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [小丑](https://movie.douban.com/subject/27119724) | 169➡️170 | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 178➡️177 | 9.5 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 134➡️135 | 9.0 |
+| [虎口脱险](https://movie.douban.com/subject/1296909) | 227➡️228 | 8.9 |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | 87➡️88 | 8.9 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 126➡️127 | 9.1 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 211➡️212 | 8.6 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 135➡️134 | 8.9 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | 177➡️178 | 8.9 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 212➡️211 | 8.6 |
+| [还有明天](https://movie.douban.com/subject/36445098) | 88➡️87 | 9.3 |
+| [房间](https://movie.douban.com/subject/25724855) | 248➡️249 | 8.7 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 239➡️238 | 8.8 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 238➡️239 | 8.8 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 228➡️227 | 8.8 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 220➡️219 | 8.7 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 127➡️126 | 8.8 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 219➡️220 | 8.8 |
+| [隐藏人物](https://movie.douban.com/subject/26615208) | 249➡️248 | 8.9 |
+| [三块广告牌](https://movie.douban.com/subject/26611804) | 170➡️169 | 8.7 |
 ## 2025-11-10
 
 
