@@ -2,8 +2,35 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-11-18*
+*Updated on 2025-11-24*
 
+## 2025-11-24
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 195➡️194 | 8.9 |
+| [冰川时代](https://movie.douban.com/subject/1291578) | 194➡️195 | 8.7 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 118➡️117 | 8.8 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 165➡️164 | 8.7 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 183➡️182 | 9.1 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 212➡️213 | 8.6 |
+| [阳光姐妹淘](https://movie.douban.com/subject/4917726) | 164➡️165 | 8.8 |
+| [素媛](https://movie.douban.com/subject/21937452) | 39➡️40 | 9.3 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | 219➡️218 | 8.7 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 127➡️126 | 9.1 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 126➡️127 | 8.8 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 218➡️219 | 8.6 |
+| [一一](https://movie.douban.com/subject/1292434) | 91➡️90 | 9.1 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 213➡️212 | 8.6 |
+| [还有明天](https://movie.douban.com/subject/36445098) | 87➡️86 | 9.3 |
+| [超脱](https://movie.douban.com/subject/5322596) | 86➡️87 | 9.0 |
+| [海蒂和爷爷](https://movie.douban.com/subject/25958717) | 40➡️39 | 9.3 |
+| [摩登时代](https://movie.douban.com/subject/1294371) | 90➡️91 | 9.3 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 117➡️118 | 8.9 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 182➡️183 | 9.0 |
 ## 2025-11-18
 
 
