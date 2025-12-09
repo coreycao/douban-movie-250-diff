@@ -2,8 +2,28 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-12-01*
+*Updated on 2025-12-09*
 
+## 2025-12-09
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | 243➡️244 | 8.6 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 200➡️199 | 9.3 |
+| [步履不停](https://movie.douban.com/subject/2222996) | 238➡️237 | 8.8 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | 237➡️238 | 8.6 |
+| [冰雪奇缘](https://movie.douban.com/subject/4202982) | 245➡️243 | 8.5 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | 220➡️219 | 8.8 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 136➡️135 | 8.9 |
+| [忠犬八公物语](https://movie.douban.com/subject/1959195) | 199➡️200 | 9.2 |
+| [侧耳倾听](https://movie.douban.com/subject/1297052) | 140➡️141 | 8.9 |
+| [攻壳机动队](https://movie.douban.com/subject/1291936) | 244➡️245 | 9.0 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 135➡️136 | 9.0 |
+| [教父3](https://movie.douban.com/subject/1294240) | 141➡️140 | 9.0 |
+| [黑天鹅](https://movie.douban.com/subject/1978709) | 219➡️220 | 8.6 |
 ## 2025-12-01
 
 
