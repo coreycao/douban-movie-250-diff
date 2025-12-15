@@ -2,8 +2,38 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-12-09*
+*Updated on 2025-12-15*
 
+## 2025-12-15
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 182➡️183 | 9.0 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 231➡️230 | 8.6 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 213➡️214 | 8.6 |
+| [哪吒闹海](https://movie.douban.com/subject/1307315) | 143➡️142 | 9.2 |
+| [岁月神偷](https://movie.douban.com/subject/3792799) | 198➡️199 | 8.7 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | 242➡️243 | 8.7 |
+| [喜剧之王](https://movie.douban.com/subject/1302425) | 89➡️90 | 8.8 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 163➡️162 | 8.7 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | 183➡️182 | 9.1 |
+| [借东西的小人阿莉埃蒂](https://movie.douban.com/subject/4202302) | 119➡️118 | 8.9 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | 162➡️163 | 9.0 |
+| [一一](https://movie.douban.com/subject/1292434) | 90➡️89 | 9.1 |
+| [冰雪奇缘](https://movie.douban.com/subject/4202982) | 243➡️241 | 8.5 |
+| [电锯惊魂](https://movie.douban.com/subject/1417598) | 169➡️170 | 8.7 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 230➡️231 | 8.5 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | 199➡️198 | 9.3 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 214➡️213 | 8.6 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 241➡️242 | 8.7 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 142➡️143 | 8.8 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 116➡️115 | 8.8 |
+| [入殓师](https://movie.douban.com/subject/2149806) | 118➡️119 | 8.9 |
+| [小丑](https://movie.douban.com/subject/27119724) | 170➡️169 | 8.7 |
+| [未麻的部屋](https://movie.douban.com/subject/1395091) | 115➡️116 | 9.1 |
 ## 2025-12-09
 
 
