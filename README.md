@@ -2,8 +2,29 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-12-15*
+*Updated on 2025-12-23*
 
+## 2025-12-23
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [被嫌弃的松子的一生](https://movie.douban.com/subject/1787291) | 112➡️113 | 8.8 |
+| [低俗小说](https://movie.douban.com/subject/1291832) | 85➡️86 | 8.9 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 134➡️135 | 8.9 |
+| [小丑](https://movie.douban.com/subject/27119724) | 169➡️168 | 8.7 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 135➡️134 | 8.9 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | 154➡️155 | 8.6 |
+| [七武士](https://movie.douban.com/subject/1295399) | 155➡️154 | 9.3 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 211➡️210 | 8.6 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 113➡️112 | 9.6 |
+| [三块广告牌](https://movie.douban.com/subject/26611804) | 168➡️169 | 8.7 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 210➡️211 | 9.3 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 207➡️208 | 8.6 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 208➡️207 | 8.6 |
+| [还有明天](https://movie.douban.com/subject/36445098) | 86➡️85 | 9.3 |
 ## 2025-12-15
 
 
