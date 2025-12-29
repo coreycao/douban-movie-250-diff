@@ -2,8 +2,44 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2025-12-23*
+*Updated on 2025-12-29*
 
+## 2025-12-29
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [海街日记](https://movie.douban.com/subject/25895901) | 179➡️180 | 8.8 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | 163➡️164 | 9.0 |
+| [你看起来好像很好吃](https://movie.douban.com/subject/4848115) | 206➡️207 | 8.9 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | 183➡️185 | 9.0 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 134➡️133 | 8.9 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | 231➡️232 | 8.5 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 207➡️206 | 8.6 |
+| [风之谷](https://movie.douban.com/subject/1291585) | 181➡️183 | 8.9 |
+| [萤火虫之墓](https://movie.douban.com/subject/1293318) | 242➡️243 | 8.7 |
+| [冰川时代](https://movie.douban.com/subject/1291578) | 194➡️195 | 8.7 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 164➡️163 | 9.5 |
+| [神偷奶爸](https://movie.douban.com/subject/3287562) | 149➡️148 | 8.7 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 227➡️226 | 8.8 |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 226➡️227 | 8.6 |
+| [英雄本色](https://movie.douban.com/subject/1297574) | 186➡️187 | 8.6 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | 133➡️135 | 8.8 |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | 191➡️190 | 8.7 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 135➡️134 | 8.9 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | 190➡️191 | 8.9 |
+| [第六感](https://movie.douban.com/subject/1297630) | 110➡️109 | 8.9 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 196➡️194 | 9.0 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | 185➡️186 | 8.7 |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 180➡️181 | 8.6 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 195➡️196 | 8.9 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 232➡️231 | 8.6 |
+| [爱在黎明破晓前](https://movie.douban.com/subject/1296339) | 109➡️110 | 8.8 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | 148➡️149 | 9.0 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | 243➡️242 | 8.7 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 187➡️179 | 9.1 |
 ## 2025-12-23
 
 
