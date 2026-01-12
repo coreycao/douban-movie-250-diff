@@ -2,8 +2,32 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-01-05*
+*Updated on 2026-01-12*
 
+## 2026-01-12
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | 181➡️180 | 8.6 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 162➡️161 | 8.7 |
+| [雨人](https://movie.douban.com/subject/1291870) | 225➡️226 | 8.7 |
+| [飞越疯人院](https://movie.douban.com/subject/1292224) | 80➡️81 | 9.1 |
+| [你的名字。](https://movie.douban.com/subject/26683290) | 161➡️162 | 8.5 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 173➡️174 | 8.8 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 180➡️181 | 8.8 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 177➡️176 | 9.5 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 145➡️144 | 8.8 |
+| [蝴蝶效应](https://movie.douban.com/subject/1292343) | 81➡️80 | 8.9 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 174➡️172 | 9.1 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 144➡️145 | 8.8 |
+| [千钧一发](https://movie.douban.com/subject/1300117) | 226➡️225 | 8.8 |
+| [致命魔术](https://movie.douban.com/subject/1780330) | 84➡️85 | 8.9 |
+| [达拉斯买家俱乐部](https://movie.douban.com/subject/1793929) | 172➡️173 | 8.8 |
+| [疯狂原始人](https://movie.douban.com/subject/1907966) | 176➡️177 | 8.7 |
+| [还有明天](https://movie.douban.com/subject/36445098) | 85➡️84 | 9.3 |
 ## 2026-01-05
 
 #### 新上榜电影
