@@ -2,8 +2,36 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-01-12*
+*Updated on 2026-01-19*
 
+## 2026-01-19
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [罗生门](https://movie.douban.com/subject/1291879) | 229➡️230 | 8.8 |
+| [谍影重重3](https://movie.douban.com/subject/1578507) | 171➡️172 | 8.9 |
+| [飞屋环游记](https://movie.douban.com/subject/2129039) | 35➡️36 | 9.1 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 137➡️138 | 8.7 |
+| [海边的曼彻斯特](https://movie.douban.com/subject/25980443) | 233➡️232 | 8.6 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | 232➡️233 | 8.5 |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | 130➡️129 | 8.7 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | 230➡️229 | 8.6 |
+| [花样年华](https://movie.douban.com/subject/1291557) | 129➡️130 | 8.8 |
+| [小丑](https://movie.douban.com/subject/27119724) | 168➡️169 | 8.7 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 172➡️168 | 9.1 |
+| [新龙门客栈](https://movie.douban.com/subject/1292287) | 223➡️222 | 8.7 |
+| [电锯惊魂](https://movie.douban.com/subject/1417598) | 170➡️171 | 8.7 |
+| [初恋这件小事](https://movie.douban.com/subject/4739952) | 222➡️223 | 8.5 |
+| [三块广告牌](https://movie.douban.com/subject/26611804) | 169➡️170 | 8.7 |
+| [还有明天](https://movie.douban.com/subject/36445098) | 84➡️83 | 9.3 |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | 205➡️206 | 8.7 |
+| [心灵捕手](https://movie.douban.com/subject/1292656) | 83➡️84 | 9.0 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | 206➡️205 | 8.6 |
+| [让子弹飞](https://movie.douban.com/subject/3742360) | 36➡️35 | 9.0 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 138➡️137 | 8.7 |
 ## 2026-01-12
 
 
