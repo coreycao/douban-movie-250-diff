@@ -2,8 +2,28 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-01-19*
+*Updated on 2026-01-26*
 
+## 2026-01-26
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [崖上的波妞](https://movie.douban.com/subject/1959877) | 227➡️226 | 8.6 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 127➡️126 | 9.1 |
+| [色，戒](https://movie.douban.com/subject/1828115) | 137➡️136 | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 175➡️174 | 9.0 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 112➡️111 | 9.6 |
+| [达拉斯买家俱乐部](https://movie.douban.com/subject/1793929) | 173➡️175 | 8.8 |
+| [谍影重重3](https://movie.douban.com/subject/1578507) | 172➡️171 | 8.9 |
+| [雨人](https://movie.douban.com/subject/1291870) | 226➡️227 | 8.7 |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | 126➡️127 | 8.8 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 174➡️173 | 8.8 |
+| [电锯惊魂](https://movie.douban.com/subject/1417598) | 171➡️172 | 8.7 |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | 111➡️112 | 8.9 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | 136➡️137 | 9.0 |
 ## 2026-01-19
 
 
