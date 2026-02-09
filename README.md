@@ -2,8 +2,37 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-02-02*
+*Updated on 2026-02-09*
 
+## 2026-02-09
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | 115➡️114 | 8.8 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | 145➡️146 | 8.8 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 143➡️144 | 8.8 |
+| [无间道2](https://movie.douban.com/subject/1307106) | 174➡️175 | 8.8 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | 144➡️143 | 8.8 |
+| [熔炉](https://movie.douban.com/subject/5912992) | 21➡️22 | 9.3 |
+| [寻梦环游记](https://movie.douban.com/subject/20495023) | 22➡️21 | 9.1 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 167➡️166 | 9.1 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 161➡️160 | 8.7 |
+| [海街日记](https://movie.douban.com/subject/25895901) | 182➡️183 | 8.8 |
+| [血战钢锯岭](https://movie.douban.com/subject/26325320) | 160➡️161 | 8.7 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 208➡️209 | 8.6 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | 138➡️139 | 8.7 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 209➡️208 | 8.6 |
+| [恐怖直播](https://movie.douban.com/subject/21360417) | 166➡️167 | 8.7 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 146➡️145 | 8.8 |
+| [重庆森林](https://movie.douban.com/subject/1291999) | 114➡️115 | 8.8 |
+| [2001太空漫游](https://movie.douban.com/subject/1292226) | 183➡️182 | 8.9 |
+| [怪兽电力公司](https://movie.douban.com/subject/1291579) | 139➡️138 | 8.8 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | 175➡️174 | 9.5 |
+| [惊魂记](https://movie.douban.com/subject/1293181) | 158➡️157 | 9.0 |
+| [大鱼](https://movie.douban.com/subject/1291545) | 157➡️158 | 8.8 |
 ## 2026-02-02
 
 
