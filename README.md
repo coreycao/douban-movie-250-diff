@@ -2,8 +2,32 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-02-09*
+*Updated on 2026-02-16*
 
+## 2026-02-16
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | 209➡️210 | 8.6 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | 213➡️214 | 8.6 |
+| [冰雪奇缘](https://movie.douban.com/subject/4202982) | 240➡️239 | 8.5 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 127➡️126 | 8.8 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 195➡️194 | 8.9 |
+| [千年女优](https://movie.douban.com/subject/1307394) | 239➡️240 | 8.8 |
+| [小姐](https://movie.douban.com/subject/25977027) | 248➡️247 | 8.5 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 215➡️213 | 8.4 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | 126➡️127 | 9.1 |
+| [阳光姐妹淘](https://movie.douban.com/subject/4917726) | 165➡️166 | 8.8 |
+| [隐藏人物](https://movie.douban.com/subject/26615208) | 247➡️248 | 8.9 |
+| [飞屋环游记](https://movie.douban.com/subject/2129039) | 36➡️35 | 9.1 |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | 214➡️215 | 8.6 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | 166➡️165 | 9.1 |
+| [让子弹飞](https://movie.douban.com/subject/3742360) | 35➡️36 | 9.0 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 194➡️195 | 8.5 |
+| [可可西里](https://movie.douban.com/subject/1308857) | 210➡️209 | 8.9 |
 ## 2026-02-09
 
 
