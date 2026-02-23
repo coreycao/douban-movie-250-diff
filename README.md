@@ -2,8 +2,38 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-02-16*
+*Updated on 2026-02-23*
 
+## 2026-02-23
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 105➡️106 | 8.9 |
+| [罗生门](https://movie.douban.com/subject/1291879) | 230➡️231 | 8.8 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | 160➡️159 | 8.7 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | 133➡️132 | 8.9 |
+| [射雕英雄传之东成西就](https://movie.douban.com/subject/1316510) | 159➡️160 | 8.7 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | 208➡️207 | 8.6 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | 192➡️193 | 8.7 |
+| [城市之光](https://movie.douban.com/subject/1293908) | 211➡️212 | 9.3 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | 212➡️213 | 8.6 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | 231➡️230 | 8.6 |
+| [重庆森林](https://movie.douban.com/subject/1291999) | 115➡️117 | 8.8 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | 117➡️115 | 8.8 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | 213➡️211 | 8.4 |
+| [天书奇谭](https://movie.douban.com/subject/1428581) | 106➡️105 | 9.2 |
+| [消失的爱人](https://movie.douban.com/subject/21318488) | 125➡️126 | 8.7 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | 126➡️125 | 8.8 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 132➡️133 | 9.1 |
+| [你的名字。](https://movie.douban.com/subject/26683290) | 162➡️163 | 8.5 |
+| [血观音](https://movie.douban.com/subject/27113517) | 250➡️249 | 8.6 |
+| [东京教父](https://movie.douban.com/subject/1310177) | 193➡️192 | 9.0 |
+| [房间](https://movie.douban.com/subject/25724855) | 249➡️250 | 8.7 |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | 163➡️162 | 9.5 |
+| [你看起来好像很好吃](https://movie.douban.com/subject/4848115) | 207➡️208 | 8.9 |
 ## 2026-02-16
 
 
