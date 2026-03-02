@@ -153,19 +153,19 @@
   },
   {
     "rank": "20",
-    "pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.jpg",
-    "name": "大话西游之大圣娶亲",
-    "link": "https://movie.douban.com/subject/1292213",
-    "score": "9.2",
-    "id": "1292213"
-  },
-  {
-    "rank": "21",
     "pic": "https://img2.doubanio.com/view/photo/s_ratio_poster/public/p2505426431.jpg",
     "name": "寻梦环游记",
     "link": "https://movie.douban.com/subject/20495023",
     "score": "9.1",
     "id": "20495023"
+  },
+  {
+    "rank": "21",
+    "pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2455050536.jpg",
+    "name": "大话西游之大圣娶亲",
+    "link": "https://movie.douban.com/subject/1292213",
+    "score": "9.2",
+    "id": "1292213"
   },
   {
     "rank": "22",
@@ -201,19 +201,19 @@
   },
   {
     "rank": "26",
-    "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1312700628.jpg",
-    "name": "当幸福来敲门",
-    "link": "https://movie.douban.com/subject/1849031",
-    "score": "9.1",
-    "id": "1849031"
-  },
-  {
-    "rank": "27",
     "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2913781448.jpg",
     "name": "哈利·波特与魔法石",
     "link": "https://movie.douban.com/subject/1295038",
     "score": "9.2",
     "id": "1295038"
+  },
+  {
+    "rank": "27",
+    "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1312700628.jpg",
+    "name": "当幸福来敲门",
+    "link": "https://movie.douban.com/subject/1849031",
+    "score": "9.1",
+    "id": "1849031"
   },
   {
     "rank": "28",
@@ -833,19 +833,19 @@
   },
   {
     "rank": "105",
-    "pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2700138245.jpg",
-    "name": "天书奇谭",
-    "link": "https://movie.douban.com/subject/1428581",
-    "score": "9.2",
-    "id": "1428581"
-  },
-  {
-    "rank": "106",
     "pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1706428744.jpg",
     "name": "蝙蝠侠：黑暗骑士崛起",
     "link": "https://movie.douban.com/subject/3395373",
     "score": "8.9",
     "id": "3395373"
+  },
+  {
+    "rank": "106",
+    "pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2700138245.jpg",
+    "name": "天书奇谭",
+    "link": "https://movie.douban.com/subject/1428581",
+    "score": "9.2",
+    "id": "1428581"
   },
   {
     "rank": "107",
@@ -884,7 +884,7 @@
     "pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2528965424.jpg",
     "name": "茶馆",
     "link": "https://movie.douban.com/subject/1461403",
-    "score": "9.5",
+    "score": "9.6",
     "id": "1461403"
   },
   {
@@ -1073,14 +1073,6 @@
   },
   {
     "rank": "135",
-    "pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2564685215.jpg",
-    "name": "阳光灿烂的日子",
-    "link": "https://movie.douban.com/subject/1291875",
-    "score": "8.8",
-    "id": "1291875"
-  },
-  {
-    "rank": "136",
     "pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p453716305.jpg",
     "name": "色，戒",
     "link": "https://movie.douban.com/subject/1828115",
@@ -1088,20 +1080,28 @@
     "id": "1828115"
   },
   {
-    "rank": "137",
-    "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2232317770.jpg",
-    "name": "小森林 夏秋篇",
-    "link": "https://movie.douban.com/subject/25814705",
-    "score": "9.0",
-    "id": "25814705"
+    "rank": "136",
+    "pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2564685215.jpg",
+    "name": "阳光灿烂的日子",
+    "link": "https://movie.douban.com/subject/1291875",
+    "score": "8.8",
+    "id": "1291875"
   },
   {
-    "rank": "138",
+    "rank": "137",
     "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2513247938.jpg",
     "name": "怪兽电力公司",
     "link": "https://movie.douban.com/subject/1291579",
     "score": "8.8",
     "id": "1291579"
+  },
+  {
+    "rank": "138",
+    "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2232317770.jpg",
+    "name": "小森林 夏秋篇",
+    "link": "https://movie.douban.com/subject/25814705",
+    "score": "9.0",
+    "id": "25814705"
   },
   {
     "rank": "139",
@@ -1305,19 +1305,19 @@
   },
   {
     "rank": "164",
-    "pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p652417775.jpg",
-    "name": "我是山姆",
-    "link": "https://movie.douban.com/subject/1306861",
-    "score": "9.0",
-    "id": "1306861"
-  },
-  {
-    "rank": "165",
     "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2928203369.jpg",
     "name": "机器人之梦",
     "link": "https://movie.douban.com/subject/35426925",
     "score": "9.1",
     "id": "35426925"
+  },
+  {
+    "rank": "165",
+    "pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p652417775.jpg",
+    "name": "我是山姆",
+    "link": "https://movie.douban.com/subject/1306861",
+    "score": "9.0",
+    "id": "1306861"
   },
   {
     "rank": "166",
@@ -1689,19 +1689,19 @@
   },
   {
     "rank": "212",
-    "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2170238828.jpg",
-    "name": "城市之光",
-    "link": "https://movie.douban.com/subject/1293908",
-    "score": "9.3",
-    "id": "1293908"
-  },
-  {
-    "rank": "213",
     "pic": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2549558913.jpg",
     "name": "波西米亚狂想曲",
     "link": "https://movie.douban.com/subject/5300054",
     "score": "8.6",
     "id": "5300054"
+  },
+  {
+    "rank": "213",
+    "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2170238828.jpg",
+    "name": "城市之光",
+    "link": "https://movie.douban.com/subject/1293908",
+    "score": "9.3",
+    "id": "1293908"
   },
   {
     "rank": "214",
@@ -1897,19 +1897,19 @@
   },
   {
     "rank": "238",
-    "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2507709428.jpg",
-    "name": "奇迹男孩",
-    "link": "https://movie.douban.com/subject/26787574",
-    "score": "8.6",
-    "id": "26787574"
-  },
-  {
-    "rank": "239",
     "pic": "https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2151245053.jpg",
     "name": "冰雪奇缘",
     "link": "https://movie.douban.com/subject/4202982",
     "score": "8.5",
     "id": "4202982"
+  },
+  {
+    "rank": "239",
+    "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2507709428.jpg",
+    "name": "奇迹男孩",
+    "link": "https://movie.douban.com/subject/26787574",
+    "score": "8.6",
+    "id": "26787574"
   },
   {
     "rank": "240",
@@ -1961,19 +1961,19 @@
   },
   {
     "rank": "246",
-    "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2351134499.jpg",
-    "name": "魂断蓝桥",
-    "link": "https://movie.douban.com/subject/1293964",
-    "score": "8.8",
-    "id": "1293964"
-  },
-  {
-    "rank": "247",
     "pic": "https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2355555424.jpg",
     "name": "小姐",
     "link": "https://movie.douban.com/subject/25977027",
     "score": "8.5",
     "id": "25977027"
+  },
+  {
+    "rank": "247",
+    "pic": "https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2351134499.jpg",
+    "name": "魂断蓝桥",
+    "link": "https://movie.douban.com/subject/1293964",
+    "score": "8.8",
+    "id": "1293964"
   },
   {
     "rank": "248",
