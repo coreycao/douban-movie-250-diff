@@ -2,8 +2,16 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-03-02*
+*Updated on 2026-03-03*
 
+## 2026-03-03
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [茶馆](https://movie.douban.com/subject/1461403) | 111 | 9.6➡️9.5 |
 ## 2026-03-02
 
 
