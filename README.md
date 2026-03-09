@@ -2,8 +2,29 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-03-03*
+*Updated on 2026-03-09*
 
+## 2026-03-09
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [末路狂花](https://movie.douban.com/subject/1291992) | 173➡️172 | 9.0 |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | 105➡️106 | 8.9 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | 144➡️145 | 8.8 |
+| [爱在黎明破晓前](https://movie.douban.com/subject/1296339) | 110➡️111 | 8.8 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | 195➡️194 | 8.5 |
+| [天书奇谭](https://movie.douban.com/subject/1428581) | 106➡️105 | 9.2 |
+| [被解救的姜戈](https://movie.douban.com/subject/6307447) | 145➡️144 | 8.8 |
+| [电锯惊魂](https://movie.douban.com/subject/1417598) | 172➡️173 | 8.7 |
+| [隐藏人物](https://movie.douban.com/subject/26615208) | 248➡️247 | 8.9 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | 133➡️134 | 9.1 |
+| [茶馆](https://movie.douban.com/subject/1461403) | 111➡️110 | 9.5 |
+| [一个叫欧维的男人决定去死](https://movie.douban.com/subject/26628357) | 134➡️133 | 8.9 |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | 247➡️248 | 8.8 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | 194➡️195 | 8.9 |
 ## 2026-03-03
 
 
