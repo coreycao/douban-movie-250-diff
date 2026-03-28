@@ -246,8 +246,12 @@ class TestDiffProcessorFormatting(unittest.TestCase):
         table = self.processor._format_changes_table(changes)
 
         self.assertIn('|     Name    |', table)
-        self.assertIn('| 1➡️2 |', table)  # 排名变化
-        self.assertIn('| 9.0➡️9.1 |', table)  # 评分变化
+        # 排名下降，显示 ↓ 和变化幅度
+        self.assertIn('↓ 1→2', table)
+        self.assertIn('(-1)', table)
+        # 评分上升，显示 ↑ 和变化幅度
+        self.assertIn('↑ 9.0→9.1', table)
+        self.assertIn('(+0.1)', table)
 
     def test_format_changes_table_no_rank_change(self):
         """测试排名不变时的格式"""
@@ -260,10 +264,43 @@ class TestDiffProcessorFormatting(unittest.TestCase):
 
         table = self.processor._format_changes_table(changes)
 
-        # 排名不变应显示原值
-        self.assertIn('| 1 |', table)
+        # 排名不变应显示 —
+        self.assertIn('| — |', table)
         # 评分变化
-        self.assertIn('| 9.0➡️9.1 |', table)
+        self.assertIn('↑ 9.0→9.1', table)
+        self.assertIn('(+0.1)', table)
+
+    def test_generate_summary(self):
+        """测试统计摘要生成"""
+        changes = MovieChanges(
+            added=[{'id': '1'}],
+            removed=[{'id': '2'}],
+            changed=[
+                ({'rank': '1', 'score': '9.0', 'id': '3'}, {'rank': '2', 'score': '9.0', 'id': '3'}),
+                ({'rank': '3', 'score': '8.0', 'id': '4'}, {'rank': '3', 'score': '8.1', 'id': '4'}),
+            ]
+        )
+
+        summary = self.processor._generate_summary(changes)
+
+        self.assertIn('📊', summary)
+        self.assertIn('总变更数**: 4', summary)
+        self.assertIn('排名变化**: 1', summary)
+        self.assertIn('评分变化**: 1', summary)
+        self.assertIn('新上榜**: 1', summary)
+        self.assertIn('退出榜单**: 1', summary)
+
+    def test_generate_summary_no_changes(self):
+        """测试无变化时的统计摘要"""
+        changes = MovieChanges(added=[], removed=[], changed=[])
+
+        summary = self.processor._generate_summary(changes)
+
+        self.assertIn('总变更数**: 0', summary)
+        self.assertIn('排名变化**: 0', summary)
+        self.assertIn('评分变化**: 0', summary)
+        self.assertIn('新上榜**: 0', summary)
+        self.assertIn('退出榜单**: 0', summary)
 
 
 class TestDiffProcessorIntegration(unittest.TestCase):
