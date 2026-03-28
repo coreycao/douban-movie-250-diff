@@ -80,12 +80,16 @@ class DiffProcessor:
         today = date.today().isoformat()
         content = f"## {today}\n\n"
 
+        # 添加统计摘要
+        content += self._generate_summary(changes)
+        content += "\n"
+
         if changes.added or changes.removed:
             if changes.added:
-                content += "#### 新上榜电影\n\n"
+                content += "#### 新上榜电影 🆕\n\n"
                 content += self._format_movie_table(changes.added)
             if changes.removed:
-                content += "\n#### 退出榜单电影\n\n"
+                content += "\n#### 退出榜单电影 ❌\n\n"
                 content += self._format_movie_table(changes.removed)
 
         if changes.changed:
@@ -119,18 +123,55 @@ class DiffProcessor:
             )
         return table
 
+    def _generate_summary(self, changes: 'MovieChanges') -> str:
+        """生成变更统计摘要"""
+        rank_changes = sum(1 for old, new in changes.changed if old['rank'] != new['rank'])
+        score_changes = sum(1 for old, new in changes.changed if old['score'] != new['score'])
+
+        total_changes = len(changes.added) + len(changes.removed) + len(changes.changed)
+
+        summary = "### 📊 今日统计\n\n"
+        summary += f"- **总变更数**: {total_changes} 部电影\n"
+        summary += f"- **排名变化**: {rank_changes} 部\n"
+        summary += f"- **评分变化**: {score_changes} 部\n"
+        summary += f"- **新上榜**: {len(changes.added)} 部\n"
+        summary += f"- **退出榜单**: {len(changes.removed)} 部\n"
+
+        return summary
+
     def _format_changes_table(self, changes: List[Tuple[Dict[str, Any], Dict[str, Any]]]) -> str:
-        """格式化变更表格"""
+        """格式化变更表格，增强显示变化方向和幅度"""
         table = "|     Name    |   Rank   |   Score  |\n"
         table += "| ---------- | -------- | -------- |\n"
         for old, new in changes:
-            rank_diff = old['rank'] if old['rank'] == new['rank'] else f"{old['rank']}➡️{new['rank']}"
-            score_diff = old['score'] if old['score'] == new['score'] else f"{old['score']}➡️{new['score']}"
+            # 排名变化处理
+            if old['rank'] == new['rank']:
+                rank_display = "—"
+            else:
+                old_rank = int(old['rank'])
+                new_rank = int(new['rank'])
+                rank_change = old_rank - new_rank  # 正数表示上升，负数表示下降
+                if rank_change > 0:
+                    rank_display = f"↑ {old['rank']}→{new['rank']} (+{rank_change})"
+                else:
+                    rank_display = f"↓ {old['rank']}→{new['rank']} ({rank_change})"
+
+            # 评分变化处理
+            if old['score'] == new['score']:
+                score_display = "—"
+            else:
+                old_score = float(old['score'])
+                new_score = float(new['score'])
+                score_change = new_score - old_score
+                sign = "+" if score_change > 0 else ""
+                # 格式化浮点数，避免精度问题
+                score_display = f"{'↑' if score_change > 0 else '↓'} {old['score']}→{new['score']} ({sign}{score_change:.1f})"
+
             table += "| [{name}]({link}) | {rank} | {score} |\n".format(
                 name=old['name'],
                 link=old['link'],
-                rank=rank_diff,
-                score=score_diff
+                rank=rank_display,
+                score=score_display
             )
         return table
 
