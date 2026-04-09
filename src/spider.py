@@ -92,11 +92,16 @@ class MovieSpider:
                     timeout=self.timeout
                 )
                 if response.status_code == 200:
-                    return self._parse_page(response.text)
-                last_error = f"Request failed with status code: {response.status_code}"
-                log(last_error)
-            except requests.RequestException as e:
-                last_error = f"Request error on page {page_num}: {str(e)}"
+                    movies = self._parse_page(response.text)
+                    if movies:
+                        return movies
+                    last_error = f"Page {page_num} parsed 0 movies (possibly anti-crawler page)"
+                    log(last_error)
+                else:
+                    last_error = f"Request failed with status code: {response.status_code}"
+                    log(last_error)
+            except (ValueError, requests.RequestException) as e:
+                last_error = f"Error on page {page_num}: {str(e)}"
                 log(last_error)
             # 退避重试：每次重试间隔递增
             if attempt < self.retry_times - 1:
@@ -107,8 +112,14 @@ class MovieSpider:
         """解析页面HTML"""
         movies = []
         soup = BeautifulSoup(html, 'html.parser')
-        items = soup.find('ol', class_='grid_view').find_all('div', class_='item')
-        
+        grid = soup.find('ol', class_='grid_view')
+        if grid is None:
+            # 豆瓣返回了非预期页面（反爬验证、封禁等）
+            title = soup.find('title')
+            title_text = title.get_text(strip=True) if title else 'unknown'
+            raise ValueError(f"Page structure unexpected (title: {title_text}), possibly blocked by anti-crawler")
+        items = grid.find_all('div', class_='item')
+
         for item in items:
             movie = self._parse_movie_item(item)
             movies.append(movie)
