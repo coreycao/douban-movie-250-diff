@@ -2,8 +2,37 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-04-09*
+*Updated on 2026-04-13*
 
+## 2026-04-13
+
+### 📊 今日统计
+
+- **总变更数**: 14 部电影
+- **排名变化**: 14 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [火星救援](https://movie.douban.com/subject/25864085) | ↑ 235→234 (+1) | — |
+| [魂断蓝桥](https://movie.douban.com/subject/1293964) | ↓ 248→249 (-1) | — |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | ↓ 114→115 (-1) | — |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | ↑ 208→207 (+1) | — |
+| [人工智能](https://movie.douban.com/subject/1302827) | ↓ 224→225 (-1) | — |
+| [疯狂的麦克斯4：狂暴之路](https://movie.douban.com/subject/3592854) | ↓ 207→208 (-1) | — |
+| [千钧一发](https://movie.douban.com/subject/1300117) | ↑ 225→224 (+1) | — |
+| [射雕英雄传之东成西就](https://movie.douban.com/subject/1316510) | ↓ 161→162 (-1) | — |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | ↑ 115→114 (+1) | — |
+| [情书](https://movie.douban.com/subject/1292220) | ↓ 66→67 (-1) | — |
+| [哈利·波特与死亡圣器(下)](https://movie.douban.com/subject/3011235) | ↑ 67→66 (+1) | — |
+| [血观音](https://movie.douban.com/subject/27113517) | ↑ 249→248 (+1) | — |
+| [真爱至上](https://movie.douban.com/subject/1292401) | ↓ 234→235 (-1) | — |
+| [背靠背，脸对脸](https://movie.douban.com/subject/1307856) | ↑ 162→161 (+1) | — |
 ## 2026-04-09
 
 ### 📊 今日统计
