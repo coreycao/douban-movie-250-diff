@@ -2,8 +2,31 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-04-13*
+*Updated on 2026-04-20*
 
+## 2026-04-20
+
+### 📊 今日统计
+
+- **总变更数**: 8 部电影
+- **排名变化**: 8 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [东京教父](https://movie.douban.com/subject/1310177) | ↓ 192→194 (-2) | — |
+| [超脱](https://movie.douban.com/subject/5322596) | ↓ 87→88 (-1) | — |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | ↑ 173→171 (+2) | — |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | ↑ 88→87 (+1) | — |
+| [西西里的美丽传说](https://movie.douban.com/subject/1292402) | ↓ 73→74 (-1) | — |
+| [阿凡达](https://movie.douban.com/subject/1652587) | ↑ 74→73 (+1) | — |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | ↑ 194→192 (+2) | — |
+| [三块广告牌](https://movie.douban.com/subject/26611804) | ↓ 171→173 (-2) | — |
 ## 2026-04-13
 
 ### 📊 今日统计
