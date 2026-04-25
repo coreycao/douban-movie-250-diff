@@ -16,7 +16,7 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.9'
+          python-version: '3.12'
 
       - name: install python packages
         run: |
@@ -30,7 +30,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A
+          # 只暂存期望修改的文件，避免提交不相关文件
+          git add README.md archive/
           git diff-index --quiet HEAD || (git commit -a -m "Auto archived." --allow-empty)
 
       - name: push changes

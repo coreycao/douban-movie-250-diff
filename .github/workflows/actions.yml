@@ -30,7 +30,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add -A
+          # 只暂存期望修改的文件，避免提交不相关文件
+          git add README.md recently_movie_250.json
           git diff-index --quiet HEAD || (git commit -a -m "Auto updated" --allow-empty)
 
       - name: push changes
