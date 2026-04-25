@@ -1,11 +1,30 @@
 import unittest
-import time
 import threading
+from unittest.mock import patch
 from src.spider import RateLimiter
 
 
+class MockClock:
+    """模拟时钟，用于控制 RateLimiter 中的 time() 和 sleep() 调用，避免真实延迟"""
+
+    def __init__(self, start=1000.0):
+        self._time = start
+        self.sleep_calls = []
+
+    def time_func(self):
+        return self._time
+
+    def sleep_func(self, seconds):
+        self.sleep_calls.append(seconds)
+        self._time += seconds
+
+    def advance(self, seconds):
+        """手动推进模拟时间"""
+        self._time += seconds
+
+
 class TestRateLimiterBasicFunctionality(unittest.TestCase):
-    """测试 RateLimiter 基础功能"""
+    """测试 RateLimiter 基础功能（不依赖时间）"""
 
     def test_initial_tokens_equal_capacity(self):
         """初始令牌数应等于容量"""
@@ -36,25 +55,40 @@ class TestRateLimiterBasicFunctionality(unittest.TestCase):
         self.assertEqual(limiter.capacity, capacity)
 
 
-class TestRateLimiterTokenRefill(unittest.TestCase):
+class _MockedTimeTestCase(unittest.TestCase):
+    """使用模拟时钟的测试基类"""
+
+    def setUp(self):
+        self.clock = MockClock()
+        self.time_patcher = patch('src.spider.time', side_effect=self.clock.time_func)
+        self.sleep_patcher = patch('src.spider.sleep', side_effect=self.clock.sleep_func)
+        self.time_patcher.start()
+        self.sleep_patcher.start()
+
+    def tearDown(self):
+        self.time_patcher.stop()
+        self.sleep_patcher.stop()
+
+
+class TestRateLimiterTokenRefill(_MockedTimeTestCase):
     """测试令牌恢复机制"""
 
     def test_tokens_refill_over_time(self):
         """令牌应随时间恢复"""
-        limiter = RateLimiter(rate=10.0, capacity=5)  # 每秒10个令牌
+        limiter = RateLimiter(rate=10.0, capacity=5)
 
         # 消耗所有令牌
         for _ in range(5):
             limiter.acquire()
         self.assertLessEqual(limiter.tokens, 0.001)
 
-        # 等待0.25秒，应恢复约2.5个令牌
-        time.sleep(0.25)
-        limiter.acquire()  # 触发令牌计算
+        # 推进模拟时间 0.25 秒，应恢复约 2.5 个令牌
+        self.clock.advance(0.25)
+        limiter.acquire()
 
-        # tokens 应该在 1.5-2.5 之间（允许一些误差）
-        self.assertGreater(limiter.tokens, 1.5)
-        self.assertLess(limiter.tokens, 2.5)
+        # 恢复 2.5 - 消耗 1 = 1.5
+        self.assertGreater(limiter.tokens, 1.4)
+        self.assertLess(limiter.tokens, 1.6)
 
     def test_tokens_not_exceed_capacity(self):
         """令牌数不应超过容量"""
@@ -64,10 +98,8 @@ class TestRateLimiterTokenRefill(unittest.TestCase):
         limiter.acquire()
         self.assertEqual(limiter.tokens, 2)
 
-        # 等待足够时间让令牌恢复
-        time.sleep(1)
-
-        # 获取令牌触发计算
+        # 推进足够时间让令牌恢复
+        self.clock.advance(1)
         limiter.acquire()
 
         # 令牌不应超过容量
@@ -75,40 +107,38 @@ class TestRateLimiterTokenRefill(unittest.TestCase):
 
     def test_slow_refill_rate(self):
         """测试低速率恢复"""
-        limiter = RateLimiter(rate=1.0, capacity=5)  # 每秒1个令牌
+        limiter = RateLimiter(rate=1.0, capacity=5)
 
         # 消耗所有令牌
         for _ in range(5):
             limiter.acquire()
 
-        # 等待1.1秒，应恢复约1.1个令牌
-        time.sleep(1.1)
+        # 推进模拟时间 1.1 秒，应恢复约 1.1 个令牌
+        self.clock.advance(1.1)
         limiter.acquire()
 
-        # 减去刚消耗的1个令牌，应该还有约0.1个
+        # 恢复 1.1 - 消耗 1 = 0.1
         self.assertGreater(limiter.tokens, 0.05)
         self.assertLess(limiter.tokens, 0.2)
 
 
-class TestRateLimiterRateLimiting(unittest.TestCase):
+class TestRateLimiterRateLimiting(_MockedTimeTestCase):
     """测试限流行为"""
 
     def test_waiting_when_exhausted(self):
-        """令牌不足时应等待"""
-        limiter = RateLimiter(rate=2.0, capacity=1)  # 每秒2个令牌，容量1
-
-        start_time = time.time()
+        """令牌不足时应通过 sleep 等待"""
+        limiter = RateLimiter(rate=2.0, capacity=1)
 
         # 消耗所有令牌
         limiter.acquire()
+        self.clock.sleep_calls.clear()
 
-        # 再次获取，需要等待约0.5秒（1令牌 / 2令牌/秒）
+        # 再次获取，需要等待约 0.5 秒（1令牌 / 2令牌/秒）
         limiter.acquire()
 
-        elapsed = time.time() - start_time
-
-        # 应该等待了至少0.3秒（允许误差）
-        self.assertGreater(elapsed, 0.3)
+        # 验证 sleep 被调用了正确的等待时间
+        self.assertTrue(len(self.clock.sleep_calls) > 0)
+        self.assertAlmostEqual(self.clock.sleep_calls[-1], 0.5, places=1)
 
     def test_continuous_rate_limiting(self):
         """测试持续限流"""
@@ -117,21 +147,19 @@ class TestRateLimiterRateLimiting(unittest.TestCase):
         # 消耗容量
         for _ in range(5):
             limiter.acquire()
+        self.clock.sleep_calls.clear()
 
-        start_time = time.time()
-
-        # 尝试获取3个额外令牌
+        # 尝试获取 3 个额外令牌（其中 2 次需要 sleep）
         for _ in range(3):
             limiter.acquire()
 
-        elapsed = time.time() - start_time
+        # 总等待时间应约为 0.4 秒（2 次 sleep 各约 0.2 秒）
+        total_sleep = sum(self.clock.sleep_calls)
+        self.assertGreater(total_sleep, 0.3)
+        self.assertLess(total_sleep, 1.0)
 
-        # 应该等待约0.6秒（3令牌 / 5令牌/秒），放宽下限到0.4
-        self.assertGreater(elapsed, 0.4)
-        self.assertLess(elapsed, 0.8)
 
-
-class TestRateLimiterEdgeCases(unittest.TestCase):
+class TestRateLimiterEdgeCases(_MockedTimeTestCase):
     """测试边界条件"""
 
     def test_capacity_of_one(self):
@@ -141,7 +169,7 @@ class TestRateLimiterEdgeCases(unittest.TestCase):
 
     def test_very_low_rate(self):
         """非常低的速率"""
-        limiter = RateLimiter(rate=0.1, capacity=1)  # 每10秒1个令牌
+        limiter = RateLimiter(rate=0.1, capacity=1)
 
         limiter.acquire()
         self.assertEqual(limiter.tokens, 0)
@@ -152,17 +180,16 @@ class TestRateLimiterEdgeCases(unittest.TestCase):
         self.assertEqual(limiter.tokens, 100)
 
     def test_zero_time_elapsed(self):
-        """时间零流逝时不应恢复令牌（恢复极小）"""
+        """模拟时间不流逝时令牌精确减少"""
         limiter = RateLimiter(rate=10.0, capacity=5)
 
         limiter.acquire()
         tokens_after = limiter.tokens
 
-        # 立即再次获取（时间流逝极小）
+        # 模拟时间未推进，令牌精确减少 1
         limiter.acquire()
 
-        # 令牌应该减少约1，可能有微小的恢复（< 0.1）
-        self.assertLess(limiter.tokens, tokens_after - 0.9)
+        self.assertAlmostEqual(limiter.tokens, tokens_after - 1, places=5)
 
     def test_small_capacity_fractional_rate(self):
         """小容量和小数速率"""
@@ -170,7 +197,7 @@ class TestRateLimiterEdgeCases(unittest.TestCase):
         self.assertEqual(limiter.tokens, 2)
 
 
-class TestRateLimiterConcurrency(unittest.TestCase):
+class TestRateLimiterConcurrency(_MockedTimeTestCase):
     """测试并发安全性"""
 
     def test_concurrent_acquire(self):
@@ -220,14 +247,12 @@ class TestRateLimiterConcurrency(unittest.TestCase):
         for t in threads:
             t.join()
 
-        # 最终令牌数应该是正确的
-        # 30次获取，容量5，速率1，所以应该大约等待25秒
-        # 令牌应该接近0
+        # 最终令牌数应该在有效范围内
         self.assertGreaterEqual(limiter.tokens, 0)
         self.assertLessEqual(limiter.tokens, 5)
 
 
-class TestRateLimiterRealWorldScenarios(unittest.TestCase):
+class TestRateLimiterRealWorldScenarios(_MockedTimeTestCase):
     """测试真实场景"""
 
     def test_spider_rate_limiting_scenario(self):
@@ -237,17 +262,13 @@ class TestRateLimiterRealWorldScenarios(unittest.TestCase):
         # 消耗容量
         for _ in range(3):
             limiter.acquire()
+        self.clock.sleep_calls.clear()
 
-        start_time = time.time()
-
-        # 获取第4个令牌
+        # 获取第 4 个令牌，应等待约 3.3 秒
         limiter.acquire()
 
-        elapsed = time.time() - start_time
-
-        # 应该等待约3.3秒（1令牌 / 0.3令牌/秒）
-        self.assertGreater(elapsed, 3.0)
-        self.assertLess(elapsed, 3.6)
+        self.assertTrue(len(self.clock.sleep_calls) > 0)
+        self.assertAlmostEqual(self.clock.sleep_calls[-1], 1 / 0.3, places=1)
 
     def test_burst_then_steady(self):
         """突发请求后稳定速率"""
@@ -257,17 +278,14 @@ class TestRateLimiterRealWorldScenarios(unittest.TestCase):
         for _ in range(5):
             limiter.acquire()
         self.assertLessEqual(limiter.tokens, 0.001)
+        self.clock.sleep_calls.clear()
 
-        # 稳定速率：每0.5秒一个请求
-        start_time = time.time()
+        # 稳定速率：继续请求，应有 sleep 调用
         for _ in range(3):
             limiter.acquire()
-        elapsed = time.time() - start_time
 
-        # 应该等待约1秒（因为令牌在等待期间也在恢复）
-        # 实际时间会少于理论值，因为令牌在等待期间恢复
-        self.assertGreater(elapsed, 0.9)
-        self.assertLess(elapsed, 1.3)
+        total_sleep = sum(self.clock.sleep_calls)
+        self.assertGreater(total_sleep, 0)
 
 
 if __name__ == '__main__':

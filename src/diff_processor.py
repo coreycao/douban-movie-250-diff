@@ -1,8 +1,8 @@
 import json
+from dataclasses import dataclass
 from datetime import date
 from typing import Dict, List, Set, Tuple, Any
 from src.common import PATHS, log, write_text
-from src.spider import MovieSpider
 
 
 class DiffProcessor:
@@ -104,8 +104,14 @@ class DiffProcessor:
                         "A diff log of the Douban top250 movies.\n\n" \
                         f"*Updated on {today}*\n\n")
                 f.write(content)
-                if len(old_content) > 6:
-                    f.writelines(old_content[6:])
+                # 按内容标记定位历史数据起始位置，避免硬编码行号偏移导致数据丢失
+                history_start = None
+                for i, line in enumerate(old_content):
+                    if line.startswith("## "):
+                        history_start = i
+                        break
+                if history_start is not None:
+                    f.writelines(old_content[history_start:])
                 f.truncate()
         except Exception as e:
             log(f"Failed to update README: {str(e)}")
@@ -176,13 +182,12 @@ class DiffProcessor:
         return table
 
 
+@dataclass
 class MovieChanges:
     """电影变更记录类"""
-    def __init__(self, added: List[Dict[str, Any]], removed: List[Dict[str, Any]],
-                 changed: List[Tuple[Dict[str, Any], Dict[str, Any]]]):
-        self.added = added
-        self.removed = removed
-        self.changed = changed
+    added: List[Dict[str, Any]]
+    removed: List[Dict[str, Any]]
+    changed: List[Tuple[Dict[str, Any], Dict[str, Any]]]
 
     def has_changes(self) -> bool:
         """检查是否有变更"""
