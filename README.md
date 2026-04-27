@@ -2,8 +2,42 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-04-20*
+*Updated on 2026-04-27*
 
+## 2026-04-27
+
+### 📊 今日统计
+
+- **总变更数**: 19 部电影
+- **排名变化**: 19 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [第六感](https://movie.douban.com/subject/1297630) | ↓ 109→110 (-1) | — |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | ↑ 160→159 (+1) | — |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | ↓ 138→139 (-1) | — |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | ↑ 171→170 (+1) | — |
+| [教父3](https://movie.douban.com/subject/1294240) | ↑ 139→138 (+1) | — |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | ↑ 193→192 (+1) | — |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | ↑ 129→128 (+1) | — |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | ↓ 216→218 (-2) | — |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | ↓ 192→193 (-1) | — |
+| [色，戒](https://movie.douban.com/subject/1828115) | ↑ 135→134 (+1) | — |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | ↓ 159→160 (-1) | — |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | ↑ 242→241 (+1) | — |
+| [战争之王](https://movie.douban.com/subject/1419936) | ↓ 241→242 (-1) | — |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | ↑ 217→216 (+1) | — |
+| [倩女幽魂](https://movie.douban.com/subject/1297447) | ↓ 128→129 (-1) | — |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | ↑ 218→217 (+1) | — |
+| [茶馆](https://movie.douban.com/subject/1461403) | ↑ 110→109 (+1) | — |
+| [小丑](https://movie.douban.com/subject/27119724) | ↓ 170→171 (-1) | — |
+| [完美的世界](https://movie.douban.com/subject/1300992) | ↓ 134→135 (-1) | — |
 ## 2026-04-20
 
 ### 📊 今日统计
