@@ -6,6 +6,7 @@ Historical changes archived by month.
 
 | Month | Date Range | File | Entries | Movies Changed |
 |-------|------------|------|---------|----------------|
+| 2026-04 | 2026-04-27 ~ 2026-03-01 | 2026-04.md | 10 | 0 |
 | 2026-03 | 2026-03-23 ~ 2026-03-01 | 2026-03.md | 6 | 0 |
 
 ## Legacy Archives (Old Format)
