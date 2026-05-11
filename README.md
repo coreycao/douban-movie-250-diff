@@ -2,8 +2,39 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-05-04*
+*Updated on 2026-05-11*
 
+## 2026-05-11
+
+### 📊 今日统计
+
+- **总变更数**: 16 部电影
+- **排名变化**: 16 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [大鱼](https://movie.douban.com/subject/1291545) | ↓ 158→159 (-1) | — |
+| [黑客帝国3：矩阵革命](https://movie.douban.com/subject/1302467) | ↓ 168→169 (-1) | — |
+| [七武士](https://movie.douban.com/subject/1295399) | ↑ 154→153 (+1) | — |
+| [音乐之声](https://movie.douban.com/subject/1294408) | ↓ 70→71 (-1) | — |
+| [恐怖直播](https://movie.douban.com/subject/21360417) | ↓ 167→168 (-1) | — |
+| [玛丽和麦克斯](https://movie.douban.com/subject/3072124) | ↓ 153→154 (-1) | — |
+| [功夫](https://movie.douban.com/subject/1291543) | ↑ 71→70 (+1) | — |
+| [杀人回忆](https://movie.douban.com/subject/1300299) | ↑ 92→91 (+1) | — |
+| [傲慢与偏见](https://movie.douban.com/subject/1418200) | ↑ 128→126 (+2) | — |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | ↑ 159→158 (+1) | — |
+| [雨中曲](https://movie.douban.com/subject/1293460) | ↓ 180→181 (-1) | — |
+| [致命ID](https://movie.douban.com/subject/1297192) | ↓ 91→92 (-1) | — |
+| [疯狂的石头](https://movie.douban.com/subject/1862151) | ↑ 181→180 (+1) | — |
+| [末路狂花](https://movie.douban.com/subject/1291992) | ↑ 169→167 (+2) | — |
+| [消失的爱人](https://movie.douban.com/subject/21318488) | ↓ 126→127 (-1) | — |
+| [无人知晓](https://movie.douban.com/subject/1292337) | ↓ 127→128 (-1) | — |
 ## 2026-05-04
 
 ### 📊 今日统计
