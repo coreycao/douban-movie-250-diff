@@ -2,8 +2,45 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-05-11*
+*Updated on 2026-05-18*
 
+## 2026-05-18
+
+### 📊 今日统计
+
+- **总变更数**: 22 部电影
+- **排名变化**: 22 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [致命ID](https://movie.douban.com/subject/1297192) | ↑ 92→91 (+1) | — |
+| [甜蜜蜜](https://movie.douban.com/subject/1305164) | ↓ 103→104 (-1) | — |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | ↓ 137→138 (-1) | — |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | ↑ 219→218 (+1) | — |
+| [小偷家族](https://movie.douban.com/subject/27622447) | ↑ 195→194 (+1) | — |
+| [东邪西毒](https://movie.douban.com/subject/1292328) | ↓ 218→219 (-1) | — |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | ↓ 188→189 (-1) | — |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | ↑ 216→215 (+1) | — |
+| [血观音](https://movie.douban.com/subject/27113517) | ↑ 248→247 (+1) | — |
+| [杀人回忆](https://movie.douban.com/subject/1300299) | ↓ 91→92 (-1) | — |
+| [教父3](https://movie.douban.com/subject/1294240) | ↑ 138→137 (+1) | — |
+| [寄生虫](https://movie.douban.com/subject/27010768) | ↑ 104→103 (+1) | — |
+| [射雕英雄传之东成西就](https://movie.douban.com/subject/1316510) | ↓ 163→164 (-1) | — |
+| [大鱼](https://movie.douban.com/subject/1291545) | ↑ 159→158 (+1) | — |
+| [隐藏人物](https://movie.douban.com/subject/26615208) | ↓ 247→248 (-1) | — |
+| [纵横四海](https://movie.douban.com/subject/1295409) | ↑ 189→188 (+1) | — |
+| [让子弹飞](https://movie.douban.com/subject/3742360) | ↑ 36→35 (+1) | — |
+| [青蛇](https://movie.douban.com/subject/1303394) | ↓ 215→216 (-1) | — |
+| [你的名字。](https://movie.douban.com/subject/26683290) | ↑ 164→163 (+1) | — |
+| [飞屋环游记](https://movie.douban.com/subject/2129039) | ↓ 35→36 (-1) | — |
+| [东京教父](https://movie.douban.com/subject/1310177) | ↓ 194→195 (-1) | — |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | ↓ 158→159 (-1) | — |
 ## 2026-05-11
 
 ### 📊 今日统计
