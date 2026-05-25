@@ -2,8 +2,49 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-05-18*
+*Updated on 2026-05-25*
 
+## 2026-05-25
+
+### 📊 今日统计
+
+- **总变更数**: 26 部电影
+- **排名变化**: 26 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | ↑ 243→242 (+1) | — |
+| [战争之王](https://movie.douban.com/subject/1419936) | ↓ 242→243 (-1) | — |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | ↑ 159→158 (+1) | — |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | ↑ 217→216 (+1) | — |
+| [死亡诗社](https://movie.douban.com/subject/1291548) | ↑ 48→47 (+1) | — |
+| [东京教父](https://movie.douban.com/subject/1310177) | ↑ 195→194 (+1) | — |
+| [杀人回忆](https://movie.douban.com/subject/1300299) | ↑ 92→91 (+1) | — |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | ↑ 114→113 (+1) | — |
+| [上帝之城](https://movie.douban.com/subject/1292208) | ↑ 185→184 (+1) | — |
+| [被嫌弃的松子的一生](https://movie.douban.com/subject/1787291) | ↓ 113→114 (-1) | — |
+| [小偷家族](https://movie.douban.com/subject/27622447) | ↓ 194→195 (-1) | — |
+| [蝴蝶效应](https://movie.douban.com/subject/1292343) | ↑ 80→79 (+1) | — |
+| [青蛇](https://movie.douban.com/subject/1303394) | ↓ 216→217 (-1) | — |
+| [致命ID](https://movie.douban.com/subject/1297192) | ↓ 91→92 (-1) | — |
+| [断背山](https://movie.douban.com/subject/1418834) | ↓ 121→122 (-1) | — |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | ↑ 193→192 (+1) | — |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | ↓ 192→193 (-1) | — |
+| [还有明天](https://movie.douban.com/subject/36445098) | ↑ 82→81 (+1) | — |
+| [血战钢锯岭](https://movie.douban.com/subject/26325320) | ↓ 162→163 (-1) | — |
+| [布达佩斯大饭店](https://movie.douban.com/subject/11525673) | ↓ 79→80 (-1) | — |
+| [风之谷](https://movie.douban.com/subject/1291585) | ↓ 184→185 (-1) | — |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | ↑ 122→121 (+1) | — |
+| [你的名字。](https://movie.douban.com/subject/26683290) | ↑ 163→162 (+1) | — |
+| [大鱼](https://movie.douban.com/subject/1291545) | ↓ 158→159 (-1) | — |
+| [飞越疯人院](https://movie.douban.com/subject/1292224) | ↓ 81→82 (-1) | — |
+| [指环王2：双塔奇兵](https://movie.douban.com/subject/1291572) | ↓ 47→48 (-1) | — |
 ## 2026-05-18
 
 ### 📊 今日统计
