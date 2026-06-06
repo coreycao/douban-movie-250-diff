@@ -32,7 +32,9 @@ jobs:
           git config --local user.name "GitHub Action"
           # 只暂存期望修改的文件，避免提交不相关文件
           git add README.md archive/
-          git diff-index --quiet HEAD || (git commit -a -m "Auto archived." --allow-empty)
+          git diff-index --quiet HEAD || (git commit -m "Auto archived." --allow-empty)
 
       - name: push changes
-        run: git push
+        run: |
+          git pull --rebase
+          git push

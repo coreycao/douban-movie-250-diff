@@ -23,8 +23,23 @@ class MockClock:
         self._time += seconds
 
 
-class TestRateLimiterBasicFunctionality(unittest.TestCase):
-    """测试 RateLimiter 基础功能（不依赖时间）"""
+class _MockedTimeTestCase(unittest.TestCase):
+    """使用模拟时钟的测试基类"""
+
+    def setUp(self):
+        self.clock = MockClock()
+        self.time_patcher = patch('src.spider.time', side_effect=self.clock.time_func)
+        self.sleep_patcher = patch('src.spider.sleep', side_effect=self.clock.sleep_func)
+        self.time_patcher.start()
+        self.sleep_patcher.start()
+
+    def tearDown(self):
+        self.time_patcher.stop()
+        self.sleep_patcher.stop()
+
+
+class TestRateLimiterBasicFunctionality(_MockedTimeTestCase):
+    """测试 RateLimiter 基础功能"""
 
     def test_initial_tokens_equal_capacity(self):
         """初始令牌数应等于容量"""
@@ -43,8 +58,7 @@ class TestRateLimiterBasicFunctionality(unittest.TestCase):
         limiter.acquire()
         limiter.acquire()
         limiter.acquire()
-        # 允许微小浮点误差
-        self.assertLessEqual(limiter.tokens, 0.001)
+        self.assertAlmostEqual(limiter.tokens, 0, places=5)
 
     def test_rate_and_capacity_parameters(self):
         """验证参数正确设置"""
@@ -53,21 +67,6 @@ class TestRateLimiterBasicFunctionality(unittest.TestCase):
         limiter = RateLimiter(rate=rate, capacity=capacity)
         self.assertEqual(limiter.rate, rate)
         self.assertEqual(limiter.capacity, capacity)
-
-
-class _MockedTimeTestCase(unittest.TestCase):
-    """使用模拟时钟的测试基类"""
-
-    def setUp(self):
-        self.clock = MockClock()
-        self.time_patcher = patch('src.spider.time', side_effect=self.clock.time_func)
-        self.sleep_patcher = patch('src.spider.sleep', side_effect=self.clock.sleep_func)
-        self.time_patcher.start()
-        self.sleep_patcher.start()
-
-    def tearDown(self):
-        self.time_patcher.stop()
-        self.sleep_patcher.stop()
 
 
 class TestRateLimiterTokenRefill(_MockedTimeTestCase):

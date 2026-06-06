@@ -1,7 +1,7 @@
 import json
 from dataclasses import dataclass
 from datetime import date
-from typing import Dict, List, Set, Tuple, Any
+from typing import Dict, List, Tuple, Any
 from src.common import PATHS, log, write_text
 
 
@@ -104,10 +104,10 @@ class DiffProcessor:
                         "A diff log of the Douban top250 movies.\n\n" \
                         f"*Updated on {today}*\n\n")
                 f.write(content)
-                # 按内容标记定位历史数据起始位置，避免硬编码行号偏移导致数据丢失
+                # 按日期标题定位历史数据起始位置，跳过当天已有的章节避免重复
                 history_start = None
                 for i, line in enumerate(old_content):
-                    if line.startswith("## "):
+                    if line.startswith("## ") and line.strip() != f"## {today}":
                         history_start = i
                         break
                 if history_start is not None:
