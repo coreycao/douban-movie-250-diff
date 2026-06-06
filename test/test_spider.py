@@ -33,10 +33,10 @@ class TestMovieSpider(unittest.TestCase):
         self.assertIn('status code: 403', str(context.exception))
 
     def test_parse_page_invalid_html(self):
-        # 测试无效HTML结构
+        # 测试无效HTML结构（无 grid_view，应抛出 ValueError）
         invalid_html = '<html><body>Invalid structure</body></html>'
-        
-        with self.assertRaises(AttributeError):
+
+        with self.assertRaises(ValueError):
             self.spider._parse_page(invalid_html)
 
     def test_parse_movie_item_missing_data(self):
