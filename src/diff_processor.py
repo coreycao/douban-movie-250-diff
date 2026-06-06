@@ -164,7 +164,7 @@ class DiffProcessor:
 
             # 评分变化处理
             if old['score'] == new['score']:
-                score_display = "—"
+                score_display = new['score']
             else:
                 old_score = float(old['score'])
                 new_score = float(new['score'])
