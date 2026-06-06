@@ -454,7 +454,7 @@ def _render_movie_grid(movies: list) -> str:
 # Page renderers
 # ---------------------------------------------------------------------------
 
-def render_index(latest_diffs: list, movies: list, archive_months: list) -> str:
+def render_index(latest_diffs: list, archive_months: list) -> str:
     """Render the home page."""
     # Latest diff
     diff_section = ""
@@ -469,6 +469,12 @@ def render_index(latest_diffs: list, movies: list, archive_months: list) -> str:
   <p>暂无变化记录</p>
 </div>"""
 
+    # Link to official Douban Top 250
+    douban_link = """<a class="douban-external-link" href="https://movie.douban.com/top250" target="_blank" rel="noopener">
+  <span class="douban-link-icon">豆</span>
+  <span>前往豆瓣查看完整 Top 250 榜单 →</span>
+</a>"""
+
     # Recent history (if more diffs in README)
     history_section = ""
     if len(latest_diffs) > 1:
@@ -477,9 +483,6 @@ def render_index(latest_diffs: list, movies: list, archive_months: list) -> str:
             history_items += _render_diff_card(d, collapsible=True)
         history_section = f"""<h2 class="page-title">近期变化</h2>
 {history_items}"""
-
-    # Top 250 grid
-    movie_section = _render_movie_grid(movies)
 
     # Quick archive links
     archive_preview = ""
@@ -501,8 +504,8 @@ def render_index(latest_diffs: list, movies: list, archive_months: list) -> str:
 </p>"""
 
     body = f"""{diff_section}
+{douban_link}
 {history_section}
-{movie_section}
 {archive_preview}"""
 
     return _page_wrapper("豆瓣 Top250 变化追踪", "home", body)
@@ -663,7 +666,7 @@ def generate():
 
     # 5. Render pages
     # index.html
-    index_html = render_index(latest_diffs, movies, archive_months)
+    index_html = render_index(latest_diffs, archive_months)
     (site_dir / 'index.html').write_text(index_html, encoding='utf-8')
     print("Generated index.html")
 
