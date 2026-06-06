@@ -258,11 +258,14 @@ def parse_archive_meta(filepath: str) -> dict:
 # HTML rendering
 # ---------------------------------------------------------------------------
 
-def _header(active: str = "home") -> str:
-    """Render site header."""
+def _header(active: str = "home", base_path: str = "") -> str:
+    """Render site header.
+
+    base_path: "" for root pages, "../" for archive subdirectory pages.
+    """
     nav_items = [
-        ("home", "首页", "index.html"),
-        ("archive", "历史归档", "archive/index.html"),
+        ("home", "首页", f"{base_path}index.html"),
+        ("archive", "历史归档", f"{base_path}archive/index.html"),
         ("github", "GitHub", "https://github.com/coreycao/douban-movie-250-diff"),
     ]
     nav_html = ""
@@ -272,7 +275,7 @@ def _header(active: str = "home") -> str:
 
     return f"""<header class="site-header">
   <div class="header-inner">
-    <a href="index.html" class="site-title">
+    <a href="{base_path}index.html" class="site-title">
       <span class="icon">豆</span>
       豆瓣 Top250 变化追踪
     </a>
@@ -298,22 +301,27 @@ def _footer() -> str:
 </footer>"""
 
 
-def _page_wrapper(title: str, header_active: str, body: str) -> str:
+def _page_wrapper(title: str, header_active: str, body: str,
+                   base_path: str = "") -> str:
+    """Wrap body in full HTML page.
+
+    base_path: "" for root pages, "../" for archive subdirectory pages.
+    """
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{escape(title)}</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="{base_path}style.css">
 </head>
 <body>
-{_header(header_active)}
+{_header(header_active, base_path)}
 <main class="container">
 {body}
 </main>
 {_footer()}
-<script src="script.js"></script>
+<script src="{base_path}script.js"></script>
 </body>
 </html>"""
 
@@ -507,7 +515,7 @@ def render_archive_index(archive_months: list) -> str:
   <div class="empty-icon">📂</div>
   <p>暂无归档记录</p>
 </div>"""
-        return _page_wrapper("历史归档", "archive", body)
+        return _page_wrapper("历史归档", "archive", body, base_path="../")
 
     cards = ""
     for am in archive_months:
@@ -523,9 +531,8 @@ def render_archive_index(archive_months: list) -> str:
   {cards}
 </div>"""
 
-    return _page_wrapper("历史归档 - 豆瓣 Top250 变化追踪", "archive", body)
-
-
+    return _page_wrapper("历史归档 - 豆瓣 Top250 变化追踪", "archive", body,
+                         base_path="../")
 def render_month_page(month: ArchiveMonth, prev_month: ArchiveMonth | None,
                       next_month: ArchiveMonth | None) -> str:
     """Render a monthly archive page."""
@@ -547,7 +554,8 @@ def render_month_page(month: ArchiveMonth, prev_month: ArchiveMonth | None,
     body = f"""{nav_html}
 {diffs_html}"""
 
-    return _page_wrapper(f"{month.month_label} - 豆瓣 Top250 变化追踪", "archive", body)
+    return _page_wrapper(f"{month.month_label} - 豆瓣 Top250 变化追踪", "archive", body,
+                         base_path="../")
 
 
 # ---------------------------------------------------------------------------
