@@ -2,8 +2,37 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-06-08*
+*Updated on 2026-06-15*
 
+## 2026-06-15
+
+### 📊 今日统计
+
+- **总变更数**: 14 部电影
+- **排名变化**: 14 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [阳光姐妹淘](https://movie.douban.com/subject/4917726) | ↓ 166→167 (-1) | 8.8 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | ↓ 215→216 (-1) | 8.6 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | ↑ 216→215 (+1) | 8.8 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | ↓ 202→203 (-1) | 8.7 |
+| [火星救援](https://movie.douban.com/subject/25864085) | ↑ 234→233 (+1) | 8.5 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | ↓ 195→196 (-1) | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | ↑ 167→166 (+1) | 9.0 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | ↓ 241→242 (-1) | 8.7 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | ↑ 242→241 (+1) | 8.6 |
+| [恋恋笔记本](https://movie.douban.com/subject/1309163) | ↓ 233→234 (-1) | 8.5 |
+| [电锯惊魂](https://movie.douban.com/subject/1417598) | ↓ 174→175 (-1) | 8.7 |
+| [无间道2](https://movie.douban.com/subject/1307106) | ↑ 175→174 (+1) | 8.8 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | ↑ 196→195 (+1) | 9.3 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | ↑ 203→202 (+1) | 8.7 |
 ## 2026-06-08
 
 ### 📊 今日统计
