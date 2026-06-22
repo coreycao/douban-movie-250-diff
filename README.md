@@ -2,8 +2,41 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-06-20*
+*Updated on 2026-06-22*
 
+## 2026-06-22
+
+### 📊 今日统计
+
+- **总变更数**: 18 部电影
+- **排名变化**: 18 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [美丽人生](https://movie.douban.com/subject/1292063) | ↓ 6→7 (-1) | 9.5 |
+| [星际穿越](https://movie.douban.com/subject/1889243) | ↑ 7→6 (+1) | 9.4 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | ↑ 242→241 (+1) | 8.7 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | ↑ 206→205 (+1) | 8.6 |
+| [风之谷](https://movie.douban.com/subject/1291585) | ↑ 186→185 (+1) | 8.9 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | ↓ 241→242 (-1) | 8.6 |
+| [一一](https://movie.douban.com/subject/1292434) | ↑ 89→88 (+1) | 9.1 |
+| [模仿游戏](https://movie.douban.com/subject/10463953) | ↓ 156→157 (-1) | 8.8 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | ↑ 132→131 (+1) | 8.9 |
+| [7号房的礼物](https://movie.douban.com/subject/10777687) | ↓ 108→109 (-1) | 8.9 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | ↑ 157→156 (+1) | 9.1 |
+| [花束般的恋爱](https://movie.douban.com/subject/34874432) | ↓ 205→206 (-1) | 8.6 |
+| [超脱](https://movie.douban.com/subject/5322596) | ↓ 88→89 (-1) | 9.0 |
+| [茶馆](https://movie.douban.com/subject/1461403) | ↑ 109→108 (+1) | 9.5 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | ↓ 185→186 (-1) | 8.7 |
+| [花样年华](https://movie.douban.com/subject/1291557) | ↓ 131→132 (-1) | 8.8 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | ↑ 195→193 (+2) | 9.3 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | ↓ 193→195 (-2) | 8.9 |
 ## 2026-06-20
 
 ### 📊 今日统计
