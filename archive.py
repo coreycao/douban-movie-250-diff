@@ -224,12 +224,11 @@ def archive_data():
     # 重置 README
     md_head = "# Douban-Movie-250-Diff\n\n" \
               "A diff log of the Douban top250 movies.\n\n" \
+              "[GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)\n\n" \
               f"*Updated on {today.isoformat()}*\n\n"
-    md_content = f"## {today.isoformat()}\n\n"
-    newlines = [md_head, md_content]
 
     with open(PATHS['readme_filename'], 'w', encoding='utf-8') as f:
-        f.writelines(newlines)
+        f.write(md_head)
 
     log("README reset complete")
 

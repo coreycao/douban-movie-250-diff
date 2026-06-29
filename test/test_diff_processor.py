@@ -398,6 +398,34 @@ class TestDiffProcessorIntegration(unittest.TestCase):
         self.assertIn('[B](y)', readme_content)
         self.assertIn('排名及分数变化', readme_content)
 
+    def test_update_readme_filters_empty_history_heading(self):
+        """更新 README 时应过滤历史中没有正文的日期标题"""
+        today = str(date.today())
+        old_readme = (
+            "# Douban-Movie-250-Diff\n\n"
+            "A diff log of the Douban top250 movies.\n\n"
+            f"*Updated on {today}*\n\n"
+            "## 2026-06-01\n\n"
+        )
+        with open(self.original_paths['readme_filename'], 'w', encoding='utf-8') as f:
+            f.write(old_readme)
+
+        changes = MovieChanges(
+            added=[],
+            removed=[],
+            changed=[(
+                {'id': '1', 'rank': '1', 'name': 'A', 'score': '9.0', 'link': 'x', 'pic': 'x'},
+                {'id': '1', 'rank': '2', 'name': 'A', 'score': '9.0', 'link': 'x', 'pic': 'x'}
+            )]
+        )
+
+        self.processor._update_readme(changes)
+
+        with open(self.original_paths['readme_filename'], 'r', encoding='utf-8') as f:
+            readme_content = f.read()
+
+        self.assertNotIn("## 2026-06-01\n\n", readme_content)
+
     def test_load_recent_movies_file_not_found(self):
         """测试 JSON 文件不存在时返回空列表"""
         movies = self.processor._load_recent_movies()

@@ -6,6 +6,10 @@ from src.common import PATHS, log, write_text
 
 
 class DiffProcessor:
+    README_HEADER = "# Douban-Movie-250-Diff\n\n" \
+                    "A diff log of the Douban top250 movies.\n\n" \
+                    "[GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)\n\n"
+
     def __init__(self):
         self.movie_list_file = PATHS['movie_list_filename']
         self.readme_file = PATHS['readme_filename']
@@ -70,9 +74,7 @@ class DiffProcessor:
 
     def _create_initial_readme(self) -> None:
         """创建初始README文件"""
-        content = "# Douban-Movie-250-Diff\n\n" \
-                  "A diff log of the Douban top250 movies.\n" \
-                  f"*Updated on {date.today().isoformat()}*\n"
+        content = self.README_HEADER + f"*Updated on {date.today().isoformat()}*\n"
         write_text(self.readme_file, 'w', content)
 
     def _update_readme(self, changes: 'MovieChanges') -> None:
@@ -100,21 +102,34 @@ class DiffProcessor:
             with open(self.readme_file, 'r+', encoding='utf-8') as f:
                 old_content = f.readlines()
                 f.seek(0)
-                f.write("# Douban-Movie-250-Diff\n\n" \
-                        "A diff log of the Douban top250 movies.\n\n" \
-                        f"*Updated on {today}*\n\n")
+                f.write(self.README_HEADER + f"*Updated on {today}*\n\n")
                 f.write(content)
-                # 按日期标题定位历史数据起始位置，跳过当天已有的章节避免重复
-                history_start = None
-                for i, line in enumerate(old_content):
-                    if line.startswith("## ") and line.strip() != f"## {today}":
-                        history_start = i
-                        break
-                if history_start is not None:
-                    f.writelines(old_content[history_start:])
+                f.writelines(self._extract_history_sections(old_content, f"## {today}"))
                 f.truncate()
         except Exception as e:
             log(f"Failed to update README: {str(e)}")
+
+    def _extract_history_sections(self, lines: List[str], current_heading: str) -> List[str]:
+        """提取历史章节，过滤当天章节和没有正文的空日期标题。"""
+        sections = []
+        i = 0
+        while i < len(lines):
+            if not lines[i].startswith("## "):
+                i += 1
+                continue
+
+            start = i
+            heading = lines[i].strip()
+            i += 1
+            while i < len(lines) and not lines[i].startswith("## "):
+                i += 1
+
+            section = lines[start:i]
+            body = "".join(section[1:]).strip()
+            if heading != current_heading and body:
+                sections.extend(section)
+
+        return sections
 
     def _format_movie_table(self, movies: List[Dict[str, Any]]) -> str:
         """格式化电影表格"""

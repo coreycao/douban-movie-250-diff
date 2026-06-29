@@ -3,7 +3,7 @@ import os
 import tempfile
 import shutil
 from unittest.mock import patch
-from archive import parse_archive_dates, count_entries_and_movies, generate_index_entry
+from archive import parse_archive_dates, count_entries_and_movies, generate_index_entry, archive_data
 
 
 class TestParseArchiveDates(unittest.TestCase):
@@ -181,6 +181,38 @@ class TestGenerateIndexEntry(unittest.TestCase):
             self.assertEqual(entry['first_date'], "2025-03-03")
             self.assertEqual(entry['entries'], 1)
             self.assertEqual(entry['movies'], 1)
+
+
+class TestArchiveData(unittest.TestCase):
+    """测试归档主流程"""
+
+    def setUp(self):
+        self.test_dir = tempfile.mkdtemp()
+        self.paths = {
+            'readme_filename': os.path.join(self.test_dir, 'README.md'),
+            'archive_dir': os.path.join(self.test_dir, 'archive')
+        }
+
+    def tearDown(self):
+        shutil.rmtree(self.test_dir, ignore_errors=True)
+
+    def test_archive_data_resets_readme_without_empty_date_heading(self):
+        """归档后 README 不应预留空日期标题"""
+        with open(self.paths['readme_filename'], 'w', encoding='utf-8') as f:
+            f.write("# Douban-Movie-250-Diff\n\n")
+            f.write("A diff log of the Douban top250 movies.\n\n")
+            f.write("*Updated on 2026-05-31*\n\n")
+            f.write("## 2026-05-31\n\n")
+            f.write("| [Movie A](https://movie.douban.com/subject/1/) | data |\n")
+
+        with patch('archive.PATHS', self.paths):
+            archive_data()
+
+        with open(self.paths['readme_filename'], 'r', encoding='utf-8') as f:
+            readme_content = f.read()
+
+        self.assertIn("[GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)", readme_content)
+        self.assertNotIn("## ", readme_content)
 
 
 if __name__ == '__main__':
