@@ -2,8 +2,35 @@
 
 A diff log of the Douban top250 movies.
 
-*Updated on 2026-06-22*
+*Updated on 2026-06-29*
 
+## 2026-06-29
+
+### 📊 今日统计
+
+- **总变更数**: 12 部电影
+- **排名变化**: 12 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [被嫌弃的松子的一生](https://movie.douban.com/subject/1787291) | ↓ 114→115 (-1) | 8.8 |
+| [源代码](https://movie.douban.com/subject/3075287) | ↓ 204→205 (-1) | 8.6 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | ↑ 192→191 (+1) | 8.5 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | ↑ 205→204 (+1) | 8.6 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | ↑ 131→130 (+1) | 8.9 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | ↓ 138→139 (-1) | 8.8 |
+| [哈利·波特与火焰杯](https://movie.douban.com/subject/1309055) | ↑ 115→114 (+1) | 8.8 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | ↑ 139→138 (+1) | 9.0 |
+| [窃听风暴](https://movie.douban.com/subject/1900841) | ↓ 69→70 (-1) | 9.2 |
+| [新世界](https://movie.douban.com/subject/10437779) | ↓ 130→131 (-1) | 8.9 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | ↓ 191→192 (-1) | 8.9 |
+| [功夫](https://movie.douban.com/subject/1291543) | ↑ 70→69 (+1) | 8.9 |
 ## 2026-06-22
 
 ### 📊 今日统计
