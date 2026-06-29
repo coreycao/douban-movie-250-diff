@@ -10,9 +10,9 @@ class DiffProcessor:
                     "A diff log of the Douban top250 movies.\n\n" \
                     "[GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)\n\n"
 
-    def __init__(self):
-        self.movie_list_file = PATHS['movie_list_filename']
-        self.readme_file = PATHS['readme_filename']
+    def __init__(self, movie_list_file: str = None, readme_file: str = None):
+        self.movie_list_file = movie_list_file or PATHS['movie_list_filename']
+        self.readme_file = readme_file or PATHS['readme_filename']
 
     def process_diff(self, latest_movies: List[Dict[str, Any]]) -> bool:
         """处理电影列表差异并生成报告"""
@@ -104,7 +104,10 @@ class DiffProcessor:
                 f.seek(0)
                 f.write(self.README_HEADER + f"*Updated on {today}*\n\n")
                 f.write(content)
-                f.writelines(self._extract_history_sections(old_content, f"## {today}"))
+                history_sections = self._extract_history_sections(old_content, f"## {today}")
+                if history_sections and not content.endswith("\n\n"):
+                    f.write("\n")
+                f.writelines(history_sections)
                 f.truncate()
         except Exception as e:
             log(f"Failed to update README: {str(e)}")
