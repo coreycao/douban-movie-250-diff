@@ -2,6 +2,7 @@ import datetime
 import os
 import re
 from src.common import PATHS, log
+from src.readme_renderer import DATE_HEADING_RE, extract_date_headings, render_header
 
 
 def parse_archive_dates(filepath: str) -> tuple:
@@ -18,8 +19,7 @@ def parse_archive_dates(filepath: str) -> tuple:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        # 查找所有 ## YYYY-MM-DD 格式的日期
-        dates = re.findall(r'^## (\d{4}-\d{2}-\d{2})', content, re.MULTILINE)
+        dates = extract_date_headings(content)
 
         if dates:
             return dates[0], dates[-1]
@@ -43,8 +43,7 @@ def count_entries_and_movies(filepath: str) -> tuple:
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        # 统计日期条目数
-        entries = len(re.findall(r'^## \d{4}-\d{2}-\d{2}', content, re.MULTILINE))
+        entries = len(extract_date_headings(content))
 
         # 统计唯一电影数（通过链接数量）
         movies = re.findall(r'\[([^\]]+)\]\(https://movie\.douban\.com/subject/\d+/', content)
@@ -161,9 +160,10 @@ def archive_data():
 
     # 查找第一个日期条目
     first_date = None
-    for i, line in enumerate(lines):
-        if line.startswith("## "):
-            first_date = line.strip().split(" ")[1]
+    for line in lines:
+        match = DATE_HEADING_RE.match(line)
+        if match:
+            first_date = match.group(1)
             break
 
     if not first_date:
@@ -181,7 +181,7 @@ def archive_data():
     # 提取内容（跳过 README 头部）
     content_start = None
     for i, line in enumerate(lines):
-        if line.startswith("## "):
+        if DATE_HEADING_RE.match(line):
             content_start = i
             break
 
@@ -192,13 +192,14 @@ def archive_data():
     archive_lines = lines[content_start:]
 
     # 统计条目数
-    entries = len([line for line in archive_lines if line.startswith("## ")])
+    entries = len([line for line in archive_lines if DATE_HEADING_RE.match(line)])
 
     # 解析最后一个日期
     last_date = first_date
     for line in reversed(archive_lines):
-        if line.startswith("## "):
-            last_date = line.strip().split(" ")[1]
+        match = DATE_HEADING_RE.match(line)
+        if match:
+            last_date = match.group(1)
             break
 
     # 生成归档文件内容（新格式）
@@ -222,13 +223,8 @@ def archive_data():
     update_index()
 
     # 重置 README
-    md_head = "# Douban-Movie-250-Diff\n\n" \
-              "A diff log of the Douban top250 movies.\n\n" \
-              "[GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)\n\n" \
-              f"*Updated on {today.isoformat()}*\n\n"
-
     with open(PATHS['readme_filename'], 'w', encoding='utf-8') as f:
-        f.write(md_head)
+        f.write(render_header(today))
 
     log("README reset complete")
 

@@ -13,6 +13,7 @@ import shutil
 from dataclasses import dataclass, field
 from html import escape
 from pathlib import Path
+from src.readme_renderer import DATE_HEADING_RE
 
 # ---------------------------------------------------------------------------
 # Data classes
@@ -56,7 +57,7 @@ class ArchiveMonth:
 # Markdown parser
 # ---------------------------------------------------------------------------
 
-_RE_DATE = re.compile(r'^## (\d{4}-\d{2}-\d{2})')
+_RE_DATE = DATE_HEADING_RE
 _RE_STAT = re.compile(r'- \*\*(.+?)\*\*:\s*(\d+)')
 _RE_LINK = re.compile(r'\[([^\]]+)\]\(https?://movie\.douban\.com/subject/(\d+)/?\)')
 _RE_NEW_RANK = re.compile(r'(↑|↓)\s*(\d+)→(\d+)\s*\(([+-]?\d+)\)')

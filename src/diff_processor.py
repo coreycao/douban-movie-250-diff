@@ -3,13 +3,17 @@ from dataclasses import dataclass
 from datetime import date
 from typing import Dict, List, Tuple, Any
 from src.common import PATHS, log, write_text
+from src.readme_renderer import (
+    extract_history_sections,
+    render_changes_table,
+    render_diff_section,
+    render_header,
+    render_movie_table,
+    render_summary,
+)
 
 
 class DiffProcessor:
-    README_HEADER = "# Douban-Movie-250-Diff\n\n" \
-                    "A diff log of the Douban top250 movies.\n\n" \
-                    "[GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)\n\n"
-
     def __init__(self, movie_list_file: str = None, readme_file: str = None):
         self.movie_list_file = movie_list_file or PATHS['movie_list_filename']
         self.readme_file = readme_file or PATHS['readme_filename']
@@ -74,37 +78,21 @@ class DiffProcessor:
 
     def _create_initial_readme(self) -> None:
         """创建初始README文件"""
-        content = self.README_HEADER + f"*Updated on {date.today().isoformat()}*\n"
+        content = render_header(date.today())
         write_text(self.readme_file, 'w', content)
 
     def _update_readme(self, changes: 'MovieChanges') -> None:
         """更新README文件，添加变更记录"""
-        today = date.today().isoformat()
-        content = f"## {today}\n\n"
-
-        # 添加统计摘要
-        content += self._generate_summary(changes)
-        content += "\n"
-
-        if changes.added or changes.removed:
-            if changes.added:
-                content += "#### 新上榜电影 🆕\n\n"
-                content += self._format_movie_table(changes.added)
-            if changes.removed:
-                content += "\n#### 退出榜单电影 ❌\n\n"
-                content += self._format_movie_table(changes.removed)
-
-        if changes.changed:
-            content += "\n#### 排名及分数变化\n\n"
-            content += self._format_changes_table(changes.changed)
+        today = date.today()
+        content = render_diff_section(today, changes)
 
         try:
             with open(self.readme_file, 'r+', encoding='utf-8') as f:
                 old_content = f.readlines()
                 f.seek(0)
-                f.write(self.README_HEADER + f"*Updated on {today}*\n\n")
+                f.write(render_header(today))
                 f.write(content)
-                history_sections = self._extract_history_sections(old_content, f"## {today}")
+                history_sections = self._extract_history_sections(old_content, today)
                 if history_sections and not content.endswith("\n\n"):
                     f.write("\n")
                 f.writelines(history_sections)
@@ -112,92 +100,21 @@ class DiffProcessor:
         except Exception as e:
             log(f"Failed to update README: {str(e)}")
 
-    def _extract_history_sections(self, lines: List[str], current_heading: str) -> List[str]:
+    def _extract_history_sections(self, lines: List[str], current_date: date | str) -> List[str]:
         """提取历史章节，过滤当天章节和没有正文的空日期标题。"""
-        sections = []
-        i = 0
-        while i < len(lines):
-            if not lines[i].startswith("## "):
-                i += 1
-                continue
-
-            start = i
-            heading = lines[i].strip()
-            i += 1
-            while i < len(lines) and not lines[i].startswith("## "):
-                i += 1
-
-            section = lines[start:i]
-            body = "".join(section[1:]).strip()
-            if heading != current_heading and body:
-                sections.extend(section)
-
-        return sections
+        return extract_history_sections(lines, current_date)
 
     def _format_movie_table(self, movies: List[Dict[str, Any]]) -> str:
         """格式化电影表格"""
-        table = "|   Rank  |     Name     |   Score  |\n"
-        table += "| ------- | ------------ | -------- |\n"
-        for movie in movies:
-            table += "| {rank} | [{name}]({link}) | {score} |\n".format(
-                rank=movie['rank'],
-                name=movie['name'],
-                link=movie['link'],
-                score=movie['score']
-            )
-        return table
+        return render_movie_table(movies)
 
     def _generate_summary(self, changes: 'MovieChanges') -> str:
         """生成变更统计摘要"""
-        rank_changes = sum(1 for old, new in changes.changed if old['rank'] != new['rank'])
-        score_changes = sum(1 for old, new in changes.changed if old['score'] != new['score'])
-
-        total_changes = len(changes.added) + len(changes.removed) + len(changes.changed)
-
-        summary = "### 📊 今日统计\n\n"
-        summary += f"- **总变更数**: {total_changes} 部电影\n"
-        summary += f"- **排名变化**: {rank_changes} 部\n"
-        summary += f"- **评分变化**: {score_changes} 部\n"
-        summary += f"- **新上榜**: {len(changes.added)} 部\n"
-        summary += f"- **退出榜单**: {len(changes.removed)} 部\n"
-
-        return summary
+        return render_summary(changes)
 
     def _format_changes_table(self, changes: List[Tuple[Dict[str, Any], Dict[str, Any]]]) -> str:
         """格式化变更表格，增强显示变化方向和幅度"""
-        table = "|     Name    |   Rank   |   Score  |\n"
-        table += "| ---------- | -------- | -------- |\n"
-        for old, new in changes:
-            # 排名变化处理
-            if old['rank'] == new['rank']:
-                rank_display = "—"
-            else:
-                old_rank = int(old['rank'])
-                new_rank = int(new['rank'])
-                rank_change = old_rank - new_rank  # 正数表示上升，负数表示下降
-                if rank_change > 0:
-                    rank_display = f"↑ {old['rank']}→{new['rank']} (+{rank_change})"
-                else:
-                    rank_display = f"↓ {old['rank']}→{new['rank']} ({rank_change})"
-
-            # 评分变化处理
-            if old['score'] == new['score']:
-                score_display = new['score']
-            else:
-                old_score = float(old['score'])
-                new_score = float(new['score'])
-                score_change = new_score - old_score
-                sign = "+" if score_change > 0 else ""
-                # 格式化浮点数，避免精度问题
-                score_display = f"{'↑' if score_change > 0 else '↓'} {old['score']}→{new['score']} ({sign}{score_change:.1f})"
-
-            table += "| [{name}]({link}) | {rank} | {score} |\n".format(
-                name=old['name'],
-                link=old['link'],
-                rank=rank_display,
-                score=score_display
-            )
-        return table
+        return render_changes_table(changes)
 
 
 @dataclass
