@@ -123,6 +123,16 @@ venv.bak/
 # Generated static site
 _site/
 
+# Local agent/browser tooling
+.claude/
+.nezha/
+.playwright-mcp/
+
+# Local screenshots and screen recordings
+截屏*.png
+Screenshot*.png
+*.mov
+
 # mypy
 .mypy_cache/
 .dmypy.json
