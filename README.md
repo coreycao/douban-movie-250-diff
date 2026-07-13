@@ -4,7 +4,35 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-07-06*
+*Updated on 2026-07-13*
+
+## 2026-07-13
+
+### 📊 今日统计
+
+- **总变更数**: 12 部电影
+- **排名变化**: 12 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | ↓ 192→193 (-1) | 8.9 |
+| [恐怖直播](https://movie.douban.com/subject/21360417) | ↓ 168→169 (-1) | 8.7 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | ↑ 170→168 (+2) | 9.5 |
+| [消失的爱人](https://movie.douban.com/subject/21318488) | ↓ 128→129 (-1) | 8.7 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | ↑ 160→159 (+1) | 8.7 |
+| [大鱼](https://movie.douban.com/subject/1291545) | ↓ 159→160 (-1) | 8.8 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | ↑ 195→194 (+1) | 8.9 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | ↓ 127→128 (-1) | 9.1 |
+| [东京教父](https://movie.douban.com/subject/1310177) | ↓ 194→195 (-1) | 9.0 |
+| [芙蓉镇](https://movie.douban.com/subject/1297880) | ↑ 193→192 (+1) | 9.3 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | ↑ 129→127 (+2) | 8.9 |
+| [黑客帝国3：矩阵革命](https://movie.douban.com/subject/1302467) | ↓ 169→170 (-1) | 8.8 |
 
 ## 2026-07-06
 
