@@ -4,7 +4,38 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-07-13*
+*Updated on 2026-07-20*
+
+## 2026-07-20
+
+### 📊 今日统计
+
+- **总变更数**: 15 部电影
+- **排名变化**: 15 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [加勒比海盗](https://movie.douban.com/subject/1298070) | ↑ 95→94 (+1) | 8.8 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | ↑ 146→145 (+1) | 8.8 |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | ↑ 179→178 (+1) | 8.8 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | ↑ 143→141 (+2) | 8.8 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | ↓ 216→217 (-1) | 8.6 |
+| [东京教父](https://movie.douban.com/subject/1310177) | ↓ 195→196 (-1) | 9.0 |
+| [侧耳倾听](https://movie.douban.com/subject/1297052) | ↓ 141→143 (-2) | 8.9 |
+| [请以你的名字呼唤我](https://movie.douban.com/subject/26799731) | ↓ 145→146 (-1) | 8.8 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | ↑ 217→216 (+1) | 8.7 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | ↓ 178→179 (-1) | 8.9 |
+| [爆裂鼓手](https://movie.douban.com/subject/25773932) | ↓ 214→215 (-1) | 8.6 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | ↑ 215→214 (+1) | 8.8 |
+| [小偷家族](https://movie.douban.com/subject/27622447) | ↓ 196→197 (-1) | 8.7 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | ↑ 197→195 (+2) | 8.7 |
+| [春光乍泄](https://movie.douban.com/subject/1292679) | ↓ 94→95 (-1) | 9.0 |
 
 ## 2026-07-13
 
