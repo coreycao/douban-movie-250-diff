@@ -4,7 +4,43 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-07-20*
+*Updated on 2026-07-27*
+
+## 2026-07-27
+
+### 📊 今日统计
+
+- **总变更数**: 20 部电影
+- **排名变化**: 20 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [英雄本色](https://movie.douban.com/subject/1297574) | ↓ 187→188 (-1) | 8.6 |
+| [无耻混蛋](https://movie.douban.com/subject/1438652) | ↓ 216→217 (-1) | 8.7 |
+| [消失的爱人](https://movie.douban.com/subject/21318488) | ↑ 129→128 (+1) | 8.7 |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | ↑ 112→111 (+1) | 8.9 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | ↑ 155→154 (+1) | 8.6 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | ↓ 128→129 (-1) | 9.1 |
+| [无敌破坏王](https://movie.douban.com/subject/6534248) | ↓ 190→191 (-1) | 8.7 |
+| [青蛇](https://movie.douban.com/subject/1303394) | ↓ 218→219 (-1) | 8.6 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | ↑ 204→203 (+1) | 8.6 |
+| [玩具总动员3](https://movie.douban.com/subject/1858711) | ↑ 127→126 (+1) | 8.9 |
+| [驯龙高手](https://movie.douban.com/subject/2353023) | ↓ 126→127 (-1) | 8.8 |
+| [玛丽和麦克斯](https://movie.douban.com/subject/3072124) | ↓ 154→155 (-1) | 9.0 |
+| [恐怖游轮](https://movie.douban.com/subject/3011051) | ↑ 191→190 (+1) | 8.5 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | ↑ 217→216 (+1) | 8.6 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | ↑ 219→218 (+1) | 8.8 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | ↓ 203→204 (-1) | 8.7 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | ↑ 188→187 (+1) | 8.7 |
+| [爱在黎明破晓前](https://movie.douban.com/subject/1296339) | ↓ 111→112 (-1) | 8.8 |
+| [哈利·波特与魔法石](https://movie.douban.com/subject/1295038) | ↑ 26→25 (+1) | 9.2 |
+| [末代皇帝](https://movie.douban.com/subject/1293172) | ↓ 25→26 (-1) | 9.3 |
 
 ## 2026-07-20
 
