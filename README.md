@@ -4,7 +4,49 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-08-14*
+*Updated on 2026-08-18*
+
+## 2026-08-18
+
+### 📊 今日统计
+
+- **总变更数**: 26 部电影
+- **排名变化**: 26 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [布达佩斯大饭店](https://movie.douban.com/subject/11525673) | ↓ 80→81 (-1) | 8.9 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | ↑ 185→184 (+1) | 8.7 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | ↑ 156→154 (+2) | 9.1 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | ↓ 193→195 (-2) | 8.9 |
+| [海边的曼彻斯特](https://movie.douban.com/subject/25980443) | ↑ 232→231 (+1) | 8.6 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | ↓ 140→141 (-1) | 8.8 |
+| [我是山姆](https://movie.douban.com/subject/1306861) | ↓ 166→167 (-1) | 9.0 |
+| [荒蛮故事](https://movie.douban.com/subject/24750126) | ↓ 206→207 (-1) | 8.7 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | ↓ 184→185 (-1) | 9.0 |
+| [彗星来的那一夜](https://movie.douban.com/subject/25807345) | ↑ 229→228 (+1) | 8.6 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | ↑ 167→166 (+1) | 9.5 |
+| [还有明天](https://movie.douban.com/subject/36445098) | ↑ 81→80 (+1) | 9.3 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | ↑ 195→193 (+2) | 8.9 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | ↓ 202→203 (-1) | 8.7 |
+| [无间道2](https://movie.douban.com/subject/1307106) | ↑ 174→173 (+1) | 8.8 |
+| [三块广告牌](https://movie.douban.com/subject/26611804) | ↓ 173→174 (-1) | 8.7 |
+| [红辣椒](https://movie.douban.com/subject/1865703) | ↑ 99→98 (+1) | 9.0 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | ↑ 207→206 (+1) | 8.4 |
+| [天使爱美丽](https://movie.douban.com/subject/1292215) | ↓ 139→140 (-1) | 8.7 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | ↑ 141→139 (+2) | 8.8 |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | ↑ 203→202 (+1) | 8.6 |
+| [头号玩家](https://movie.douban.com/subject/4920389) | ↓ 154→155 (-1) | 8.6 |
+| [罗生门](https://movie.douban.com/subject/1291879) | ↓ 231→232 (-1) | 8.8 |
+| [七宗罪](https://movie.douban.com/subject/1292223) | ↓ 98→99 (-1) | 8.8 |
+| [雨人](https://movie.douban.com/subject/1291870) | ↓ 228→229 (-1) | 8.7 |
+| [玛丽和麦克斯](https://movie.douban.com/subject/3072124) | ↓ 155→156 (-1) | 9.0 |
 
 ## 2026-08-14
 
