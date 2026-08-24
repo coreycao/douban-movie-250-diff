@@ -4,7 +4,39 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-08-23*
+*Updated on 2026-08-24*
+
+## 2026-08-24
+
+### 📊 今日统计
+
+- **总变更数**: 16 部电影
+- **排名变化**: 16 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [小偷家族](https://movie.douban.com/subject/27622447) | ↑ 196→195 (+1) | 8.7 |
+| [剪刀手爱德华](https://movie.douban.com/subject/1292370) | ↓ 121→122 (-1) | 8.7 |
+| [卢旺达饭店](https://movie.douban.com/subject/1291822) | ↓ 195→196 (-1) | 8.9 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | ↓ 193→194 (-1) | 8.9 |
+| [七武士](https://movie.douban.com/subject/1295399) | ↓ 153→154 (-1) | 9.3 |
+| [冰雪奇缘](https://movie.douban.com/subject/4202982) | ↑ 236→235 (+1) | 8.5 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | ↑ 194→193 (+1) | 8.8 |
+| [断背山](https://movie.douban.com/subject/1418834) | ↑ 122→121 (+1) | 8.8 |
+| [雨人](https://movie.douban.com/subject/1291870) | ↓ 229→230 (-1) | 8.7 |
+| [真爱至上](https://movie.douban.com/subject/1292401) | ↓ 235→236 (-1) | 8.5 |
+| [小森林 夏秋篇](https://movie.douban.com/subject/25814705) | ↓ 138→139 (-1) | 9.0 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | ↑ 139→138 (+1) | 8.8 |
+| [七宗罪](https://movie.douban.com/subject/1292223) | ↑ 99→98 (+1) | 8.8 |
+| [机器人之梦](https://movie.douban.com/subject/35426925) | ↑ 154→153 (+1) | 9.1 |
+| [红辣椒](https://movie.douban.com/subject/1865703) | ↓ 98→99 (-1) | 9.0 |
+| [哈利·波特与凤凰社](https://movie.douban.com/subject/1457217) | ↑ 230→229 (+1) | 8.6 |
 
 ## 2026-08-23
 
