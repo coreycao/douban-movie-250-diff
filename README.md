@@ -4,7 +4,39 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-08-27*
+*Updated on 2026-08-31*
+
+## 2026-08-31
+
+### 📊 今日统计
+
+- **总变更数**: 16 部电影
+- **排名变化**: 16 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [钢琴家](https://movie.douban.com/subject/1296736) | ↓ 46→47 (-1) | 9.3 |
+| [窃听风暴](https://movie.douban.com/subject/1900841) | ↓ 70→71 (-1) | 9.2 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | ↑ 242→241 (+1) | 8.7 |
+| [源代码](https://movie.douban.com/subject/3075287) | ↓ 205→206 (-1) | 8.6 |
+| [爱乐之城](https://movie.douban.com/subject/25934014) | ↑ 206→205 (+1) | 8.4 |
+| [音乐之声](https://movie.douban.com/subject/1294408) | ↑ 71→70 (+1) | 9.1 |
+| [新世界](https://movie.douban.com/subject/10437779) | ↑ 130→129 (+1) | 8.9 |
+| [蝙蝠侠：黑暗骑士崛起](https://movie.douban.com/subject/3395373) | ↑ 106→105 (+1) | 8.9 |
+| [谍影重重3](https://movie.douban.com/subject/1578507) | ↑ 172→171 (+1) | 8.9 |
+| [天书奇谭](https://movie.douban.com/subject/1428581) | ↓ 105→106 (-1) | 9.2 |
+| [死亡诗社](https://movie.douban.com/subject/1291548) | ↑ 47→46 (+1) | 9.2 |
+| [7号房的礼物](https://movie.douban.com/subject/10777687) | ↓ 109→110 (-1) | 8.9 |
+| [无人知晓](https://movie.douban.com/subject/1292337) | ↓ 129→130 (-1) | 9.1 |
+| [奇迹男孩](https://movie.douban.com/subject/26787574) | ↓ 241→242 (-1) | 8.6 |
+| [第六感](https://movie.douban.com/subject/1297630) | ↑ 110→109 (+1) | 8.9 |
+| [小丑](https://movie.douban.com/subject/27119724) | ↓ 171→172 (-1) | 8.7 |
 
 ## 2026-08-27
 
