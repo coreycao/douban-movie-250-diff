@@ -4,7 +4,33 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-09-14*
+*Updated on 2026-09-21*
+
+## 2026-09-21
+
+### 📊 今日统计
+
+- **总变更数**: 10 部电影
+- **排名变化**: 10 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [爱在午夜降临前](https://movie.douban.com/subject/10808442) | ↓ 180→181 (-1) | 8.8 |
+| [消失的爱人](https://movie.douban.com/subject/21318488) | ↓ 128→129 (-1) | 8.7 |
+| [步履不停](https://movie.douban.com/subject/2222996) | ↓ 238→239 (-1) | 8.8 |
+| [新世界](https://movie.douban.com/subject/10437779) | ↑ 129→128 (+1) | 8.9 |
+| [源代码](https://movie.douban.com/subject/3075287) | ↑ 206→205 (+1) | 8.6 |
+| [大佛普拉斯](https://movie.douban.com/subject/27059130) | ↓ 205→206 (-1) | 8.7 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | ↓ 165→166 (-1) | 9.0 |
+| [蜘蛛侠：平行宇宙](https://movie.douban.com/subject/26374197) | ↑ 239→238 (+1) | 8.6 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | ↑ 181→180 (+1) | 9.1 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | ↑ 166→165 (+1) | 9.5 |
 
 ## 2026-09-14
 
