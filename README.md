@@ -4,7 +4,42 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-09-25*
+*Updated on 2026-09-28*
+
+## 2026-09-28
+
+### 📊 今日统计
+
+- **总变更数**: 19 部电影
+- **排名变化**: 19 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [白日梦想家](https://movie.douban.com/subject/2133323) | ↑ 202→201 (+1) | 8.6 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | ↑ 185→184 (+1) | 9.0 |
+| [哈利·波特与死亡圣器(下)](https://movie.douban.com/subject/3011235) | ↓ 66→67 (-1) | 9.0 |
+| [心灵奇旅](https://movie.douban.com/subject/24733428) | ↑ 159→158 (+1) | 8.7 |
+| [射雕英雄传之东成西就](https://movie.douban.com/subject/1316510) | ↓ 164→166 (-2) | 8.7 |
+| [功夫](https://movie.douban.com/subject/1291543) | ↑ 67→66 (+1) | 8.9 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | ↑ 165→164 (+1) | 9.5 |
+| [钢琴家](https://movie.douban.com/subject/1296736) | ↓ 47→48 (-1) | 9.3 |
+| [指环王2：双塔奇兵](https://movie.douban.com/subject/1291572) | ↑ 48→47 (+1) | 9.2 |
+| [遗愿清单](https://movie.douban.com/subject/1867345) | ↓ 201→202 (-1) | 8.7 |
+| [时空恋旅人](https://movie.douban.com/subject/10577869) | ↑ 124→123 (+1) | 8.8 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | ↓ 184→185 (-1) | 8.7 |
+| [勇敢的心](https://movie.douban.com/subject/1294639) | ↓ 123→124 (-1) | 8.9 |
+| [末路狂花](https://movie.douban.com/subject/1291992) | ↑ 166→165 (+1) | 9.0 |
+| [你看起来好像很好吃](https://movie.douban.com/subject/4848115) | ↓ 210→211 (-1) | 8.9 |
+| [惊魂记](https://movie.douban.com/subject/1293181) | ↓ 158→159 (-1) | 9.0 |
+| [血观音](https://movie.douban.com/subject/27113517) | ↑ 247→246 (+1) | 8.6 |
+| [小姐](https://movie.douban.com/subject/25977027) | ↓ 246→247 (-1) | 8.6 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | ↑ 211→210 (+1) | 8.6 |
 
 ## 2026-09-25
 
