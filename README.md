@@ -4,7 +4,27 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-10-05*
+*Updated on 2026-10-12*
+
+## 2026-10-12
+
+### 📊 今日统计
+
+- **总变更数**: 4 部电影
+- **排名变化**: 4 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [上帝之城](https://movie.douban.com/subject/1292208) | ↑ 185→184 (+1) | 9.0 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | ↓ 184→185 (-1) | 8.7 |
+| [阳光灿烂的日子](https://movie.douban.com/subject/1291875) | ↓ 141→142 (-1) | 8.8 |
+| [哪吒闹海](https://movie.douban.com/subject/1307315) | ↑ 142→141 (+1) | 9.2 |
 
 ## 2026-10-05
 
