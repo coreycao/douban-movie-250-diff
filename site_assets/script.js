@@ -23,9 +23,23 @@
         });
     }
 
-    // Open the first <details> on the home page's latest diff if present
-    var firstDetail = document.querySelector('.latest-section details.diff-detail');
-    if (firstDetail) {
+    // Expand/collapse all day records (month pages)
+    var toggleAll = document.getElementById('toggleAll');
+    if (toggleAll) {
+        var details = Array.prototype.slice.call(
+            document.querySelectorAll('details.diff-detail'));
+
+        toggleAll.addEventListener('click', function () {
+            var anyClosed = details.some(function (d) { return !d.open; });
+            details.forEach(function (d) { d.open = anyClosed; });
+            toggleAll.textContent = anyClosed ? '全部收起' : '全部展开';
+            toggleAll.setAttribute('aria-pressed', String(anyClosed));
+        });
+    }
+
+    // On month pages, open the newest day record so the page isn't a bare list
+    var firstDetail = document.querySelector('details.diff-detail');
+    if (firstDetail && document.getElementById('toggleAll')) {
         firstDetail.open = true;
     }
 })();

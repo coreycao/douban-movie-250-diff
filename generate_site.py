@@ -11,6 +11,7 @@ import os
 import re
 import shutil
 from dataclasses import dataclass, field
+from datetime import datetime
 from html import escape
 from pathlib import Path
 from src.readme_renderer import DATE_HEADING_RE
@@ -24,9 +25,12 @@ class ChangeEntry:
     name: str
     link: str
     movie_id: str
-    rank_display: str = ""
-    score_display: str = ""
-    rank_class: str = ""  # "rank-up", "rank-down", "rank-same"
+    rank_old: str = ""
+    rank_new: str = ""
+    rank_delta: int | None = None
+    score_old: str = ""
+    score_new: str = ""
+    score_delta: str = ""
 
 
 @dataclass
@@ -156,89 +160,75 @@ def _parse_table_row(line: str) -> ChangeEntry | None:
 
     # For new/removed tables: | rank | [name](link) | score |
     # For changes table:       | [name](link) | rank | score |
-    rank_cell = ""
-    score_cell = ""
-    rank_class = ""
-
     if link_cell_idx == 2:
-        # Layout: | rank | name | score |
         rank_cell = cells[1] if len(cells) > 1 else ""
         score_cell = cells[3] if len(cells) > 3 else ""
     elif link_cell_idx == 1:
-        # Layout: | name | rank | score |
         rank_cell = cells[2] if len(cells) > 2 else ""
         score_cell = cells[3] if len(cells) > 3 else ""
     else:
         rank_cell = cells[link_cell_idx + 1] if len(cells) > link_cell_idx + 1 else ""
         score_cell = cells[link_cell_idx + 2] if len(cells) > link_cell_idx + 2 else ""
 
-    # Parse rank display
-    rank_display, rank_class = _parse_rank_cell(rank_cell)
-    score_display = _parse_score_cell(score_cell)
+    rank_old, rank_new, rank_delta = _parse_rank_cell(rank_cell)
+    score_old, score_new, score_delta = _parse_score_cell(score_cell)
 
     return ChangeEntry(
         name=escape(name),
         link=link,
         movie_id=movie_id,
-        rank_display=rank_display,
-        score_display=score_display,
-        rank_class=rank_class,
+        rank_old=rank_old,
+        rank_new=rank_new,
+        rank_delta=rank_delta,
+        score_old=score_old,
+        score_new=score_new,
+        score_delta=score_delta,
     )
 
 
-def _parse_rank_cell(cell: str) -> tuple[str, str]:
-    """Return (display_html, css_class) for a rank cell."""
+def _parse_rank_cell(cell: str) -> tuple[str, str, int | None]:
+    """Return (rank_old, rank_new, rank_delta) for a rank cell."""
     cell = cell.strip()
     if not cell or cell == '—':
-        return '—', 'rank-same'
+        return '', '', None
 
     # New format: ↑ 189→188 (+1)
     m = _RE_NEW_RANK.search(cell)
     if m:
-        direction = m.group(1)
-        old_rank = m.group(2)
-        new_rank = m.group(3)
-        delta = m.group(4)
-        cls = 'rank-up' if direction == '↑' else 'rank-down'
-        display = f'{direction} {escape(old_rank)}→{escape(new_rank)} ({escape(delta)})'
-        return display, cls
+        old_rank, new_rank = m.group(2), m.group(3)
+        try:
+            delta = int(m.group(4))
+        except ValueError:
+            delta = None
+        return old_rank, new_rank, delta
 
     # Old format: 58 ➡️ 59
     m = _RE_OLD_RANK.search(cell)
     if m:
-        old_rank = m.group(1)
-        new_rank = m.group(2)
+        old_rank, new_rank = m.group(1), m.group(2)
         try:
-            diff = int(old_rank) - int(new_rank)
+            delta = int(old_rank) - int(new_rank)
         except ValueError:
-            diff = 0
-        if diff > 0:
-            return f'↑ {escape(old_rank)}→{escape(new_rank)} (+{diff})', 'rank-up'
-        elif diff < 0:
-            return f'↓ {escape(old_rank)}→{escape(new_rank)} ({diff})', 'rank-down'
-        else:
-            return f'{escape(old_rank)}→{escape(new_rank)}', 'rank-same'
+            delta = None
+        return old_rank, new_rank, delta
 
-    # Fallback: just show the cell content
-    return escape(cell), ''
+    # Plain number (new/removed tables)
+    return '', cell, None
 
 
-def _parse_score_cell(cell: str) -> str:
-    """Return display HTML for a score cell."""
+def _parse_score_cell(cell: str) -> tuple[str, str, str]:
+    """Return (score_old, score_new, score_delta) for a score cell."""
     cell = cell.strip()
     if not cell or cell == '—':
-        return '—'
+        return '', '', ''
 
+    # New format: ↑ 9.0→9.1 (+0.1)
     m = _RE_NEW_SCORE.search(cell)
     if m:
-        return escape(cell)
+        return m.group(2), m.group(3), m.group(4)
 
-    # Old format: just a number like "9.2"
-    try:
-        float(cell)
-        return escape(cell)
-    except ValueError:
-        return escape(cell)
+    # Plain number like "9.2"
+    return '', cell, ''
 
 
 def parse_archive_meta(filepath: str) -> dict:
@@ -253,6 +243,111 @@ def parse_archive_meta(filepath: str) -> dict:
             if m:
                 meta[m.group(1).strip()] = m.group(2).strip()
     return meta
+
+
+# ---------------------------------------------------------------------------
+# HTML rendering helpers
+# ---------------------------------------------------------------------------
+
+_FAVICON = ("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' "
+            "viewBox='0 0 64 64'><rect width='64' height='64' rx='14' "
+            "fill='%2300B51D'/><text x='32' y='45' font-size='34' "
+            "font-weight='700' text-anchor='middle' fill='white' "
+            "font-family='sans-serif'>豆</text></svg>")
+
+_CHEVRON = ('<svg class="chev" viewBox="0 0 16 16" aria-hidden="true">'
+            '<path d="M4 6l4 4 4-4" fill="none" stroke="currentColor" '
+            'stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>')
+
+_ICON_FILM = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+              'stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+              '<rect x="3" y="4" width="18" height="16" rx="2"/>'
+              '<path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/></svg>')
+
+_ICON_FOLDER = ('<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+                'stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'
+                '<path d="M3 7a2 2 0 0 1 2-2h4l2 2h8a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>')
+
+
+def _fmt_date_cn(date_str: str) -> str:
+    """'2026-10-12' -> '2026年10月12日'."""
+    try:
+        d = datetime.strptime(date_str, "%Y-%m-%d")
+        return f"{d.year}年{d.month}月{d.day}日"
+    except ValueError:
+        return date_str
+
+
+def _weekday_cn(date_str: str) -> str:
+    try:
+        d = datetime.strptime(date_str, "%Y-%m-%d")
+        return "星期" + "一二三四五六日"[d.weekday()]
+    except ValueError:
+        return ""
+
+
+def _short_date(date_str: str, ref_year: str = "") -> str:
+    """'2026-10-05' -> '10-05'; keeps the full date when the year
+    differs from ref_year (some old archive files span years)."""
+    parts = date_str.split('-')
+    if len(parts) == 3:
+        if ref_year and parts[0] != ref_year:
+            return date_str
+        return f"{parts[1]}-{parts[2]}"
+    return date_str
+
+
+def _total_of(diff: DailyDiff) -> int:
+    return diff.total_changes or (
+        len(diff.new_entries) + len(diff.removed_entries) + len(diff.changes))
+
+
+def _movement_counts(diff: DailyDiff) -> tuple[int, int]:
+    up = sum(1 for e in diff.changes if (e.rank_delta or 0) > 0)
+    down = sum(1 for e in diff.changes if (e.rank_delta or 0) < 0)
+    return up, down
+
+
+def _delta_pill(delta: int | None) -> str:
+    if delta is None or delta == 0:
+        return ""
+    if delta > 0:
+        return f'<span class="delta delta-up">▲ {delta}</span>'
+    return f'<span class="delta delta-down">▼ {abs(delta)}</span>'
+
+
+def _score_delta_pill(delta_str: str) -> str:
+    if not delta_str:
+        return ""
+    try:
+        v = float(delta_str)
+    except ValueError:
+        return ""
+    if v > 0:
+        return f'<span class="delta delta-up">▲ {delta_str.lstrip("+")}</span>'
+    if v < 0:
+        return f'<span class="delta delta-down">▼ {delta_str.lstrip("-")}</span>'
+    return ""
+
+
+def _rank_cell_html(e: ChangeEntry) -> str:
+    if not e.rank_new:
+        return '<span class="num-muted">—</span>'
+    if e.rank_old:
+        return (f'<span class="rank-move"><span class="rank-from">{e.rank_old}</span>'
+                f'<span class="move-arrow" aria-hidden="true">→</span>'
+                f'<b class="rank-to">{e.rank_new}</b>{_delta_pill(e.rank_delta)}</span>')
+    return f'<b class="rank-to">{e.rank_new}</b>'
+
+
+def _score_cell_html(e: ChangeEntry) -> str:
+    if not e.score_new:
+        return '<span class="num-muted">—</span>'
+    if e.score_old:
+        return (f'<span class="score-move"><span class="score-from">{e.score_old}</span>'
+                f'<span class="move-arrow" aria-hidden="true">→</span>'
+                f'<b class="score-to">{e.score_new}</b>{_score_delta_pill(e.score_delta)}</span>')
+    return f'<span class="score"><i class="star" aria-hidden="true">★</i><b>{e.score_new}</b></span>'
 
 
 # ---------------------------------------------------------------------------
@@ -277,8 +372,8 @@ def _header(active: str = "home", base_path: str = "") -> str:
     return f"""<header class="site-header">
   <div class="header-inner">
     <a href="{base_path}index.html" class="site-title">
-      <span class="icon">豆</span>
-      豆瓣 Top250 变化追踪
+      <span class="brand-mark" aria-hidden="true">豆</span>
+      <span class="brand-name">Top 250 变化追踪</span>
     </a>
     <nav class="site-nav">
       {nav_html}
@@ -296,7 +391,7 @@ def _header(active: str = "home", base_path: str = "") -> str:
 
 def _footer() -> str:
     return """<footer class="site-footer">
-  <p>豆瓣 Top250 变化追踪 · 数据每日自动更新 ·
+  <p>豆瓣 Top 250 变化追踪 · 数据每日自动更新 ·
     <a href="https://github.com/coreycao/douban-movie-250-diff">GitHub</a>
   </p>
 </footer>"""
@@ -313,7 +408,11 @@ def _page_wrapper(title: str, header_active: str, body: str,
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f5f4ee">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#15170f">
   <title>{escape(title)}</title>
+  <link rel="icon" href="{_FAVICON}">
   <link rel="stylesheet" href="{base_path}style.css">
 </head>
 <body>
@@ -327,100 +426,146 @@ def _page_wrapper(title: str, header_active: str, body: str,
 </html>"""
 
 
-def _render_diff_card(diff: DailyDiff, collapsible: bool = False) -> str:
-    """Render one day's diff as HTML."""
-    stats_html = _render_stats(diff)
-    new_html = _render_entry_section("🆕 新上榜电影", diff.new_entries, "new-entry")
-    removed_html = _render_entry_section("❌ 退出榜单", diff.removed_entries, "removed-entry")
-    changes_html = _render_changes_table(diff.changes)
-
-    inner = f"""
-    {stats_html}
-    {new_html}
-    {removed_html}
-    {changes_html}"""
-
-    if collapsible:
-        return f"""<details class="diff-detail">
-  <summary><span>{escape(diff.date)}</span></summary>
-  <div class="detail-body">
-    <div class="diff-card">
-      {inner}
-    </div>
-  </div>
-</details>"""
-    else:
-        return f"""<div class="diff-card">
-  <div class="diff-date">
-    {escape(diff.date)}
-    <span class="date-badge">最新</span>
-  </div>
-  {inner}
-</div>"""
+def _section_head(title: str, side_html: str = "") -> str:
+    side = f'\n    <span class="section-side">{side_html}</span>' if side_html else ''
+    return f"""<header class="section-head">
+    <h2>{title}</h2>
+    <span class="section-rule" aria-hidden="true"></span>{side}
+  </header>"""
 
 
-def _render_stats(diff: DailyDiff) -> str:
+def _stat_strip(diff: DailyDiff) -> str:
     items = [
-        (diff.total_changes, '总变更'),
-        (diff.rank_changes, '排名变化'),
+        (_total_of(diff), '总变更'),
+        (diff.rank_changes or len(diff.changes), '排名变化'),
         (diff.score_changes, '评分变化'),
-        (diff.new_count, '新上榜'),
-        (diff.removed_count, '退出榜单'),
+        (diff.new_count or len(diff.new_entries), '新上榜'),
+        (diff.removed_count or len(diff.removed_entries), '退出榜单'),
     ]
     cells = "\n".join(
-        f'<div class="stat-item"><div class="stat-value">{v}</div><div class="stat-label">{label}</div></div>'
+        f'<div class="stat"><b>{v}</b><span>{label}</span></div>'
         for v, label in items
     )
-    return f'<div class="stats-row">{cells}</div>'
+    return f'<div class="stat-strip">{cells}</div>'
 
 
-def _render_entry_section(title: str, entries: list, css_class: str) -> str:
+def _entry_table(kind: str, entries: list) -> str:
     if not entries:
         return ""
+    label = "新上榜" if kind == "new" else "退出榜单"
+    tag_cls = "tag-new" if kind == "new" else "tag-out"
 
     rows = ""
     for e in entries:
         rows += f"""<tr>
-      <td><a href="{e.link}" target="_blank" class="movie-link">{e.name}</a></td>
-      <td>{e.rank_display}</td>
-      <td>{e.score_display}</td>
+      <td><a href="{e.link}" target="_blank" rel="noopener" class="movie-link">{e.name}</a></td>
+      <td class="cell-rank"><b class="rank-to">{e.rank_new or '—'}</b></td>
+      <td class="cell-score">{_score_cell_html(e)}</td>
     </tr>\n"""
 
-    return f"""<h4 class="section-header {css_class}">{title}</h4>
+    return f"""<div class="sub-head">
+  <span class="tag {tag_cls}">{label}</span>
+  <span class="sub-count">{len(entries)} 部</span>
+</div>
 <table class="change-table">
-  <thead><tr><th>电影</th><th>排名</th><th>评分</th></tr></thead>
+  <thead><tr><th>电影</th><th class="col-rank">排名</th><th class="col-score">评分</th></tr></thead>
   <tbody>{rows}  </tbody>
 </table>"""
 
 
-def _render_changes_table(changes: list) -> str:
+def _changes_table(changes: list) -> str:
     if not changes:
         return ""
 
     rows = ""
     for e in changes:
         rows += f"""<tr>
-      <td><a href="{e.link}" target="_blank" class="movie-link">{e.name}</a></td>
-      <td class="{e.rank_class}">{e.rank_display}</td>
-      <td class="score-badge">{e.score_display}</td>
+      <td><a href="{e.link}" target="_blank" rel="noopener" class="movie-link">{e.name}</a></td>
+      <td class="cell-rank">{_rank_cell_html(e)}</td>
+      <td class="cell-score">{_score_cell_html(e)}</td>
     </tr>\n"""
 
-    return f"""<h4 class="section-header">排名及分数变化</h4>
+    return f"""<div class="sub-head">
+  <span class="sub-dot" aria-hidden="true"></span>
+  <span class="sub-label">排名及分数变化</span>
+  <span class="sub-count">{len(changes)} 部</span>
+</div>
 <table class="change-table">
-  <thead><tr><th>电影</th><th>排名</th><th>评分</th></tr></thead>
+  <thead><tr><th>电影</th><th class="col-rank">排名</th><th class="col-score">评分</th></tr></thead>
   <tbody>{rows}  </tbody>
 </table>"""
 
 
-def _render_movie_grid(movies: list) -> str:
-    """Render the Top 250 grid."""
+def _diff_card_body(diff: DailyDiff) -> str:
+    parts = [
+        _stat_strip(diff),
+        _entry_table("new", diff.new_entries),
+        _entry_table("removed", diff.removed_entries),
+        _changes_table(diff.changes),
+    ]
+    return "\n".join(p for p in parts if p)
+
+
+def _render_latest_card(diff: DailyDiff) -> str:
+    weekday = _weekday_cn(diff.date)
+    weekday_html = f'<span class="diff-weekday">{weekday}</span>' if weekday else ''
+    return f"""<article class="diff-card is-latest">
+  <header class="diff-head">
+    <h3 class="diff-date">{_fmt_date_cn(diff.date)}{weekday_html}</h3>
+    <span class="tag tag-latest">最新</span>
+  </header>
+  {_diff_card_body(diff)}
+</article>"""
+
+
+def _render_diff_detail(diff: DailyDiff, ref_year: str = "") -> str:
+    up, down = _movement_counts(diff)
+    new_n = diff.new_count or len(diff.new_entries)
+    removed_n = diff.removed_count or len(diff.removed_entries)
+
+    chips = [f'<span class="chip">{_total_of(diff)} 项变更</span>']
+    if up:
+        chips.append(f'<span class="chip chip-up">↑ {up}</span>')
+    if down:
+        chips.append(f'<span class="chip chip-down">↓ {down}</span>')
+    if new_n:
+        chips.append(f'<span class="chip chip-new">新 {new_n}</span>')
+    if removed_n:
+        chips.append(f'<span class="chip chip-out">退 {removed_n}</span>')
+
+    weekday = _weekday_cn(diff.date)
+    weekday_html = f'<span class="diff-weekday">{weekday}</span>' if weekday else ''
+
+    return f"""<details class="diff-detail">
+  <summary>
+    <span class="dd-date">{_short_date(diff.date, ref_year)}</span>
+    <span class="dd-chips">{''.join(chips)}</span>
+    {_CHEVRON}
+  </summary>
+  <div class="detail-body">
+    <article class="diff-card">
+      <header class="diff-head">
+        <h3 class="diff-date">{_fmt_date_cn(diff.date)}{weekday_html}</h3>
+      </header>
+      {_diff_card_body(diff)}
+    </article>
+  </div>
+</details>"""
+
+
+def _movie_cards(movies: list) -> str:
+    """Render the Top 250 as a typographic ledger grid.
+
+    Douban's CDN (img*.doubanio.com) rejects hotlinked posters with
+    418/403 unless the Referer is on douban.com, so the deployed site
+    can never display them — a ruled, poster-free index is used instead.
+    """
     cards = ""
     for m in movies:
         rank = m.get('rank', '')
         name = escape(m.get('name', ''))
         link = m.get('link', '')
         score = m.get('score', '')
-        pic = m.get('pic', '')
 
         try:
             rank_num = int(rank)
@@ -428,26 +573,37 @@ def _render_movie_grid(movies: list) -> str:
             rank_num = 999
 
         top_class = ' top-10' if rank_num <= 10 else ''
+        rank_padded = str(rank_num).zfill(3) if rank_num <= 999 else escape(rank)
 
-        cards += f"""<div class="movie-card">
-  <div class="poster-wrap">
-    <a href="{link}" target="_blank">
-      <img src="{pic}" alt="{name}" loading="lazy" referrerpolicy="no-referrer"
-           onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 200 300%22><rect fill=%22%23ddd%22 width=%22200%22 height=%22300%22/><text fill=%22%23999%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-size=%2216%22>暂无图片</text></svg>'">
-    </a>
-    <span class="rank-badge{top_class}">{rank}</span>
-  </div>
-  <div class="card-info">
-    <div class="card-title"><a href="{link}" target="_blank">{name}</a></div>
-    <div class="card-score">⭐ {score}</div>
-  </div>
-</div>\n"""
+        cards += f"""<a class="tl-cell{top_class}" href="{link}" target="_blank" rel="noopener">
+  <span class="tl-head">
+    <span class="tl-rank">{rank_padded}</span>
+    <span class="tl-score"><i class="star" aria-hidden="true">★</i>{escape(score)}</span>
+  </span>
+  <span class="tl-name">{name}</span>
+</a>
+"""
 
-    return f"""<div class="section-title-bar">
-  <h2 class="page-title" style="margin-bottom:0">当前 Top 250</h2>
-</div>
-<div class="movie-grid">
-  {cards}
+    return cards
+
+
+def _archive_row(am: ArchiveMonth, prefix: str = "") -> str:
+    if am.first_date and am.last_date:
+        range_html = f'\n  <span class="ar-range">{am.first_date} ~ {am.last_date}</span>'
+    else:
+        range_html = ''
+    return f"""<a class="archive-row" href="{prefix}{am.filename}.html">
+  <span class="ar-month">{am.month_label}</span>
+  <span class="ar-count"><b>{am.entry_count}</b>次更新</span>{range_html}
+  <span class="ar-go" aria-hidden="true">→</span>
+</a>
+"""
+
+
+def _empty_state(icon: str, text: str) -> str:
+    return f"""<div class="empty-state">
+  {icon}
+  <p>{text}</p>
 </div>"""
 
 
@@ -455,107 +611,91 @@ def _render_movie_grid(movies: list) -> str:
 # Page renderers
 # ---------------------------------------------------------------------------
 
-def render_index(latest_diffs: list, archive_months: list) -> str:
+def render_index(latest_diffs: list, archive_months: list, movies: list) -> str:
     """Render the home page."""
-    # Latest diff
-    diff_section = ""
-    if latest_diffs:
-        diff_section = f"""<div class="latest-section">
-  <h2 class="page-title">最新变化</h2>
-  {_render_diff_card(latest_diffs[0], collapsible=False)}
-</div>"""
-    else:
-        diff_section = """<div class="empty-state">
-  <div class="empty-icon">🎬</div>
-  <p>暂无变化记录</p>
-</div>"""
+    sections = []
 
-    # Link to official Douban Top 250
-    douban_link = """<a class="douban-external-link" href="https://movie.douban.com/top250" target="_blank" rel="noopener">
-  <span class="douban-link-icon">豆</span>
-  <span>前往豆瓣查看完整 Top 250 榜单 →</span>
-</a>"""
+    # Latest diff
+    if latest_diffs:
+        sections.append(f"""<section class="page-section">
+  {_section_head("最新变化", "每日自动更新")}
+  {_render_latest_card(latest_diffs[0])}
+</section>""")
+    else:
+        sections.append(_empty_state(_ICON_FILM, "暂无变化记录"))
 
     # Recent history (if more diffs in README)
-    history_section = ""
     if len(latest_diffs) > 1:
-        history_items = ""
-        for d in latest_diffs[1:]:
-            history_items += _render_diff_card(d, collapsible=True)
-        history_section = f"""<h2 class="page-title">近期变化</h2>
-{history_items}"""
+        ref_year = latest_diffs[0].date[:4]
+        items = "".join(_render_diff_detail(d, ref_year) for d in latest_diffs[1:])
+        sections.append(f"""<section class="page-section">
+  {_section_head("近期变化")}
+{items}</section>""")
 
     # Quick archive links
-    archive_preview = ""
     if archive_months:
-        cards = ""
-        for am in archive_months[:6]:
-            cards += f"""<a href="archive/{am.filename}.html" class="archive-card">
-  <div class="archive-month">{am.month_label}</div>
-  <div class="archive-count">{am.entry_count}</div>
-  <div class="archive-count-label">次更新</div>
-  <div class="archive-meta">{am.first_date} ~ {am.last_date}</div>
-</a>\n"""
-        archive_preview = f"""<h2 class="page-title">历史归档</h2>
-<div class="archive-grid">
-  {cards}
-</div>
-<p style="text-align:center;margin-top:16px">
-  <a href="archive/index.html">查看全部归档 →</a>
-</p>"""
+        rows = "".join(_archive_row(am, prefix="archive/") for am in archive_months[:6])
+        sections.append(f"""<section class="page-section">
+  {_section_head("历史归档", '<a href="archive/index.html">查看全部 →</a>')}
+  <div class="archive-list">
+{rows}  </div>
+</section>""")
 
-    body = f"""{diff_section}
-{douban_link}
-{history_section}
-{archive_preview}"""
+    # Current Top 250 ledger
+    if movies:
+        sections.append(f"""<section class="page-section">
+  {_section_head("当前榜单", '<a href="https://movie.douban.com/top250" target="_blank" rel="noopener">在豆瓣查看完整榜单 ↗</a>')}
+  <div class="toplist">
+{_movie_cards(movies)}  </div>
+</section>""")
 
+    body = "\n".join(sections)
     return _page_wrapper("豆瓣 Top250 变化追踪", "home", body)
 
 
 def render_archive_index(archive_months: list) -> str:
     """Render the archive listing page."""
     if not archive_months:
-        body = """<div class="empty-state">
-  <div class="empty-icon">📂</div>
-  <p>暂无归档记录</p>
-</div>"""
+        body = _empty_state(_ICON_FOLDER, "暂无归档记录")
         return _page_wrapper("历史归档", "archive", body, base_path="../")
 
-    cards = ""
-    for am in archive_months:
-        cards += f"""<a href="{am.filename}.html" class="archive-card">
-  <div class="archive-month">{am.month_label}</div>
-  <div class="archive-count">{am.entry_count}</div>
-  <div class="archive-count-label">次更新</div>
-  <div class="archive-meta">{am.first_date} ~ {am.last_date}</div>
-</a>\n"""
-
-    body = f"""<h2 class="page-title">历史归档</h2>
-<div class="archive-grid">
-  {cards}
-</div>"""
+    rows = "".join(_archive_row(am) for am in archive_months)
+    body = f"""{_section_head("历史归档", f"{len(archive_months)} 个月")}
+<div class="archive-list">
+{rows}</div>"""
 
     return _page_wrapper("历史归档 - 豆瓣 Top250 变化追踪", "archive", body,
                          base_path="../")
+
+
 def render_month_page(month: ArchiveMonth, prev_month: ArchiveMonth | None,
                       next_month: ArchiveMonth | None) -> str:
     """Render a monthly archive page."""
-    # Navigation
-    prev_link = f'<a href="{prev_month.filename}.html">← {prev_month.month_label}</a>' if prev_month else '<span></span>'
-    next_link = f'<a href="{next_month.filename}.html">{next_month.month_label} →</a>' if next_month else '<span></span>'
+    prev_link = (f'<a class="month-arrow" href="{prev_month.filename}.html">'
+                 f'← {prev_month.month_label}</a>' if prev_month else
+                 '<span class="month-arrow" aria-hidden="true"></span>')
+    next_link = (f'<a class="month-arrow" href="{next_month.filename}.html">'
+                 f'{next_month.month_label} →</a>' if next_month else
+                 '<span class="month-arrow" aria-hidden="true"></span>')
 
-    nav_html = f"""<div class="month-nav">
+    total_updates = len(month.diffs) or month.entry_count
+    total_changes = sum(_total_of(d) for d in month.diffs)
+    ref_year = month.filename[:4]
+
+    diffs_html = "".join(_render_diff_detail(d, ref_year) for d in month.diffs)
+
+    body = f"""<div class="month-nav">
   {prev_link}
-  <span class="month-label">{month.month_label}</span>
+  <div class="month-center">
+    <h1 class="month-title">{month.month_label}</h1>
+    <p class="month-sub">{total_updates} 次更新 · {total_changes} 项变更</p>
+  </div>
   {next_link}
-</div>"""
-
-    # Daily diffs
-    diffs_html = ""
-    for d in month.diffs:
-        diffs_html += _render_diff_card(d, collapsible=True)
-
-    body = f"""{nav_html}
+</div>
+<div class="list-toolbar">
+  <span class="toolbar-label">每日记录</span>
+  <button class="btn-ghost" id="toggleAll" type="button" aria-pressed="false">全部展开</button>
+</div>
 {diffs_html}"""
 
     return _page_wrapper(f"{month.month_label} - 豆瓣 Top250 变化追踪", "archive", body,
@@ -613,6 +753,9 @@ def generate():
         print(f"Parsed {len(latest_diffs)} diff entries from README.md")
 
     # 3. Discover and parse all archive files
+    # Files are grouped by month key (e.g. 2025-03-03.md and 2025-03-31.md
+    # both belong to 2025-03) so same-month files merge into one page
+    # instead of overwriting each other.
     archive_months: list[ArchiveMonth] = []
     archive_files = sorted(glob.glob(str(archive_dir / '*.md')))
     for fpath in archive_files:
@@ -644,15 +787,28 @@ def generate():
 
         entry_count = int(meta.get('Total Entries', str(len(diffs))))
 
-        archive_months.append(ArchiveMonth(
-            filename=month_key,
-            filename_ext=fname,
-            month_label=_month_label(month_key),
-            first_date=first_date,
-            last_date=last_date,
-            entry_count=entry_count or len(diffs),
-            diffs=diffs,
-        ))
+        existing = next((m for m in archive_months if m.filename == month_key), None)
+        if existing is not None:
+            # Merge into the existing month: union of day records
+            known = {d.date for d in existing.diffs}
+            existing.diffs.extend(d for d in diffs if d.date not in known)
+            existing.diffs.sort(key=lambda d: d.date, reverse=True)
+            existing.entry_count += entry_count or len(diffs)
+            for date in (first_date, last_date):
+                if date and date < existing.first_date:
+                    existing.first_date = date
+                if date and date > existing.last_date:
+                    existing.last_date = date
+        else:
+            archive_months.append(ArchiveMonth(
+                filename=month_key,
+                filename_ext=fname,
+                month_label=_month_label(month_key),
+                first_date=first_date,
+                last_date=last_date,
+                entry_count=entry_count or len(diffs),
+                diffs=diffs,
+            ))
 
     # Sort by month descending (newest first)
     archive_months.sort(key=lambda m: m.filename, reverse=True)
@@ -667,7 +823,7 @@ def generate():
 
     # 5. Render pages
     # index.html
-    index_html = render_index(latest_diffs, archive_months)
+    index_html = render_index(latest_diffs, archive_months, movies)
     (site_dir / 'index.html').write_text(index_html, encoding='utf-8')
     print("Generated index.html")
 
