@@ -427,18 +427,95 @@ class TestDiffProcessorIntegration(unittest.TestCase):
         self.assertNotIn("## 2026-06-01\n\n", readme_content)
 
     def test_load_recent_movies_file_not_found(self):
-        """测试 JSON 文件不存在时返回空列表"""
+        """测试 JSON 文件不存在时返回空列表（首次运行）"""
         movies = self.processor._load_recent_movies()
         self.assertEqual(movies, [])
 
-    def test_load_recent_movies_invalid_json(self):
-        """测试 JSON 文件损坏时返回空列表"""
+    def test_load_recent_movies_invalid_json_raises(self):
+        """测试 JSON 文件损坏时大声失败，绝不能静默当作首次运行"""
         # 创建无效 JSON 文件
         with open(self.original_paths['movie_list_filename'], 'w') as f:
             f.write('invalid json content')
 
-        movies = self.processor._load_recent_movies()
-        self.assertEqual(movies, [])
+        with self.assertRaises(RuntimeError) as context:
+            self.processor._load_recent_movies()
+
+        self.assertIn('refusing to reset diff history', str(context.exception))
+
+    def test_load_recent_movies_not_a_list_raises(self):
+        """测试 state 文件内容不是数组时报错"""
+        with open(self.original_paths['movie_list_filename'], 'w') as f:
+            json.dump({"movies": []}, f)
+
+        with self.assertRaises(RuntimeError):
+            self.processor._load_recent_movies()
+
+    def test_corrupt_state_does_not_reset_readme(self):
+        """state 损坏时 process_diff 抛错，README 与 state 均原样保留"""
+        readme_content = (
+            "# Douban-Movie-250-Diff\n\n"
+            "## 2026-06-01\n\n"
+            "### 📊 今日统计\n\n"
+            "- **总变更数**: 3 部电影\n"
+        )
+        with open(self.original_paths['readme_filename'], 'w', encoding='utf-8') as f:
+            f.write(readme_content)
+        with open(self.original_paths['movie_list_filename'], 'w') as f:
+            f.write('{broken json')
+
+        with self.assertRaises(RuntimeError):
+            self.processor.process_diff([{'id': '1', 'rank': '1', 'name': 'A', 'score': '9.0'}])
+
+        # README 历史未被清空
+        with open(self.original_paths['readme_filename'], 'r', encoding='utf-8') as f:
+            self.assertIn('## 2026-06-01', f.read())
+        # state 文件未被覆盖
+        with open(self.original_paths['movie_list_filename'], 'r') as f:
+            self.assertEqual(f.read(), '{broken json')
+
+    def test_create_initial_readme_preserves_history(self):
+        """首次运行但 README 已有历史时，历史章节应保留而非清空"""
+        readme_content = (
+            "# Douban-Movie-250-Diff\n\n"
+            "## 2026-06-01\n\n"
+            "### 📊 今日统计\n\n"
+            "- **总变更数**: 3 部电影\n"
+        )
+        with open(self.original_paths['readme_filename'], 'w', encoding='utf-8') as f:
+            f.write(readme_content)
+
+        self.processor.process_diff([{'id': '1', 'rank': '1', 'name': 'A', 'score': '9.0'}])
+
+        with open(self.original_paths['readme_filename'], 'r', encoding='utf-8') as f:
+            content = f.read()
+        self.assertIn('## 2026-06-01', content)
+        self.assertIn('Updated on', content)
+        # state 正常保存
+        self.assertTrue(os.path.exists(self.original_paths['movie_list_filename']))
+
+    def test_readme_write_failure_blocks_state_save(self):
+        """README 写失败时 process_diff 必须抛错且不推进 state，变更不能被静默丢弃"""
+        movies = [
+            {'id': '1', 'rank': '1', 'name': 'A', 'score': '9.0', 'link': 'x', 'pic': 'x'}
+        ]
+        self.processor.process_diff(movies)  # 首次运行建立 baseline
+
+        updated_movies = [
+            {'id': '1', 'rank': '2', 'name': 'A', 'score': '9.0', 'link': 'x', 'pic': 'x'},
+            {'id': '2', 'rank': '1', 'name': 'B', 'score': '8.5', 'link': 'y', 'pic': 'y'}
+        ]
+
+        def fake_write(file_name, text):
+            raise IOError('disk full')
+
+        with patch('src.diff_processor.write_text_atomic', side_effect=fake_write):
+            with self.assertRaises(IOError):
+                self.processor.process_diff(updated_movies)
+
+        # state 未被推进：下次运行会重试同一批变更
+        with open(self.original_paths['movie_list_filename'], 'r', encoding='utf-8') as f:
+            saved = json.load(f)
+        self.assertEqual(saved, movies)
 
     def test_save_and_load_movies(self):
         """测试保存和加载电影数据"""

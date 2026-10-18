@@ -1,3 +1,4 @@
+import os
 import random
 
 
@@ -56,11 +57,15 @@ def log(*args):
     print("Movie250Diff: ", *args)
 
 
-def write_text(file_name, method, text):
+def write_text_atomic(file_name, text):
+    """原子覆盖写：先写临时文件再 os.replace，避免进程中断留下半截文件。
+
+    state 文件和 README 都用它写入——半截 JSON 曾会导致 diff 历史被整体重置。
     """
-    method: 'a'-append,
-            'w'-overwrite
-    """
-    with open(file_name, method, encoding='utf-8') as f:
+    tmp_path = file_name + '.tmp'
+    with open(tmp_path, 'w', encoding='utf-8') as f:
         f.write(text)
+        f.flush()
+        os.fsync(f.fileno())
+    os.replace(tmp_path, file_name)
 

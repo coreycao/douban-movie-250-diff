@@ -58,23 +58,46 @@ class MovieSpider:
         )
 
     def fetch_movie_list(self) -> List[Dict[str, Any]]:
-        """获取豆瓣Top250电影列表"""
+        """获取豆瓣Top250电影列表，抓取结果必须通过完整性校验"""
         movie_list = []
+        for i in range(0, self.total_size, self.page_size):
+            page_num = i // self.page_size + 1
+            movies = self._fetch_page(i, page_num)
+            if movies:
+                movie_list.extend(movies)
+            # 随机延迟，模拟人类行为（2-5秒之间）
+            if i + self.page_size < self.total_size:  # 最后一次请求不需要延迟
+                delay = random.uniform(self.min_delay, self.max_delay)
+                log(f"Waiting {delay:.2f}s before next request...")
+                sleep(delay)
+        # 不完整的抓取绝不能当作真实榜单参与 diff，
+        # 否则短暂的反爬页/截断响应会被误判成大批电影"退出榜单"
+        self._validate_movie_list(movie_list)
+        return movie_list
+
+    def _validate_movie_list(self, movie_list: List[Dict[str, Any]]) -> None:
+        """校验抓取结果完整性：数量、排名唯一且恰好为 1..250、id 无重复。"""
+        expected = self.total_size
+        if len(movie_list) != expected:
+            raise RuntimeError(
+                f"Incomplete fetch: expected {expected} movies, got {len(movie_list)}. "
+                f"Refusing to diff against partial data."
+            )
         try:
-            for i in range(0, self.total_size, self.page_size):
-                page_num = i // self.page_size + 1
-                movies = self._fetch_page(i, page_num)
-                if movies:
-                    movie_list.extend(movies)
-                # 随机延迟，模拟人类行为（2-5秒之间）
-                if i + self.page_size < self.total_size:  # 最后一次请求不需要延迟
-                    delay = random.uniform(self.min_delay, self.max_delay)
-                    log(f"Waiting {delay:.2f}s before next request...")
-                    sleep(delay)
-            return movie_list
-        except Exception as e:
-            log(f"Error occurred while fetching movie list: {str(e)}")
-            raise
+            ranks = [int(movie['rank']) for movie in movie_list]
+        except (KeyError, TypeError, ValueError) as e:
+            raise RuntimeError(f"Invalid rank value in fetched movies: {e}")
+        if sorted(ranks) != list(range(1, expected + 1)):
+            raise RuntimeError(
+                f"Invalid rank sequence: expected exactly 1..{expected} with no gaps "
+                f"or duplicates, got {len(set(ranks))} unique ranks"
+            )
+        ids = [movie['id'] for movie in movie_list]
+        if len(set(ids)) != expected:
+            raise RuntimeError(
+                f"Duplicate movie ids detected: {len(ids)} entries but "
+                f"{len(set(ids))} unique ids"
+            )
 
     def _fetch_page(self, start: int, page_num: int) -> List[Dict[str, Any]]:
         """获取单页电影数据"""

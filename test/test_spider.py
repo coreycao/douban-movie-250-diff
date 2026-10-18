@@ -4,6 +4,69 @@ from bs4 import BeautifulSoup
 from src.spider import MovieSpider
 from requests.exceptions import RequestException
 
+def make_movie(rank, movie_id=None):
+    """构造一条符合 spider 输出结构的电影记录"""
+    return {
+        'rank': str(rank),
+        'pic': f'https://img.example.com/p{rank}.webp',
+        'name': f'Movie {rank}',
+        'link': f'https://movie.douban.com/subject/{movie_id or (1000000 + rank)}',
+        'score': '9.0',
+        'id': str(movie_id or (1000000 + rank)),
+    }
+
+class TestMovieListValidation(unittest.TestCase):
+    """测试抓取结果完整性校验：不完整的抓取绝不能参与 diff"""
+
+    def setUp(self):
+        self.spider = MovieSpider()
+
+    def test_validate_accepts_full_list(self):
+        movies = [make_movie(r) for r in range(1, 251)]
+        self.spider._validate_movie_list(movies)  # 不抛错即通过
+
+    def test_validate_rejects_incomplete_fetch(self):
+        movies = [make_movie(r) for r in range(1, 250)]  # 只有 249 条
+        with self.assertRaises(RuntimeError) as ctx:
+            self.spider._validate_movie_list(movies)
+        self.assertIn('Incomplete fetch', str(ctx.exception))
+
+    def test_validate_rejects_duplicate_ranks(self):
+        movies = [make_movie(r) for r in range(1, 251)]
+        movies[10]['rank'] = '1'  # 与首条重复
+        with self.assertRaises(RuntimeError) as ctx:
+            self.spider._validate_movie_list(movies)
+        self.assertIn('rank sequence', str(ctx.exception))
+
+    def test_validate_rejects_non_sequential_ranks(self):
+        movies = [make_movie(r) for r in range(1, 251)]
+        movies[-1]['rank'] = '251'  # 出现缺号
+        with self.assertRaises(RuntimeError):
+            self.spider._validate_movie_list(movies)
+
+    def test_validate_rejects_duplicate_ids(self):
+        movies = [make_movie(r) for r in range(1, 251)]
+        movies[1]['id'] = movies[0]['id']
+        with self.assertRaises(RuntimeError) as ctx:
+            self.spider._validate_movie_list(movies)
+        self.assertIn('Duplicate movie ids', str(ctx.exception))
+
+    def test_validate_rejects_invalid_rank_value(self):
+        movies = [make_movie(r) for r in range(1, 251)]
+        movies[5]['rank'] = 'abc'
+        with self.assertRaises(RuntimeError) as ctx:
+            self.spider._validate_movie_list(movies)
+        self.assertIn('Invalid rank value', str(ctx.exception))
+
+    @patch('src.spider.sleep')  # 跳过页间延迟，保持测试快速
+    @patch.object(MovieSpider, '_fetch_page')
+    def test_fetch_movie_list_validates_before_return(self, mock_fetch_page, _mock_sleep):
+        """fetch_movie_list 返回前必须通过完整性校验"""
+        page = [make_movie(r) for r in range(1, 26)]
+        mock_fetch_page.return_value = page
+        with self.assertRaises(RuntimeError):  # 25 条 != 250 条
+            self.spider.fetch_movie_list()
+
 class TestMovieSpider(unittest.TestCase):
     def setUp(self):
         self.spider = MovieSpider()

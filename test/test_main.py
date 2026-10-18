@@ -68,14 +68,15 @@ class TestMainMockMode(unittest.TestCase):
         shutil.rmtree(self.test_dir, ignore_errors=True)
 
     def test_run_with_mock_data_does_not_fetch_douban(self):
-        """mock 模式应使用本地数据，不实例化真实爬虫"""
+        """mock 模式应使用本地数据，不实例化真实爬虫；成功时 run 返回 True"""
         with patch('main.MovieSpider') as mock_spider:
-            main.run([
+            result = main.run([
                 '--mock', self.mock_file,
                 '--state-file', self.state_file,
                 '--readme-file', self.readme_file
             ])
 
+        self.assertTrue(result)
         mock_spider.assert_not_called()
 
         with open(self.readme_file, 'r', encoding='utf-8') as f:
@@ -89,6 +90,26 @@ class TestMainMockMode(unittest.TestCase):
         with open(self.state_file, 'r', encoding='utf-8') as f:
             saved_movies = json.load(f)
         self.assertEqual(saved_movies, self.latest_movies)
+
+    def test_run_returns_false_when_fetch_fails(self):
+        """抓取失败时 run 返回 False（进程将以非零码退出，Actions 标红）"""
+        with patch('main.MovieSpider') as mock_spider:
+            mock_spider.return_value.fetch_movie_list.side_effect = RuntimeError(
+                "Failed to fetch page 1 after 3 retries"
+            )
+            result = main.run([])
+
+        self.assertFalse(result)
+
+    def test_run_returns_false_when_diff_processing_fails(self):
+        """diff 处理失败（如 state 损坏）时 run 返回 False"""
+        with patch('main.DiffProcessor') as mock_processor:
+            mock_processor.return_value.process_diff.side_effect = RuntimeError(
+                "State file exists but cannot be parsed"
+            )
+            result = main.run(['--mock', self.mock_file])
+
+        self.assertFalse(result)
 
     def test_load_mock_movies_requires_movie_array(self):
         """mock 文件必须是电影对象数组"""

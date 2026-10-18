@@ -46,7 +46,8 @@ def count_entries_and_movies(filepath: str) -> tuple:
         entries = len(extract_date_headings(content))
 
         # 统计唯一电影数（通过链接数量）
-        movies = re.findall(r'\[([^\]]+)\]\(https://movie\.douban\.com/subject/\d+/', content)
+        # 链接尾斜杠可有可无：spider 存的是无尾斜杠链接，旧归档里有带尾斜杠的
+        movies = re.findall(r'\[([^\]]+)\]\(https://movie\.douban\.com/subject/\d+/?\)', content)
         unique_movies = len(set(movies))
 
         return entries, unique_movies
@@ -67,8 +68,12 @@ def generate_index_entry(filename: str, is_new_format: bool = False) -> dict:
         包含索引信息的字典
     """
     filepath = os.path.join(PATHS['archive_dir'], filename)
-    first_date, last_date = parse_archive_dates(filepath)
+    parsed_dates = [d for d in parse_archive_dates(filepath) if d]
     entries, movies = count_entries_and_movies(filepath)
+
+    # README/归档中日期按新→旧排列，区间统一改为时间正序（早 ~ 晚）
+    first_date = min(parsed_dates) if parsed_dates else None
+    last_date = max(parsed_dates) if parsed_dates else None
 
     entry = {
         'filename': filename,
@@ -203,8 +208,11 @@ def archive_data():
             break
 
     # 生成归档文件内容（新格式）
+    # README 日期按新→旧排列，Date Range 统一为时间正序（早 ~ 晚），
+    # generate_site.py 与 INDEX.md 都按 "起点 ~ 终点" 顺序解析展示
+    range_start, range_end = sorted([first_date, last_date])
     archive_content = f"<!-- Archive: {month_str} -->\n"
-    archive_content += f"<!-- Date Range: {first_date} ~ {last_date} -->\n"
+    archive_content += f"<!-- Date Range: {range_start} ~ {range_end} -->\n"
     archive_content += f"<!-- Archived: {today.isoformat()} -->\n"
     archive_content += f"<!-- Total Entries: {entries} -->\n"
     archive_content += "\n"

@@ -23,6 +23,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      # 测试门禁：测试失败则整个任务失败，不会带着坏代码抓取和提交
+      - name: run tests
+        run: python -m unittest discover -s test
+
       - name: execute py script
         run: python main.py
 

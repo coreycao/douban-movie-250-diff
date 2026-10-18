@@ -1,8 +1,9 @@
 import json
+import os
 from dataclasses import dataclass
 from datetime import date
 from typing import Dict, List, Tuple, Any
-from src.common import PATHS, log, write_text
+from src.common import PATHS, log, write_text_atomic
 from src.readme_renderer import (
     extract_history_sections,
     render_changes_table,
@@ -19,38 +20,52 @@ class DiffProcessor:
         self.readme_file = readme_file or PATHS['readme_filename']
 
     def process_diff(self, latest_movies: List[Dict[str, Any]]) -> bool:
-        """处理电影列表差异并生成报告"""
-        try:
-            recent_movies = self._load_recent_movies()
-            if not recent_movies:  # 首次运行或加载失败
-                self._save_latest_movies(latest_movies)
-                self._create_initial_readme()
-                return True
+        """处理电影列表差异并生成报告。
 
-            changes = self._compare_movies(recent_movies, latest_movies)
-            if changes.has_changes():
-                self._update_readme(changes)
-                self._save_latest_movies(latest_movies)
-                return True
-            return False
+        失败时抛出异常（由调用方决定退出码），绝不吞错；
+        README 先写成功、state 后写，写 README 失败时 state 保持不变，
+        下次运行会重试同一批变更，保证变更不会被静默丢弃。
+        """
+        recent_movies = self._load_recent_movies()
+        if not recent_movies:  # 首次运行
+            self._create_initial_readme()
+            self._save_latest_movies(latest_movies)
+            return True
 
-        except Exception as e:
-            log(f"Error processing diff: {str(e)}")
-            return False
+        changes = self._compare_movies(recent_movies, latest_movies)
+        if changes.has_changes():
+            self._update_readme(changes)
+            self._save_latest_movies(latest_movies)
+            return True
+        return False
 
     def _load_recent_movies(self) -> List[Dict[str, Any]]:
-        """加载最近的电影列表"""
+        """加载最近的电影列表。
+
+        文件不存在视为首次运行；文件存在但损坏则大声失败——
+        绝不能静默当作首次运行，否则 README 历史会被整体重置。
+        """
+        if not os.path.exists(self.movie_list_file):
+            log(f"State file {self.movie_list_file} not found; starting fresh")
+            return []
         try:
             with open(self.movie_list_file, 'r', encoding='utf-8') as f:
-                return json.load(f)
+                movies = json.load(f)
         except (IOError, json.JSONDecodeError) as e:
-            log(f"Failed to load recent movies: {str(e)}")
-            return []
+            raise RuntimeError(
+                f"State file {self.movie_list_file} exists but cannot be parsed; "
+                f"refusing to reset diff history. Restore or fix the file first. ({e})"
+            )
+        if not isinstance(movies, list):
+            raise RuntimeError(
+                f"State file {self.movie_list_file} must contain a JSON array, "
+                f"got {type(movies).__name__}"
+            )
+        return movies
 
     def _save_latest_movies(self, movies: List[Dict[str, Any]]) -> None:
-        """保存最新的电影列表"""
-        with open(self.movie_list_file, 'w', encoding='utf-8') as f:
-            json.dump(movies, f, ensure_ascii=False, indent=2)
+        """原子保存最新的电影列表"""
+        write_text_atomic(self.movie_list_file, json.dumps(movies, ensure_ascii=False, indent=2))
 
     def _compare_movies(self, recent: List[Dict[str, Any]], latest: List[Dict[str, Any]]) -> 'MovieChanges':
         """比较新旧电影列表的差异"""
@@ -77,32 +92,42 @@ class DiffProcessor:
         )
 
     def _create_initial_readme(self) -> None:
-        """创建初始README文件"""
-        content = render_header(date.today())
-        write_text(self.readme_file, 'w', content)
+        """创建初始README文件。
+
+        若 README 中已有历史章节则原样保留——state 丢失时绝不能静默清空 diff 历史。
+        """
+        today = date.today()
+        history_sections = []
+        if os.path.exists(self.readme_file):
+            try:
+                with open(self.readme_file, 'r', encoding='utf-8') as f:
+                    history_sections = extract_history_sections(f.readlines(), today)
+            except IOError as e:
+                log(f"Could not read existing README: {e}")
+            if history_sections:
+                log("Existing README history found; preserving it")
+        content = render_header(today)
+        if history_sections and not content.endswith("\n\n"):
+            content += "\n"
+        content += "".join(history_sections)
+        write_text_atomic(self.readme_file, content)
 
     def _update_readme(self, changes: 'MovieChanges') -> None:
-        """更新README文件，添加变更记录"""
+        """更新README文件，添加变更记录。
+
+        失败时抛出异常——调用方依赖这一点在推进 state 前中止。
+        """
         today = date.today()
-        content = render_diff_section(today, changes)
+        with open(self.readme_file, 'r', encoding='utf-8') as f:
+            old_content = f.readlines()
 
-        try:
-            with open(self.readme_file, 'r+', encoding='utf-8') as f:
-                old_content = f.readlines()
-                f.seek(0)
-                f.write(render_header(today))
-                f.write(content)
-                history_sections = self._extract_history_sections(old_content, today)
-                if history_sections and not content.endswith("\n\n"):
-                    f.write("\n")
-                f.writelines(history_sections)
-                f.truncate()
-        except Exception as e:
-            log(f"Failed to update README: {str(e)}")
-
-    def _extract_history_sections(self, lines: List[str], current_date: date | str) -> List[str]:
-        """提取历史章节，过滤当天章节和没有正文的空日期标题。"""
-        return extract_history_sections(lines, current_date)
+        content = render_header(today)
+        content += render_diff_section(today, changes)
+        history_sections = extract_history_sections(old_content, today)
+        if history_sections and not content.endswith("\n\n"):
+            content += "\n"
+        content += "".join(history_sections)
+        write_text_atomic(self.readme_file, content)
 
     def _format_movie_table(self, movies: List[Dict[str, Any]]) -> str:
         """格式化电影表格"""

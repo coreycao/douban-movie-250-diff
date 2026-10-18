@@ -1,5 +1,7 @@
 import argparse
 import json
+import sys
+import traceback
 from datetime import datetime
 from typing import Any, Dict, List
 from src.spider import MovieSpider
@@ -48,10 +50,14 @@ def parse_args(argv=None):
     return parser.parse_args(argv)
 
 
-def run(argv=None):
-    """运行豆瓣电影Top250变更监控"""
+def run(argv=None) -> bool:
+    """运行豆瓣电影Top250变更监控。
+
+    成功返回 True，任何失败返回 False——由 __main__ 转成非零退出码，
+    让 GitHub Actions 标红报警，而不是静默成功。
+    """
     args = parse_args(argv)
-    startTime = datetime.now()
+    start_time = datetime.now()
     try:
         if args.mock_file:
             log(f"Loading mock movie data from {args.mock_file}")
@@ -60,19 +66,22 @@ def run(argv=None):
             # 爬取最新电影列表
             spider = MovieSpider()
             latest_movies = spider.fetch_movie_list()
-        
+
         # 处理电影列表差异
         processor = DiffProcessor(
             movie_list_file=args.state_file,
             readme_file=args.readme_file
         )
         processor.process_diff(latest_movies)
-        
+        return True
+
     except Exception as e:
         log(f"Error running movie diff: {str(e)}")
+        traceback.print_exc()
+        return False
     finally:
-        time_cost = (datetime.now() - startTime).total_seconds()
+        time_cost = (datetime.now() - start_time).total_seconds()
         log(f"Time cost: {time_cost}s")
 
 if __name__ == "__main__":
-    run()
+    sys.exit(0 if run() else 1)

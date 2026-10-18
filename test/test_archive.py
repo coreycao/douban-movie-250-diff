@@ -120,6 +120,39 @@ class TestCountEntriesAndMovies(unittest.TestCase):
         finally:
             os.unlink(temp_path)
 
+    def test_count_movies_without_trailing_slash(self):
+        """无尾斜杠的豆瓣链接也必须计数（spider 存储的就是这种格式）"""
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as f:
+            f.write("## 2026-06-01\n\n")
+            f.write("| [Movie A](https://movie.douban.com/subject/1) | data |\n")
+            f.write("| [Movie B](https://movie.douban.com/subject/2) | data |\n")
+            f.write("\n")
+            f.write("## 2026-06-02\n\n")
+            f.write("| [Movie A](https://movie.douban.com/subject/1) | data |\n")
+            temp_path = f.name
+
+        try:
+            entries, movies = count_entries_and_movies(temp_path)
+            self.assertEqual(entries, 2)
+            self.assertEqual(movies, 2)  # Movie A, Movie B
+        finally:
+            os.unlink(temp_path)
+
+    def test_count_movies_mixed_link_styles(self):
+        """带/不带尾斜杠的同一电影应去重为一条"""
+        with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as f:
+            f.write("## 2026-06-01\n\n")
+            f.write("| [Movie A](https://movie.douban.com/subject/1/) | data |\n")
+            f.write("## 2026-06-02\n\n")
+            f.write("| [Movie A](https://movie.douban.com/subject/1) | data |\n")
+            temp_path = f.name
+
+        try:
+            _, movies = count_entries_and_movies(temp_path)
+            self.assertEqual(movies, 1)
+        finally:
+            os.unlink(temp_path)
+
     def test_count_empty_file(self):
         """测试统计空文件"""
         with tempfile.NamedTemporaryFile(mode='w', suffix='.md', delete=False) as f:
@@ -160,8 +193,9 @@ class TestGenerateIndexEntry(unittest.TestCase):
 
             self.assertEqual(entry['filename'], "2025-08.md")
             self.assertEqual(entry['month'], "2025-08")
-            self.assertEqual(entry['first_date'], "2025-08-30")
-            self.assertEqual(entry['last_date'], "2025-08-01")
+            # Date Range 统一为时间正序（早 ~ 晚），供 INDEX 与 site 正确展示
+            self.assertEqual(entry['first_date'], "2025-08-01")
+            self.assertEqual(entry['last_date'], "2025-08-30")
             self.assertEqual(entry['entries'], 2)
             self.assertEqual(entry['movies'], 2)
 
