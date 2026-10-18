@@ -1,0 +1,9 @@
+[project]
+name = "douban-movie-250-diff"
+version = "1.0.0"
+description = "Daily tracker of Douban Movie Top 250 changes, with diff archive and static site"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.28",
+    "beautifulsoup4>=4.12",
+]
