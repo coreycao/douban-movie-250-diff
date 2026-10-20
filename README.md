@@ -4,7 +4,24 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-10-19*
+*Updated on 2026-10-20*
+
+## 2026-10-20
+
+### 📊 今日统计
+
+- **总变更数**: 1 部电影
+- **排名变化**: 0 部
+- **评分变化**: 1 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [入殓师](https://movie.douban.com/subject/2149806) | — | ↓ 8.9→8.8 (-0.1) |
 
 ## 2026-10-19
 
