@@ -361,6 +361,7 @@ def _header(active: str = "home", base_path: str = "") -> str:
     """
     nav_items = [
         ("home", "首页", f"{base_path}index.html"),
+        ("toplist", "榜单", f"{base_path}top250.html"),
         ("archive", "历史归档", f"{base_path}archive/index.html"),
         ("github", "GitHub", "https://github.com/coreycao/douban-movie-250-diff"),
     ]
@@ -553,14 +554,14 @@ def _render_diff_detail(diff: DailyDiff, ref_year: str = "") -> str:
 </details>"""
 
 
-def _movie_cards(movies: list) -> str:
-    """Render the Top 250 as a typographic ledger grid.
+def _index_rows(movies: list) -> str:
+    """Render movies as compact index rows: rank · name · score.
 
     Douban's CDN (img*.doubanio.com) rejects hotlinked posters with
     418/403 unless the Referer is on douban.com, so the deployed site
-    can never display them — a ruled, poster-free index is used instead.
+    can never display them — a dense typographic index is used instead.
     """
-    cards = ""
+    rows = ""
     for m in movies:
         rank = m.get('rank', '')
         name = escape(m.get('name', ''))
@@ -575,16 +576,12 @@ def _movie_cards(movies: list) -> str:
         top_class = ' top-10' if rank_num <= 10 else ''
         rank_padded = str(rank_num).zfill(3) if rank_num <= 999 else escape(rank)
 
-        cards += f"""<a class="tl-cell{top_class}" href="{link}" target="_blank" rel="noopener">
-  <span class="tl-head">
-    <span class="tl-rank">{rank_padded}</span>
-    <span class="tl-score"><i class="star" aria-hidden="true">★</i>{escape(score)}</span>
-  </span>
-  <span class="tl-name">{name}</span>
-</a>
-"""
+        rows += (f'<a class="idx-row{top_class}" href="{link}" target="_blank" rel="noopener">'
+                 f'<span class="idx-rank">{rank_padded}</span>'
+                 f'<span class="idx-name">{name}</span>'
+                 f'<span class="idx-score">{escape(score)}</span></a>\n')
 
-    return cards
+    return rows
 
 
 def _archive_row(am: ArchiveMonth, prefix: str = "") -> str:
@@ -632,6 +629,14 @@ def render_index(latest_diffs: list, archive_months: list, movies: list) -> str:
   {_section_head("近期变化")}
 {items}</section>""")
 
+    # Current leaders: compact Top 10 preview, full index on its own page
+    if movies:
+        sections.append(f"""<section class="page-section">
+  {_section_head("当前榜单", '<a href="top250.html">完整 Top 250 →</a>')}
+  <div class="index-grid cols-2">
+{_index_rows(movies[:10])}  </div>
+</section>""")
+
     # Quick archive links
     if archive_months:
         rows = "".join(_archive_row(am, prefix="archive/") for am in archive_months[:6])
@@ -641,16 +646,18 @@ def render_index(latest_diffs: list, archive_months: list, movies: list) -> str:
 {rows}  </div>
 </section>""")
 
-    # Current Top 250 ledger
-    if movies:
-        sections.append(f"""<section class="page-section">
-  {_section_head("当前榜单", '<a href="https://movie.douban.com/top250" target="_blank" rel="noopener">在豆瓣查看完整榜单 ↗</a>')}
-  <div class="toplist">
-{_movie_cards(movies)}  </div>
-</section>""")
-
     body = "\n".join(sections)
     return _page_wrapper("豆瓣 Top250 变化追踪", "home", body)
+
+
+def render_toplist_page(movies: list) -> str:
+    """Render the full Top 250 index page."""
+    body = f"""{_section_head("当前榜单", '<a href="https://movie.douban.com/top250" target="_blank" rel="noopener">在豆瓣查看 ↗</a>')}
+<p class="page-lede">共 {len(movies)} 部 · 数据每日自动更新</p>
+<div class="index-grid">
+{_index_rows(movies)}</div>"""
+
+    return _page_wrapper("当前榜单 - 豆瓣 Top250 变化追踪", "toplist", body)
 
 
 def render_archive_index(archive_months: list) -> str:
@@ -827,6 +834,12 @@ def generate():
     (site_dir / 'index.html').write_text(index_html, encoding='utf-8')
     print("Generated index.html")
 
+    # top250.html
+    if movies:
+        (site_dir / 'top250.html').write_text(render_toplist_page(movies),
+                                               encoding='utf-8')
+        print("Generated top250.html")
+
     # archive/index.html
     archive_index_html = render_archive_index(archive_months)
     (site_dir / 'archive' / 'index.html').write_text(archive_index_html, encoding='utf-8')
@@ -842,7 +855,7 @@ def generate():
     print(f"Generated {len(archive_months)} archive month pages")
 
     # Summary
-    total_files = 2 + len(archive_months) + len(list(site_dir.glob('*.css'))) + len(list(site_dir.glob('*.js')))
+    total_files = 3 + len(archive_months) + len(list(site_dir.glob('*.css'))) + len(list(site_dir.glob('*.js')))
     print(f"\nDone! Generated {total_files} files in _site/")
 
 
