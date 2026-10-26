@@ -4,7 +4,35 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-10-20*
+*Updated on 2026-10-26*
+
+## 2026-10-26
+
+### 📊 今日统计
+
+- **总变更数**: 12 部电影
+- **排名变化**: 12 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [绿皮书](https://movie.douban.com/subject/27060077) | ↑ 50→49 (+1) | 8.9 |
+| [告白](https://movie.douban.com/subject/4268598) | ↑ 152→151 (+1) | 8.8 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | ↑ 213→212 (+1) | 8.8 |
+| [雨中曲](https://movie.douban.com/subject/1293460) | ↑ 180→179 (+1) | 9.1 |
+| [贫民窟的百万富翁](https://movie.douban.com/subject/2209573) | ↓ 212→213 (-1) | 8.6 |
+| [大话西游之月光宝盒](https://movie.douban.com/subject/1299398) | ↓ 49→50 (-1) | 9.0 |
+| [萤火之森](https://movie.douban.com/subject/5989818) | ↓ 151→152 (-1) | 8.8 |
+| [风之谷](https://movie.douban.com/subject/1291585) | ↓ 186→187 (-1) | 8.9 |
+| [罗生门](https://movie.douban.com/subject/1291879) | ↓ 232→233 (-1) | 8.8 |
+| [记忆碎片](https://movie.douban.com/subject/1304447) | ↑ 187→186 (+1) | 8.7 |
+| [绿里奇迹](https://movie.douban.com/subject/1300374) | ↓ 179→180 (-1) | 8.9 |
+| [火星救援](https://movie.douban.com/subject/25864085) | ↑ 233→232 (+1) | 8.5 |
 
 ## 2026-10-20
 
