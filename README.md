@@ -4,7 +4,43 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-11-09*
+*Updated on 2026-11-16*
+
+## 2026-11-16
+
+### 📊 今日统计
+
+- **总变更数**: 20 部电影
+- **排名变化**: 20 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [攻壳机动队](https://movie.douban.com/subject/1291936) | ↓ 244→245 (-1) | 9.0 |
+| [爱在日落黄昏时](https://movie.douban.com/subject/1291990) | ↓ 111→112 (-1) | 8.9 |
+| [魔女宅急便](https://movie.douban.com/subject/1307811) | ↑ 194→193 (+1) | 8.8 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | ↑ 217→216 (+1) | 8.6 |
+| [血钻](https://movie.douban.com/subject/1428175) | ↓ 246→247 (-1) | 8.7 |
+| [心迷宫](https://movie.douban.com/subject/25917973) | ↑ 185→184 (+1) | 8.7 |
+| [牯岭街少年杀人事件](https://movie.douban.com/subject/1292329) | ↓ 193→194 (-1) | 8.9 |
+| [步履不停](https://movie.douban.com/subject/2222996) | ↓ 239→240 (-1) | 8.8 |
+| [谍影重重2](https://movie.douban.com/subject/1308767) | ↑ 240→239 (+1) | 8.7 |
+| [教父2](https://movie.douban.com/subject/1299131) | ↑ 57→56 (+1) | 9.3 |
+| [头脑特工队](https://movie.douban.com/subject/10533913) | ↑ 112→111 (+1) | 8.9 |
+| [九品芝麻官](https://movie.douban.com/subject/1297518) | ↑ 138→137 (+1) | 8.8 |
+| [完美的世界](https://movie.douban.com/subject/1300992) | ↓ 137→138 (-1) | 9.1 |
+| [釜山行](https://movie.douban.com/subject/25986180) | ↑ 146→145 (+1) | 8.6 |
+| [上帝之城](https://movie.douban.com/subject/1292208) | ↓ 184→185 (-1) | 9.0 |
+| [小姐](https://movie.douban.com/subject/25977027) | ↑ 247→246 (+1) | 8.6 |
+| [罗马假日](https://movie.douban.com/subject/1293839) | ↓ 56→57 (-1) | 9.1 |
+| [幸福终点站](https://movie.douban.com/subject/1292274) | ↓ 145→146 (-1) | 8.8 |
+| [血观音](https://movie.douban.com/subject/27113517) | ↑ 245→244 (+1) | 8.6 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | ↓ 216→217 (-1) | 8.8 |
 
 ## 2026-11-09
 
