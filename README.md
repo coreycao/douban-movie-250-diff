@@ -4,7 +4,34 @@ A diff log of the Douban top250 movies.
 
 [GitHub Pages](https://coreycao.github.io/douban-movie-250-diff/)
 
-*Updated on 2026-11-16*
+*Updated on 2026-11-23*
+
+## 2026-11-23
+
+### 📊 今日统计
+
+- **总变更数**: 11 部电影
+- **排名变化**: 11 部
+- **评分变化**: 0 部
+- **新上榜**: 0 部
+- **退出榜单**: 0 部
+
+
+#### 排名及分数变化
+
+|     Name    |   Rank   |   Score  |
+| ---------- | -------- | -------- |
+| [喜宴](https://movie.douban.com/subject/1303037) | ↑ 150→149 (+1) | 9.0 |
+| [哈利·波特与密室](https://movie.douban.com/subject/1296996) | ↓ 87→88 (-1) | 8.9 |
+| [高山下的花环](https://movie.douban.com/subject/1422283) | ↑ 164→163 (+1) | 9.5 |
+| [小森林 冬春篇](https://movie.douban.com/subject/25814707) | ↓ 149→150 (-1) | 9.0 |
+| [一一](https://movie.douban.com/subject/1292434) | ↑ 88→87 (+1) | 9.1 |
+| [血战钢锯岭](https://movie.douban.com/subject/26325320) | ↓ 163→164 (-1) | 8.7 |
+| [波西米亚狂想曲](https://movie.douban.com/subject/5300054) | ↓ 210→211 (-1) | 8.6 |
+| [大红灯笼高高挂](https://movie.douban.com/subject/1293323) | ↑ 211→210 (+1) | 8.8 |
+| [城市之光](https://movie.douban.com/subject/1293908) | ↓ 215→216 (-1) | 9.3 |
+| [终结者2：审判日](https://movie.douban.com/subject/1291844) | ↑ 217→215 (+2) | 8.8 |
+| [哈利·波特与死亡圣器(上)](https://movie.douban.com/subject/2051007) | ↓ 216→217 (-1) | 8.6 |
 
 ## 2026-11-16
 
