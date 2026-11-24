@@ -50,10 +50,10 @@ jobs:
       # deploy-pages 偶发瞬时故障：artifact 上传成功但元数据 API 尚未可见
       # （Found 0 artifacts），等待传播完成后自动重试一次，无需人工 rerun
       - name: Wait for artifact metadata propagation
-        if: steps.deployment.outcome == 'failure'
+        if: failure() && steps.deployment.outcome == 'failure'
         run: sleep 60
 
       - name: Deploy to GitHub Pages (retry)
         id: deployment-retry
-        if: steps.deployment.outcome == 'failure'
+        if: failure() && steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v5
