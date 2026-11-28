@@ -43,17 +43,20 @@ jobs:
         with:
           path: '_site'
 
+      # continue-on-error：首次失败不把 job 置红，重试成功即整体成功（不发失败邮件）
+      # 副作用：此步失败后 failure() 恒为 false，重试条件只能判 outcome
       - name: Deploy to GitHub Pages
         id: deployment
+        continue-on-error: true
         uses: actions/deploy-pages@v5
 
       # deploy-pages 偶发瞬时故障：artifact 上传成功但元数据 API 尚未可见
       # （Found 0 artifacts），等待传播完成后自动重试一次，无需人工 rerun
       - name: Wait for artifact metadata propagation
-        if: failure() && steps.deployment.outcome == 'failure'
+        if: steps.deployment.outcome == 'failure'
         run: sleep 60
 
       - name: Deploy to GitHub Pages (retry)
         id: deployment-retry
-        if: failure() && steps.deployment.outcome == 'failure'
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v5
